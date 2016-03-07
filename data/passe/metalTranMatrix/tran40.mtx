@@ -1,0 +1,8 @@
+# log odd transmission matrix for Zn4
+# formula: M[i,j] = p1[i] * p2[j] * log10(p12[i,j] / (p1[i]*p[j])) * scale
+# pos 1 -> 2,  vertical: pos1,  Horizontal: pos2
+         C       H       D       E
+ C    2.63   -1.22   -0.07   -5.00
+ H    0.40    1.20    0.20    0.11
+ D    0.10    0.79   -5.00   -5.00
+ E   -5.00    0.19    0.06   -5.00

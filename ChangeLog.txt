@@ -1,0 +1,34 @@
+PREDZINC version 1.4, 2011-10-14
+
+1. The formats of the database files: fragacc, modm and Qij, are changed 
+   so that these files become much smaller. The speed of database reading becomes faster
+   as a consequence. 
+
+2. Options added:
+   --seqfilelist  file : supply a file with a list of sequence files for tch mode prediction
+   --pssmfilelist file : supply a file with a list of pssm files for batch de prediction
+   so that the users can predict multiple entries at a time. 
+   -cpu <int>          : the users can specify the number of cores to be used to run blastpgp
+
+3. Environmental variables BLASTBIN and BLASTMAT are set to PREDZINC/bin and
+   PREDZINC/data, respectively. The program blastpgp and makemat as well
+   as BLOSUM62 are included in the PREDZINC package, so that the installation
+   becomes simpler.
+
+4. A new package which can be run in Windows under Cygwin
+(http://www.cygwin.com/) is released
+
+2011-10-14:
+   PredZinc updated to version 1.4, 
+   New featuers:
+   1. The HTML output is updated. The predicted zinc-binding residues are
+   highlighted and the homologous templates used in the prediction are listed.
+   2. The input sequence file can be a Fasta file with multiple sequences.
+      The option "--seqfilelist" is removed.
+   3. Database for the training set are now stored in a dumped file instead of
+   thousands of individual files
+   4. One bug fixed for homology searching. Before the homology-based prediction
+   was not merged in the final prediction due to a typo.
+
+See also the file README.txt for more details.
+

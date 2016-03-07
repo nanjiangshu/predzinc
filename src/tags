@@ -1,0 +1,1301 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AA1To3	mypro.cpp	/^const char* AA1To3(char ch)\/*{{{*\/$/;"	f
+AA3To1	mypro.cpp	/^char AA3To1(const char* aa3, int mode \/*= 0*\/)\/*{{{*\/$/;"	f
+AAAlphabet_Tuping	mypro.cpp	/^const char AAAlphabet_Tuping[] = "AVLIPFMKRHGSTCYNEWDQ" ;$/;"	v
+AASEQINDEX	mypro.h	84;"	d
+AAS_Code	database_build.cpp	/^const DATATYPE_DIGITAASEQ AAS_Code[] = \/*{{{*\/$/;"	v
+AAS_Code	search_new.cpp	/^const int AAS_Code[] = \/*{{{*\/$/;"	v
+AA_SEQ	myfunc.h	74;"	d
+ALA	mtx2modm.cpp	/^    ALA, ARG, ASN, ASP, CYS,$/;"	e	enum:aacodes	file:
+ALA	pssm2Qij.cpp	/^    ALA, ARG, ASN, ASP, CYS,$/;"	e	enum:aacodes	file:
+ALA	pssm2modm.cpp	/^    ALA, ARG, ASN, ASP, CYS,$/;"	e	enum:aacodes	file:
+ALIGNMODE	mypro.h	88;"	d
+AND	mypro.h	116;"	d
+ARG	mtx2modm.cpp	/^    ALA, ARG, ASN, ASP, CYS,$/;"	e	enum:aacodes	file:
+ARG	pssm2Qij.cpp	/^    ALA, ARG, ASN, ASP, CYS,$/;"	e	enum:aacodes	file:
+ARG	pssm2modm.cpp	/^    ALA, ARG, ASN, ASP, CYS,$/;"	e	enum:aacodes	file:
+ASCENDING	myfunc.h	100;"	d
+ASN	mtx2modm.cpp	/^    ALA, ARG, ASN, ASP, CYS,$/;"	e	enum:aacodes	file:
+ASN	pssm2Qij.cpp	/^    ALA, ARG, ASN, ASP, CYS,$/;"	e	enum:aacodes	file:
+ASN	pssm2modm.cpp	/^    ALA, ARG, ASN, ASP, CYS,$/;"	e	enum:aacodes	file:
+ASP	mtx2modm.cpp	/^    ALA, ARG, ASN, ASP, CYS,$/;"	e	enum:aacodes	file:
+ASP	pssm2Qij.cpp	/^    ALA, ARG, ASN, ASP, CYS,$/;"	e	enum:aacodes	file:
+ASP	pssm2modm.cpp	/^    ALA, ARG, ASN, ASP, CYS,$/;"	e	enum:aacodes	file:
+AlignAna	mypro.cpp	/^template <class T> void AlignAna(const int8* alignX, const int8* alignY, int length, T **subMatr, AlignFactor* pAlignFactor, int* alignRel)\/*{{{*\/$/;"	f
+AlignAna_Profile	mypro.cpp	/^template <class T> void AlignAna_Profile(const int8* alignX, const int8* alignY, int length, T **M1, T **M2, T **log_M1, T **log_M2, AlignFactor* pAlignFactor, int* alignRel)\/*{{{*\/$/;"	f
+AlignAna_Protein	mypro.h	246;"	d
+AlignFactor	mypro.h	/^struct AlignFactor\/*{{{*\/$/;"	s
+Alignment	mypro.cpp	/^template <class T> int Alignment(char *Xstr, char *Ystr, char *alphabet, int m, int n,char *title1,char* title2,  \/*{{{*\/ $/;"	f
+Alignment_Profile	mypro.cpp	/^template <class T> int Alignment_Profile(char *Xstr, char *Ystr, T **M1, T **M2, T **log_M1, T **log_M2, char *alphabet, int m, int n,char *title1,char* title2,  \/*{{{*\/ $/;"	f
+AllocGistPredChain	mypro.cpp	/^void AllocGistPredChain(GistPredChain * pChain, int size)\/*{{{*\/$/;"	f
+AllocMODM	mypro.cpp	/^void AllocMODM(MODM *pMODM, int length, bool isAllocLogM \/*=false*\/, int sizeAlphabet \/*= NUM_BLOSUM*\/)\/*{{{*\/$/;"	f
+AnalyzeFragScore	postscan-frag-search.cpp	/^int AnalyzeFragScore(float *fragScore, int num, float &meanFragScore, float &medianFragScore, float &minFragScore, float &maxFragScore, float &cutoff_fragscore)\/*{{{*\/$/;"	f
+AntiSigmoidScore	znpred-postscan.cpp	/^double AntiSigmoidScore(double y, double a , double b)\/*{{{*\/$/;"	f
+Array1D	array.h	/^template <class T>  class Array1D \/\/ can be accessed both by .array1D and []$/;"	c
+Array1D	array.h	/^template <class T> Array1D<T>::Array1D(unsigned int size)\/*{{{*\/$/;"	f	class:Array1D
+Array2D	array.h	/^template <class T> Array2D<T>::Array2D(unsigned int rowSize, unsigned int colSize)$/;"	f	class:Array2D
+Array2D	array.h	/^template <class T> class Array2D \/\/accessed by .array2D$/;"	c
+Array2D_Sub	array.h	/^	Array2D_Sub(unsigned int rowSize,unsigned int colSize)$/;"	f	class:Array2D_Sub
+Array2D_Sub	array.h	/^template <class T> class Array2D_Sub \/\/ can be accessed by [][]$/;"	c
+Array3D	array.h	/^template <class T> Array3D<T>::Array3D(unsigned int xSize, unsigned int ySize, unsigned int zSize)\/*{{{*\/$/;"	f	class:Array3D
+Array3D	array.h	/^template <class T> class Array3D \/\/accessed by .array3D$/;"	c
+Atom	mypro.h	/^struct Atom \/\/define the structure for ATOM record in PDB file\/*{{{*\/$/;"	s
+AtomEnv	mypro.h	/^struct AtomEnv  \/\/ environment of atoms, the residues within \/*{{{*\/$/;"	s
+AtomFreq	mypro.h	/^struct AtomFreq\/*{{{*\/$/;"	s
+AtomFrequencyAna_AtomEnv	mypro.cpp	/^void AtomFrequencyAna_AtomEnv(AtomEnv *atomEnvs, int numAtomEnv,Element *metalEle, int numMetalEle, char *str) \/*{{{*\/ $/;"	f
+Average	mytemplate.h	/^template <class T> double Average(T *array, int low, int high)\/*{{{*\/$/;"	f
+BLOCK_SIZE	test-readmodm.cpp	24;"	d	file:
+BLOSUM1D_alphabet	mypro.cpp	/^const char BLOSUM1D_alphabet[] = "ARNDCQEGHILKMFPSTWYVBZX*";$/;"	v
+BLOSUM3D_alphabet	mypro.cpp	/^const char *BLOSUM3D_alphabet[] = \/*{{{*\/$/;"	v
+BOOL	DataType.h	/^typedef int                 BOOL;$/;"	t
+BYTE	DataType.h	/^typedef unsigned char       BYTE;$/;"	t
+Background_AA_Freq	mypro.cpp	/^const double Background_AA_Freq[] = { 0.078, 0.051, 0.045, 0.054, 0.019, 0.043, 0.063, 0.074, 0.022, 0.052, 0.09,0.057, 0.022, 0.039, 0.052, 0.071, 0.059, 0.013, 0.032, 0.064 } ; \/\/ ordered by BLOSUM1D_alphabet, from sdsc$/;"	v
+BinarySearch_String	myfunc.cpp	/^template <class T> int BinarySearch_String(T keyStr, T* strs, int n) \/*{{{*\/$/;"	f
+BitSwap	myfunc.cpp	/^int BitSwap(int i, int pow2)\/*{{{*\/$/;"	f
+BubbleSort	myfunc.cpp	/^void BubbleSort(int* a, int n)\/*{{{*\/$/;"	f
+BuildPairMatrix	postscan-frag-search.cpp	/^void  BuildPairMatrix(int **pair_matrix, int *posTar, int *posCan, int numPair, int length_target, int length_candidate)\/*{{{*\/$/;"	f
+BuildPairMatrix	postscan-frag-search.cpp	/^void  BuildPairMatrix(int *pair_matrix, int *posTar, int *posCan, int numPair, int length_target, int length_candidate)\/*{{{*\/$/;"	f
+Build_Database	database_build.cpp	/^int Build_Database(const char *idListFile, const char *qijpath, int qijformat, const char *shape_triple_file, const char * resultpath, const char *result_acc_path , int **subMatrix)\/*{{{*\/$/;"	f
+CHAR_DNA	mypro.h	131;"	d
+CHAR_INDEL	mypro.cpp	/^char CHAR_INDEL = '-' ;\/\/ character representation of insertion and deletion$/;"	v
+CHAR_NON_RESIDUE	mypro.h	132;"	d
+CHAR_VECTOR_ID_SEPRATOR	mypro.cpp	/^char CHAR_VECTOR_ID_SEPRATOR =  ';'; \/\/the separator for items in the record id of svm vectors$/;"	v
+CHDE_Alphabet	znpred-postscan.cpp	/^char CHDE_Alphabet[] = "CHDE";$/;"	v
+CLUSTALW	mypro.h	45;"	d
+CYS	mtx2modm.cpp	/^    ALA, ARG, ASN, ASP, CYS,$/;"	e	enum:aacodes	file:
+CYS	pssm2Qij.cpp	/^    ALA, ARG, ASN, ASP, CYS,$/;"	e	enum:aacodes	file:
+CYS	pssm2modm.cpp	/^    ALA, ARG, ASN, ASP, CYS,$/;"	e	enum:aacodes	file:
+CalLogM	mypro.cpp	/^template <class T> void CalLogM(T **M, T **log_M, int xSize, int ySize,  double roundoff_scale \/* = 1.0*\/)\/*{{{*\/$/;"	f
+Chain	mypro.h	/^struct Chain \/\/data structure for one chain of a protein \/*{{{*\/$/;"	s
+Char2Digit	myfunc.cpp	/^int Char2Digit(char aa, const char* alphabet, int n\/* = 0*\/)\/*{{{*\/$/;"	f
+CharToDigit_Protein	mypro.cpp	/^void CharToDigit_Protein(const char* str, int8* a,int n)\/*{{{*\/$/;"	f
+Charcase2Digit	myfunc.cpp	/^int Charcase2Digit(char aa, const char* alphabet, int n \/*= 0*\/)\/*{{{*\/$/;"	f
+CheckFragFileFormat	postscan-frag-search.cpp	/^int CheckFragFileFormat(const char *fragfile)\/*{{{*\/$/;"	f
+Complex	DataType.h	/^}Complex;$/;"	t	typeref:struct:__anon1
+Compute_ROC50_score	myfunc.cpp	/^double Compute_ROC50_score(int* label, int n)\/*{{{*\/$/;"	f
+Compute_ROC_score	myfunc.cpp	/^double Compute_ROC_score(int* label, int n)\/*{{{*\/$/;"	f
+Compute_medianRFP50_score	myfunc.cpp	/^double Compute_medianRFP50_score(int* label, double* score, int n)\/*{{{*\/$/;"	f
+Compute_medianRFP_score	myfunc.cpp	/^double Compute_medianRFP_score(int* label, double* score, int n)\/*{{{*\/$/;"	f
+Consens_Sample	search_new.cpp	/^int Consens_Sample = 5; $/;"	v
+CopyAtom	mypro.cpp	/^void CopyAtom(Atom* to, Atom* from)\/*{{{*\/$/;"	f
+CopyAtomEnv	mypro.cpp	/^void CopyAtomEnv(AtomEnv *pAtomEnv1, AtomEnv *pAtomEnv2, bool isCopyResidue \/*= true*\/)\/*{{{*\/$/;"	f
+CopyAtomFreq	mypro.cpp	/^void CopyAtomFreq(AtomFreq *to, AtomFreq *from)\/*{{{*\/$/;"	f
+CopyChain	mypro.cpp	/^void CopyChain(Chain * to, Chain * from)\/*{{{*\/$/;"	f
+CopyGistPredChain	mypro.cpp	/^void CopyGistPredChain(GistPredChain *to, GistPredChain *from)\/*{{{*\/$/;"	f
+CopyHomoPro	znpred-postscan.cpp	/^void CopyHomoPro(HomoPro *to, HomoPro *from)\/*{{{*\/$/;"	f
+CopyMODM	mypro.cpp	/^void CopyMODM(MODM *to, MODM *from)\/*{{{*\/$/;"	f
+CopyMetalPro	mypro.cpp	/^void CopyMetalPro(MetalPro *pMetalPro1, MetalPro *pMetalPro2, bool isCopyResidue\/* = true*\/)\/*{{{*\/$/;"	f
+CopyMetalPro	mypro.cpp	/^void CopyMetalPro(MetalPro2 *pMetalPro1, MetalPro2 *pMetalPro2, bool isCopyAtomEnv \/*= true*\/)\/*{{{*\/$/;"	f
+CopyPredPro	mypro.cpp	/^void CopyPredPro(PredPro *pPredPro1, PredPro *pPredPro2)\/*{{{*\/$/;"	f
+CopyResidue	mypro.cpp	/^void CopyResidue(Residue* to,Residue* from)\/*{{{*\/$/;"	f
+CopySCOP	mypro.cpp	/^void CopySCOP(SCOP* to, SCOP* from)\/*{{{*\/$/;"	f
+CopySSBond	mypro.cpp	/^void CopySSBond(SSBond *to, SSBond *from, bool isCopyResidue \/*= true*\/)\/*{{{*\/$/;"	f
+CopySSBondPro	mypro.cpp	/^void CopySSBondPro(SSBondPro *to, SSBondPro *from, bool isCopySSBond \/*= true*\/)\/*{{{*\/$/;"	f
+Coverage	mytemplate.h	/^template <class T> T Coverage(T a1, T b1, T a2, T b2)\/*{{{*\/$/;"	f
+Create2DArray	array.h	/^template <class T> T **Create2DArray(T **array, unsigned int xSize, unsigned int ySize)\/*{{{*\/$/;"	f
+Create3DArray	array.h	/^template <class T> T*** Create3DArray(T ***array, unsigned int xSize, unsigned int ySize, unsigned int zSize)\/*{{{*\/$/;"	f
+CreateShapeTripleFreq	database_build.cpp	/^int CreateShapeTripleFreq(DATATYPE_DIGITSHAPESEQ **digitShapeAll, int *lengthListAll, int numChain, char **idListAll, int ***freqTriple, DATATYPE_DIGITSHAPESEQ numShapeState, const char* tripleFreqOutFile)\/*{{{*\/$/;"	f
+CreateVectorPredict_Metal	create_svm_vector.cpp	/^int CreateVectorPredict_Metal(int K, int W, int P, int numSite, double cutoff_score2, double cutoff_consv, int cutoff_window_pair, int cutoff_window3, int cutoff_window4, int cutoff_min_window_pair, double cutoff_transcore_Metal3, double cutoff_transcore_Metal4, int min_numHCRes, char* resList, set<string> modmfileset, int type_modm, const char *vectorFile, int encoding_scheme)\/*{{{*\/$/;"	f
+CreateVectorTrain_Metal	create_svm_vector.cpp	/^int CreateVectorTrain_Metal(int K, int W, int P, int numSite, double cutoff_score2, double cutoff_consv, int cutoff_window_pair, int cutoff_window3, int cutoff_window4, int cutoff_min_window_pair, double cutoff_transcore_Metal3, double cutoff_transcore_Metal4, bool isExcludeOtherChainRes, char **keyMetalList, int numKeyMetal, int min_metalBoundRes, int max_metalBoundRes, int min_numHCRes, bool isUsingTotalBoundRes, char* resList, const char *modmfilelistfile, int type_modm, const char* modmpath, const char *metalProFile,  int neg_filter, const char *vectorFile, const char *labelFile, int level, int encoding_scheme)\/*{{{*\/$/;"	f
+CreateVector_Metal	create_svm_vector.cpp	/^int CreateVector_Metal(int K, int W, int P, int numSite, int vectorDim, double cutoff_score2, double cutoff_consv, int cutoff_window_pair, int cutoff_window3, int cutoff_window4, int cutoff_min_window_pair, double cutoff_transcore_Metal3, double cutoff_transcore_Metal4, int min_numHCRes, char* resList, MODM *pMODM, FILE *fpVector, FILE *fpLabel, int neg_filter, bool *isBoundArray, int encoding_scheme)\/*{{{*\/$/;"	f
+DATATYPE_CONSV	mypro.h	23;"	d
+DATATYPE_DIGITAASEQ	database_build.cpp	29;"	d	file:
+DATATYPE_DIGITSHAPESEQ	database_build.cpp	30;"	d	file:
+DATATYPE_DOT_SCORE	postscan-frag-search.cpp	130;"	d	file:
+DATATYPE_ENCODEWATERACC	database_build.cpp	32;"	d	file:
+DATATYPE_LOGPER	search_new.cpp	74;"	d	file:
+DATATYPE_MODE	database_build.cpp	33;"	d	file:
+DATATYPE_MODM_MATRIX	mypro.h	19;"	d
+DATATYPE_SMATRIX	create_svm_vector.cpp	15;"	d	file:
+DATATYPE_SMATRIX	create_svm_vector.cpp	16;"	d	file:
+DATATYPE_SMATRIX	mypro.h	27;"	d
+DATATYPE_WATERACC	database_build.cpp	31;"	d	file:
+DESCENDING	myfunc.h	101;"	d
+DIAG	mypro.h	99;"	d
+DIGIT_INDEL	mypro.cpp	/^int DIGIT_INDEL = -9;$/;"	v
+DNA_SEQ	myfunc.h	73;"	d
+DSSP8to3	search_new.cpp	/^INLINE char DSSP8to3(char dsspSec)\/*{{{*\/$/;"	f
+DSSP_HBond	mypro.h	/^struct DSSP_HBond\/*{{{*\/$/;"	s
+DSSP_Residue	mypro.h	/^struct DSSP_Residue\/*{{{*\/$/;"	s
+DSSP_SEC_RANDOM	mypro.h	130;"	d
+Delete2DArray	array.h	/^template <class T> void Delete2DArray(T **array, unsigned int xSize)\/*{{{*\/$/;"	f
+Delete3DArray	array.h	/^template <class T> void Delete3DArray(T ***array, unsigned int xSize, unsigned int ySize)\/*{{{*\/$/;"	f
+DeleteAtom	mypro.cpp	/^void DeleteAtom(Atom *pAtom)\/*{{{*\/$/;"	f
+DeleteAtomEnv	mypro.cpp	/^void DeleteAtomEnv(AtomEnv *pAtomEnv, int numRes  \/*= 0*\/, int numAtom_Res \/*= 0*\/ )\/*{{{*\/$/;"	f
+DeleteChain	mypro.cpp	/^void DeleteChain(Chain *pChain)\/*{{{*\/$/;"	f
+DeleteGistPredChain	mypro.cpp	/^void DeleteGistPredChain(GistPredChain *pChain)\/*{{{*\/$/;"	f
+DeleteMODM	mypro.cpp	/^void DeleteMODM(MODM *pMODM, int length)\/*{{{*\/$/;"	f
+DeleteMSA	mypro.cpp	/^void DeleteMSA(MSA *pMSA)\/*{{{*\/$/;"	f
+DeleteMetalPro	mypro.cpp	/^void DeleteMetalPro(MetalPro *pMetalPro, int numMetalAtom \/*= 0*\/, int numBoundRes \/* = 0*\/)\/*{{{*\/$/;"	f
+DeleteMetalPro	mypro.cpp	/^void DeleteMetalPro(MetalPro2 *pMetalPro, int numMetalAtom \/*= 0*\/)\/*{{{*\/$/;"	f
+DeletePredPro	mypro.cpp	/^void DeletePredPro(PredPro *pPredPro)\/*{{{*\/$/;"	f
+DeleteResidue	mypro.cpp	/^void DeleteResidue(Residue *pRes, int numAtom \/*= 0 *\/)\/*{{{*\/$/;"	f
+DeleteSSBondPro	mypro.cpp	/^void DeleteSSBondPro(SSBondPro *pSSBondPro)\/*{{{*\/$/;"	f
+DiagDistWeight	postscan-frag-search.cpp	/^double DiagDistWeight[LONGEST_SHAPE] ; \/* the raw weights for diagnol seprated by N distance*\/$/;"	v
+Digit2Char	myfunc.cpp	/^int Digit2Char(int dc, const char* alphabet, int n \/*= 0*\/)\/*{{{*\/$/;"	f
+DigitAA	mypro.cpp	/^int DigitAA(char* resName)\/*{{{*\/$/;"	f
+DigitAA_tuping	database_build.cpp	/^INLINE DATATYPE_DIGITAASEQ DigitAA_tuping(char aa)\/*encode amino acid into digit value*\/\/*{{{*\/$/;"	f
+DigitShape	mypro.cpp	/^int DigitShape(char shape)\/*{{{*\/$/;"	f
+DigitShape_tuping	database_build.cpp	/^INLINE DATATYPE_DIGITSHAPESEQ DigitShape_tuping(char shape) \/*encode shape symbol into digit value*\/\/*{{{*\/$/;"	f
+DigitToChar_Protein	mypro.cpp	/^void DigitToChar_Protein(const int8 *a, int n, char* str)\/*{{{*\/$/;"	f
+DomainDEF	mypro.h	/^struct DomainDEF\/*{{{*\/ \/\/\/\/ parsered domain definition, e.g. A:1-32,A:35-140 $/;"	s
+DotSegDistWeight	postscan-frag-search.cpp	/^double DotSegDistWeight[LONGEST_SHAPE] ; \/* the raw weights for two segments seprated by N distance*\/$/;"	v
+DotSegLengthScore	postscan-frag-search.cpp	/^double DotSegLengthScore[LONGEST_SHAPE] ; \/*the raw score of dots with respect to the length of the continuous segment*\/$/;"	v
+DotSegment	postscan-frag-search.cpp	/^struct DotSegment$/;"	s	file:
+E	Constant.h	83;"	d
+EMPTY	postscan-frag-search.cpp	124;"	d	file:
+ENCODING_TYPE	mypro.h	38;"	d
+Element	mypro.h	/^struct Element \/\/define the structure for chemical element\/*{{{*\/$/;"	s
+EncodeMatrixAA_Center	mypro.cpp	/^int EncodeMatrixAA_Center[][SIZE_ENCODE_AA_CENTER] =$/;"	v
+EncodeMatrixAA_Center_alphabet	mypro.cpp	/^char EncodeMatrixAA_Center_alphabet[] = "CHDE";$/;"	v
+EncodeMatrixAA_Non_Center	mypro.cpp	/^int EncodeMatrixAA_Non_Center[][SIZE_ENCODE_AA_NON_CENTER] =$/;"	v
+EncodeMatrixAA_Non_Center_alphabet	mypro.cpp	/^char EncodeMatrixAA_Non_Center_alphabet[] = "CHDE";$/;"	v
+EncodeMatrixDistance	mypro.cpp	/^int EncodeMatrixDistance[][SIZE_ENCODE_DISTANCE] =$/;"	v
+EncodeMatrixHydrophobicity	mypro.cpp	/^int EncodeMatrixHydrophobicity[][SIZE_ENCODE_HYDROPHOBICITY] =$/;"	v
+EncodeMatrixScore1	mypro.cpp	/^int EncodeMatrixScore1[][SIZE_ENCODE_SCORE1] =$/;"	v
+EncodeMatrixScore2	mypro.cpp	/^int EncodeMatrixScore2[][SIZE_ENCODE_SCORE2] = $/;"	v
+EncodeMatrixWaterAcc	mypro.cpp	/^int EncodeMatrixWaterAcc[][SIZE_ENCODE_WATERACC] =$/;"	v
+EncodeScaleDistance	mypro.cpp	/^int EncodeScaleDistance[] =$/;"	v
+EncodeScaleHydrophobicity	mypro.cpp	/^double EncodeScaleHydrophobicity[] =                          $/;"	v
+EncodeScaleScore1	mypro.cpp	/^double EncodeScaleScore1[] =$/;"	v
+EncodeScaleScore2	mypro.cpp	/^double EncodeScaleScore2[] =$/;"	v
+EncodeScaleWaterAcc	mypro.cpp	/^int EncodeScaleWaterAcc[] =$/;"	v
+EncodeWaterAcc	database_build.cpp	/^void EncodeWaterAcc(int *origWaterAcc, int *encodeWaterAcc, int length)\/*{{{*\/$/;"	f
+FALSE	Constant.h	18;"	d
+FASTA	mypro.h	48;"	d
+FFT	myfunc.cpp	/^void FFT(Complex *cplx, int dim, int pow2, bool isInv)\/*{{{*\/$/;"	f
+FILE_LABEL	mypro.h	60;"	d
+FILE_PRED	mypro.h	59;"	d
+FILLED	postscan-frag-search.cpp	125;"	d	file:
+FIRST	mypro.h	120;"	d
+FRAGACC_FORMAT_NANJIANG	search_new.cpp	42;"	d	file:
+FRAGACC_FORMAT_TUPING	search_new.cpp	41;"	d	file:
+FRAGACC_NAME_FORMAT	search_new.cpp	40;"	d	file:
+FRAGFORMAT	postscan-frag-search.cpp	133;"	d	file:
+FRAGFORMAT	search_new.cpp	46;"	d	file:
+FRAGFORMAT_NANJIANG	postscan-frag-search.cpp	135;"	d	file:
+FRAGFORMAT_NANJIANG	search_new.cpp	48;"	d	file:
+FRAGFORMAT_TUPING	postscan-frag-search.cpp	134;"	d	file:
+FRAGFORMAT_TUPING	search_new.cpp	47;"	d	file:
+FRAGSCORE_SCALE	search_new.cpp	77;"	d	file:
+FRAG_WINDOW_SIZE	database_build.cpp	/^int FRAG_WINDOW_SIZE = 9;$/;"	v
+FilterSSBondPred	mypro.cpp	/^void FilterSSBondPred(const char* gistPredictFile_ss, const char* gistPredictFile_zn, const char* gistPredictFile_zn_2, int numSite_ss, int numSite_zn, double cutoff_discriminant_ss)\/*{{{*\/$/;"	f
+FindDiagIndex	postscan-frag-search.cpp	/^int FindDiagIndex(int x,  int y, int *indexDiag, int *indexDiagCorner, int numDiag)\/*{{{*\/$/;"	f
+FindSCOP	mypro.cpp	/^int FindSCOP(char* pdbid, char chainID, int seqF, int seqT, SCOP* pSCOP, FILE *fpSCOPspi, FILE *fpSCOPspd, char** pdbIDs, long* offsetspi, int numPDB) \/*{{{*\/ $/;"	f
+FindSCOP_scopid	mypro.cpp	/^int FindSCOP_scopid(char* scopid, SCOP* pSCOP, FILE *fpSCOPspi, FILE *fpSCOPspd, char** pdbIDs, long* offsetspi, int numPDB) \/*{{{*\/ $/;"	f
+FragCanInt5	mypro.h	/^struct FragCanInt5\/*{{{*\/$/;"	s
+FragCanInt6	mypro.h	/^struct FragCanInt6\/*{{{*\/$/;"	s
+FragCanShort5	mypro.h	/^struct FragCanShort5\/*{{{*\/$/;"	s
+FragCanShort6	mypro.h	/^struct FragCanShort6\/*{{{*\/$/;"	s
+GAP	mypro.h	105;"	d
+GAP_CHAR	mypro.cpp	/^char GAP_CHAR = CHAR_INDEL;$/;"	v
+GAP_DIGIT	mypro.cpp	/^int GAP_DIGIT = DIGIT_INDEL;$/;"	v
+GCG	mypro.h	47;"	d
+GLN	mtx2modm.cpp	/^    GLN, GLU, GLY, HIS, ILE,$/;"	e	enum:aacodes	file:
+GLN	pssm2Qij.cpp	/^    GLN, GLU, GLY, HIS, ILE,$/;"	e	enum:aacodes	file:
+GLN	pssm2modm.cpp	/^    GLN, GLU, GLY, HIS, ILE,$/;"	e	enum:aacodes	file:
+GLU	mtx2modm.cpp	/^    GLN, GLU, GLY, HIS, ILE,$/;"	e	enum:aacodes	file:
+GLU	pssm2Qij.cpp	/^    GLN, GLU, GLY, HIS, ILE,$/;"	e	enum:aacodes	file:
+GLU	pssm2modm.cpp	/^    GLN, GLU, GLY, HIS, ILE,$/;"	e	enum:aacodes	file:
+GLY	mtx2modm.cpp	/^    GLN, GLU, GLY, HIS, ILE,$/;"	e	enum:aacodes	file:
+GLY	pssm2Qij.cpp	/^    GLN, GLU, GLY, HIS, ILE,$/;"	e	enum:aacodes	file:
+GLY	pssm2modm.cpp	/^    GLN, GLU, GLY, HIS, ILE,$/;"	e	enum:aacodes	file:
+GatingGistPred	gating_gistPred.cpp	/^int GatingGistPred(const char* gistPredictFile1, const char* gistPredictFile2, int numSite1,int numSite2,double a1,double b1,double a2,double b2, int operation, FILE *fpout)\/*{{{*\/$/;"	f
+GatingScore	gating_gistPred.cpp	/^double GatingScore(double x, double y)\/*{{{*\/$/;"	f
+GatingScore	myfunc.cpp	/^double GatingScore(double x, double y)\/*{{{*\/$/;"	f
+GetAASeqIndex	mypro.cpp	/^int GetAASeqIndex(const char* id, int resSeq, char resICode, Chain* pChain, int startIndex \/*= 0*\/)\/*{{{*\/$/;"	f
+GetAllSubset	mypro.cpp	/^int GetAllSubset(int **subset, int n, int k)\/*{{{*\/$/;"	f
+GetAltAtomIndex	mypro.cpp	/^int GetAltAtomIndex(Atom *atoms, int n)\/*{{{*\/$/;"	f
+GetAmpPha	myfunc.cpp	/^void GetAmpPha(double re, double im, double& amp, double& pha)\/*{{{*\/$/;"	f
+GetAtom_PDB	mypro.cpp	/^int GetAtom_PDB(const char *pdbfile, Atom *atom, int *pNumAtom, bool isGetAllChain \/*= true*\/, int max_num_atom \/*= MAX_ATOM_SERIAL*\/, char* chainIDList \/*= ""*\/, bool isRestrictByContactAtom \/* = true*\/, Atom *metalAtom \/*= NULL*\/, int *pNumMetalAtom \/*= NULL*\/, int max_num_metal_atom \/* = MAX_METAL_CHAIN*\/)\/*{{{*\/$/;"	f
+GetBinaryFragInt5	mypro.cpp	/^int GetBinaryFragInt5(const char *file, int &fragFileType, char **idList, int &numID, int &maxSizeID, int &length, short *posTar, short *numCan, int &totalFragCan, FragCanInt5 *fragCan)\/*{{{*\/$/;"	f
+GetBinaryFragInt6	mypro.cpp	/^int GetBinaryFragInt6(const char *file, int &fragFileType, char **idList, int &numID, int &maxSizeID, int &length, short *posTar, short *numCan, int &totalFragCan, FragCanInt6 *fragCan)\/*{{{*\/$/;"	f
+GetBinaryFragShort5	mypro.cpp	/^int GetBinaryFragShort5(const char *file, int &fragFileType, char **idList, int &numID, int &maxSizeID, int &length, short *posTar, short *numCan, int &totalFragCan, FragCanShort5 *fragCan)\/*{{{*\/$/;"	f
+GetBinaryFragShort6	mypro.cpp	/^int GetBinaryFragShort6(const char *file, int &fragFileType, char **idList, int &numID, int &maxSizeID, int &length, short *posTar, short *numCan, int &totalFragCan, FragCanShort6 *fragCan)\/*{{{*\/$/;"	f
+GetBinaryMODM	mypro.cpp	/^template <class T> int GetBinaryMODM(const char *file, char *alphabet, int &length, T *profile, double *parameter, int8 &typeProfile)\/*{{{*\/$/;"	f
+GetBinaryMODMPara	mypro.cpp	/^int8 GetBinaryMODMPara(const char *file, int &sizeAlphabet, int &length, int8 &typeProfile)\/*{{{*\/$/;"	f
+GetBinaryMODM_fp	mypro.cpp	/^template <class T> int GetBinaryMODM_fp(FILE *fpin, long readsize, char *alphabet, int &length, T *profile, double *parameter, int8 &typeProfile)\/*{{{*\/$/;"	f
+GetBkFreq	mypro.cpp	/^int GetBkFreq(const char *infile, double *P, const char *alphabet, int num_aa \/*= NUM_AA*\/)\/*{{{*\/$/;"	f
+GetBondLabel	create_svm_vector.cpp	/^int GetBondLabel(int *resIndex, int numSite, bool *isBoundArray)\/*{{{*\/$/;"	f
+GetColSize	array.h	/^	unsigned int GetColSize(void)    {return this->colSize; }$/;"	f	class:Array2D_Sub
+GetColSize	array.h	/^template <class T>  unsigned int Array2D<T>::GetColSize(void) { return  colSize;} $/;"	f	class:Array2D
+GetContactDist	mypro.cpp	/^double GetContactDist(const char* eleName)\/*{{{*\/$/;"	f
+GetDSSPChain	mypro.cpp	/^int GetDSSPChain(const char* id, Chain* pChain, const char* dsspfilepath)\/*{{{*\/$/;"	f
+GetDSSPFilePath	myfunc.cpp	/^char* GetDSSPFilePath(const char* pdbid, char* dsspfilepath, const char dssppath[] \/*= ""*\/)\/*{{{*\/$/;"	f
+GetDataDir	myfunc.cpp	/^int GetDataDir(char *datadir)\/*{{{*\/$/;"	f
+GetDiag	postscan-frag-search.cpp	/^int GetDiag(DATATYPE_DOT_SCORE *dot, int **pair_matrix, int diagPos, int length_target, int length_candidate, int corner)\/*{{{*\/$/;"	f
+GetDiagDistWeight	postscan-frag-search.cpp	/^double GetDiagDistWeight(int n)\/*{{{*\/$/;"	f
+GetDiagPos	postscan-frag-search.cpp	/^int GetDiagPos(int x, int y, int sizeX, int sizeY, int &posDiag, int &cornerDiag)\/*{{{*\/$/;"	f
+GetDiagScore	postscan-frag-search.cpp	/^double GetDiagScore(int diagPos,int corner, int *indexDiagLowerCorner, int numDiagLowerCorner, int *indexDiagUpperCorner,int numDiagUpperCorner, int **pair_matrix, int length_target, int length_candidate, int &begPosTar, int &endPosTar, int &begPosCan, int &endPosCan) \/*{{{*\/$/;"	f
+GetDiagScore2	postscan-frag-search.cpp	/^double GetDiagScore2(int pivat, DATATYPE_DOT_SCORE **diag, int *indexDiag, int *indexDiagCorner, int *sizeDiag, int ** indexFilledDotDiag, int *numFilledDotDiag,int numDiag,  int sizeX, int sizeY, int &begX, int &endX, int &begY, int &endY)\/*{{{*\/$/;"	f
+GetDimensionVectorPerSite	mypro.cpp	/^int GetDimensionVectorPerSite(int P, bool isCenterResidue)\/*{{{*\/$/;"	f
+GetDotSeg	postscan-frag-search.cpp	/^int GetDotSeg(DATATYPE_DOT_SCORE *dot, int numDot, DotSegment *dotSeg)\/*{{{*\/$/;"	f
+GetDotSegDistWeight	postscan-frag-search.cpp	/^double GetDotSegDistWeight(int n)\/*{{{*\/$/;"	f
+GetDotSegScoreLength	postscan-frag-search.cpp	/^double GetDotSegScoreLength(int n)\/*{{{*\/$/;"	f
+GetEncodeDistance	mypro.cpp	/^int GetEncodeDistance(int dist)\/*{{{*\/$/;"	f
+GetEncodeHydrophobicity	mypro.cpp	/^int GetEncodeHydrophobicity(double hydrophobicity)\/*{{{*\/$/;"	f
+GetEncodeScore1	mypro.cpp	/^int GetEncodeScore1(double score1)\/*{{{*\/$/;"	f
+GetEncodeScore2	mypro.cpp	/^int GetEncodeScore2(double score2)\/*{{{*\/$/;"	f
+GetEncodeWaterAcc	mypro.cpp	/^int GetEncodeWaterAcc(int waterAcc)\/*{{{*\/$/;"	f
+GetFragMatFilePath	search_new.cpp	/^INLINE char *GetFragMatFilePath(const char *rmtID, char *filename, const char *path, int fragaccformat = FRAGACC_FORMAT_NANJIANG, bool isReadBinaryFile = true)\/*{{{*\/$/;"	f
+GetGistPredResidue	mypro.cpp	/^int GetGistPredResidue(FILE* fpGistPred, int numSite, GistPredChain *pChain, int operation)\/*{{{*\/$/;"	f
+GetGistPredResidue	mypro.cpp	/^int GetGistPredResidue(const char* gistPredFile, int numSite, GistPredChain *chains, int operation)\/*{{{*\/$/;"	f
+GetHCRes	mypro.cpp	/^int GetHCRes(MODM *pMODM, bool *isPolyHis, Residue* HCRes, double cutoff_score2, double cutoff_consv, char* resList, bool isUseConsvI, bool isMaskPolyHis)\/*{{{*\/$/;"	f
+GetHOMOFilePath	znpred-postscan.cpp	/^char* GetHOMOFilePath(const char *rmtID, char *homofile, const char *homopath, int homofilename_format)\/*{{{*\/$/;"	f
+GetHomoPro	znpred-postscan.cpp	/^int GetHomoPro(const char *homofile, HomoPro *homoPro, int max_homo_pro)\/*{{{*\/$/;"	f
+GetHomologInfo	report_zincpred.cpp	/^int GetHomologInfo(FILE* fp, char **idlist, double* scorelist)\/*{{{*\/$/;"	f
+GetIntegConsv	mypro.cpp	/^template <class T> T GetIntegConsv(char aa, T *V, char* alphabetMODM, int type_modm \/*= MODM_PER*\/)\/*{{{*\/$/;"	f
+GetIsBoundArray	create_svm_vector.cpp	/^int GetIsBoundArray(char **metalProIDList, int *idxSortMetalPro, MetalPro *metalPro, int numMetalPro, MODM *pMODM, bool *isBoundArray)\/*{{{*\/$/;"	f
+GetIsBoundArray	create_svm_vector.cpp	/^int GetIsBoundArray(char **ssbondProIDList, int *idxSortSSBondPro, SSBondPro *ssbondPro, int numSSBondPro, MODM *pMODM, bool *isBoundArray)\/*{{{*\/$/;"	f
+GetMODM	mypro.cpp	/^template <class T> int GetMODM(const char* modmfilepath, T ** M \/*= NULL*\/, char* alphabetMODM \/*= NULL*\/, char* aaSeq \/*= NULL*\/,double* score1 \/*= NULL*\/,double* score2 \/*= NULL*\/, double *parameter \/*=NULL*\/, int *seqIndex\/*=NULL*\/, int startIndex\/*=1*\/)\/*{{{*\/$/;"	f
+GetMODMFilePath	myfunc.cpp	/^char* GetMODMFilePath(const char* id, char* modmfilepath, const char modmpath[] \/*= ""*\/ )\/*{{{*\/$/;"	f
+GetMODMFilePath_Tuping	search_new.cpp	/^INLINE char *GetMODMFilePath_Tuping(const char *rmtID, char *filename, const char *path, int modmformat = MODM_FORMAT_NANJIANG, bool isReadBinaryFile = true)\/*{{{*\/$/;"	f
+GetMaxWaterAcc	pssm2Qij.cpp	/^int GetMaxWaterAcc(const char *infile, int *acc, const char *alphabet)\/*{{{*\/$/;"	f
+GetMaxWaterAcc	pssm2modm.cpp	/^int GetMaxWaterAcc(const char *infile, int *acc, const char *alphabet)\/*{{{*\/$/;"	f
+GetMergeRatio1	search_new.cpp	/^INLINE double GetMergeRatio1(int aaSeqIndex, float *p1, float *p2, int length)\/*{{{*\/$/;"	f
+GetMergeRatio2	search_new.cpp	/^INLINE double GetMergeRatio2(int aaSeqIndex, float *p1, float *p2, int length)\/*{{{*\/$/;"	f
+GetMergeRatio3	search_new.cpp	/^INLINE double GetMergeRatio3(int aaSeqIndex, float *p1, float *p2, int length)\/*{{{*\/$/;"	f
+GetMetalBoundRes	mypro.cpp	/^int GetMetalBoundRes(const char* metalProFile, MetalPro* metalPro, int &numMetalPro, bool isExcludeOtherChainRes\/* = true*\/, char **keyMetalList\/* = NULL*\/, int numKeyMetal\/* = 0*\/, int min_metalBoundRes \/*= 0 *\/, int max_metalBoundRes \/*= 0*\/, bool isUsingTotalBoundRes \/* = true*\/)\/*{{{*\/$/;"	f
+GetMetalBoundRes2	mypro.cpp	/^int GetMetalBoundRes2(const char* metalProFile, MetalPro* metalPro1, MetalPro* metalPro2, int &numMetalPro1, int &numMetalPro2, int &numMetalRes1, int &numMetalRes2, char *resList, const char* modmpath, bool isExcludeOtherChainRes\/* = true*\/, char **keyMetalList\/* = NULL*\/, int numKeyMetal\/* = 0*\/, int min_metalBoundRes \/*= 0 *\/, int max_metalBoundRes \/*= 0*\/, bool isUsingTotalBoundRes \/* = true*\/)\/*{{{*\/$/;"	f
+GetMetalBoundRes3	mypro.cpp	/^int GetMetalBoundRes3(const char* metalProFile, MetalPro* metalPro, MetalPro* metalPro1, MetalPro* metalPro2, int &numMetalPro, int &numMetalPro1, int &numMetalPro2, int &numMetalRes, int &numMetalRes1, int &numMetalRes2, double cutoff_score2, char *resList, const char* modmpath, bool isExcludeOtherChainRes\/* = true*\/, char **keyMetalList\/* = NULL*\/, int numKeyMetal\/* = 0*\/, int min_metalBoundRes \/*= 0 *\/, int max_metalBoundRes \/*= 0*\/, bool isUsingTotalBoundRes \/* = true*\/)\/*{{{*\/$/;"	f
+GetMetalElementList	mypro.cpp	/^int GetMetalElementList(Element *metalEle, const char metalElementListFile[] \/*= ""*\/ \/*"\/data\/metal_element_list.dat"*\/ )\/*{{{*\/$/;"	f
+GetMetalResPair	create_svm_vector.cpp	/^int GetMetalResPair(Residue *HCRes, int numHCRes, int numSite, int sizeGroup, int cutoff_window_pair, int cutoff_window, int cutoff_min_window_pair, double cutoff_transcore, double ***tranM, char *alphabetTranM, set <string> &resPair)\/*{{{*\/$/;"	f
+GetMetalResPairAll	create_svm_vector.cpp	/^int GetMetalResPairAll(Residue *HCRes, int numHCRes, int cutoff_window_pair, int cutoff_window3, int cutoff_window4, int cutoff_min_window_pair, double cutoff_transcore_Metal3, double cutoff_transcore_Metal4, int **resGroupIndex, char **resGroupAA)\/*{{{*\/$/;"	f
+GetNextResidue_PDB	mypro.cpp	/^int GetNextResidue_PDB(Residue *pRes, FILE *fpPDBFile, bool isGetAllAtomLocation  \/*=false*\/)\/*{{{*\/$/;"	f
+GetNumBoundRes	mypro.cpp	/^int GetNumBoundRes(set<int> const& PrP, set<int> const& PrN, MetalPro* pZnPro, set <int> &TP, set <int> &FP, set<int> &TN, set<int> &FN) \/*{{{*\/$/;"	f
+GetNumBoundRes	mypro.cpp	/^int GetNumBoundRes(set<int> const& idx, MetalPro* pZnPro, set <int> &idxTrue, set <int> &idxFalse) \/*{{{*\/$/;"	f
+GetNumBoundRes	mypro.cpp	/^int GetNumBoundRes(set<int> const& idx, MetalPro2* pZnPro, set <int> &idxTrue, set<int> &idxFalse) \/*{{{*\/$/;"	f
+GetNumBoundRes	mypro.cpp	/^int GetNumBoundRes(set<int> const& idx, SSBondPro* pPro, set <int> &idxTrue, set <int> &idxFalse) \/*{{{*\/$/;"	f
+GetNumDigit	myfunc.cpp	/^int GetNumDigit(int num)\/*{{{*\/$/;"	f
+GetNumIndependentRes	pssm2Qij.cpp	/^int GetNumIndependentRes(int **fij,int length, double *alpha)\/*{{{*\/$/;"	f
+GetNumSatisfiedDot	postscan-frag-search.cpp	/^int GetNumSatisfiedDot(int **pair_matrix, int diagPos, int length_target, int length_candidate, int corner)\/*{{{*\/$/;"	f
+GetPDBAAFilePath	myfunc.cpp	/^char* GetPDBAAFilePath(const char* id, char* pdbaafilepath, const char pdbaapath[] \/*= ""*\/)\/*{{{*\/$/;"	f
+GetPDBFilePath	myfunc.cpp	/^char* GetPDBFilePath(const char* pdbid, char* pdbfilepath, const char pdbpath[] \/*=""*\/, const char pdbobsoletepath[] \/*=""*\/, const char pdbmodelspath[] \/*=""*\/, const char pdbmodelsobsoletepath[]\/*=""*\/)\/*{{{*\/$/;"	f
+GetPSSM	mypro.cpp	/^int GetPSSM(const char *infile, int &length, char *aaSeq \/*=NULL*\/, int **Mij\/*=NULL*\/, int **fij\/*=NULL*\/, double *score1\/*=NULL*\/, double *score2\/*=NULL*\/, double *parameter\/*=NULL*\/, int *seqIndex\/*=NULL*\/)\/*{{{*\/$/;"	f
+GetPSSMFilePath	myfunc.cpp	/^char* GetPSSMFilePath(const char* id, char* pssmfilepath, const char pssmpath[] \/*= ""*\/)\/*{{{*\/$/;"	f
+GetPatternTransMatrix	mypro.h	245;"	d
+GetPredZincVersion	report_zincpred.cpp	/^void GetPredZincVersion()\/*{{{*\/$/;"	f
+GetPseducount	pssm2Qij.cpp	/^int GetPseducount(double *score2, int length, double *beta, double max_pseducount = 10.0, double step_score2 = 0.2)\/*{{{*\/$/;"	f
+GetQijFilePath	database_build.cpp	/^char *GetQijFilePath(const char *id, char *filename, const char *path, int qijformat = 1, bool isReadBinaryFile = true)\/*{{{*\/$/;"	f
+GetQijFilePath	search_new.cpp	/^INLINE char *GetQijFilePath(const char *rmtID, char *filename, const char *path, int qijformat = QIJ_FORMAT_NANJIANG, bool isReadBinaryFile = true)\/*{{{*\/$/;"	f
+GetRect	postscan-frag-search.cpp	/^int GetRect(Rectangle *rect, int diagPos, DotSegment *dotSeg, int numDotSeg, int numDot, int rowSize, int colSize, int corner)\/*{{{*\/$/;"	f
+GetResidueIndex	mypro.cpp	/^int GetResidueIndex(Atom *pAtom, Residue *resGroup, int numRes)\/*{{{*\/$/;"	f
+GetResidueIndex	mypro.cpp	/^int GetResidueIndex(Residue *pRes, Residue *resGroup, int numRes)\/*{{{*\/$/;"	f
+GetRowSize	array.h	/^	unsigned int GetRowSize(void)	{return this->rowSize; }$/;"	f	class:Array2D_Sub
+GetRowSize	array.h	/^template <class T>  unsigned int Array2D<T>::GetRowSize(void) { return  rowSize;} $/;"	f	class:Array2D
+GetSCOPAAFilePath	myfunc.cpp	/^char* GetSCOPAAFilePath(const char* id, char* scopaafilepath, const char scopaapath[] \/*= ""*\/)\/*{{{*\/$/;"	f
+GetSEQMAP	mypro.cpp	/^int GetSEQMAP(const char* seqmapfilepath, Chain *pChain)\/*{{{*\/$/;"	f
+GetSEQMAPFilePath	myfunc.cpp	/^char* GetSEQMAPFilePath(const char* id, char* seqmapfilepath, const char seqmappath[] \/*= ""*\/)\/*{{{*\/$/;"	f
+GetSSBondRes	mypro.cpp	/^int GetSSBondRes(const char* ssbondProFile, SSBondPro *ssbondPro, int &numSSBondPro, int &numSSBondRes)\/*{{{*\/$/;"	f
+GetSSBondRes2	mypro.cpp	/^int GetSSBondRes2(const char *ssbondProFile, SSBondPro *ssbondPro, SSBondPro *ssbondPro1,int &numSSBondPro, int &numSSBondPro1, int &numSSBondRes, int &numSSBondRes1, double cutoff_score2, const char* modmpath)\/*{{{*\/$/;"	f
+GetSVMVector	mypro.cpp	/^int GetSVMVector(int *aaSeqIndex, int numSite, MODM *pMODM, int K, int W, int P, double *vector, int vectorDim, double cutoff_score2 \/*= 0.1*\/, int encoding_type \/*= PSSM_PROFILE_ENCODE*\/)\/*{{{*\/$/;"	f
+GetSVMVector	mypro.cpp	/^int GetSVMVector(int aaSeqIndex, MODM *pMODM, int K, int P,double* vector, double cutoff_score2 \/*= 0.1*\/)\/*{{{*\/$/;"	f
+GetSVMVector	mypro.cpp	/^int GetSVMVector(int aaSeqIndex1, int aaSeqIndex2, MODM *pMODM, int K, int W,int P, double *vector, double cutoff_score2 \/*= 0.1*\/)\/*{{{*\/$/;"	f
+GetSVMVectorPerSite	mypro.cpp	/^int GetSVMVectorPerSite(double *vector, int vector_beg, int seqPos, int P, MODM *pMODM, double W1, double W2, double W3, double W4, double W5, double cutoff_score2, int encoding_type \/* = PSSM_PROFILE_ENCODE*\/)\/*{{{*\/$/;"	f
+GetSVMVectorPerSite_2	mypro.cpp	/^int GetSVMVectorPerSite_2(double *vector, int vector_beg, int seqPos, int P, int dimVectorPerSite, MODM *pMODM, double w1, double w2, double w3, double w4, double w5, double cutoff_score2, bool isCenterResidue, int encoding_type \/* = PSSM_PROFILE_ENCODE*\/)\/*{{{*\/$/;"	f
+GetSVMVector_2	mypro.cpp	/^int GetSVMVector_2(int *aaSeqIndex, int numSite, MODM *pMODM, int K, int W, int P, double *vector, int vectorDim, double cutoff_score2 \/*= 0.1*\/, int encoding_type \/*= PSSM_PROFILE_ENCODE*\/)\/*{{{*\/$/;"	f
+GetScore	znpred-postscan.cpp	/^double GetScore(GistPredChain *pChain, int idx_seed, int *idx_neigh, int num_neigh)\/*{{{*\/$/;"	f
+GetScore_PPAlignment	mypro.cpp	/^template <class T> double GetScore_PPAlignment(T *va, T* vb, T *log_va, T* log_vb, int formula \/*= 0 *\/, const double *P \/*=NULL*\/, const double *log_P \/*= NULL *\/)\/*{{{*\/$/;"	f
+GetSeq_ATOM	mypro.cpp	/^int GetSeq_ATOM(const char* pdbfile, Chain *chain, char* chainIDList,  bool isGetAllChain \/*= false*\/,bool isIncludeHETATM \/*= true*\/, int max_seq_length \/* = LONGEST_SEQ*\/, FILE *fpLog \/*= stdout*\/)\/*{{{*\/$/;"	f
+GetSeq_ATOM	mypro.cpp	/^int GetSeq_ATOM(const char* pdbfilepath, const char *id, char *aaSeq, int *resSer, char *resICode, FILE *fpLog \/*= stdout*\/)\/*{{{*\/$/;"	f
+GetShapeStringFilePath	myfunc.cpp	/^char* GetShapeStringFilePath(const char* id, char* shapestringfilepath, const char shapestringpath[] \/*= ""*\/)\/*{{{*\/$/;"	f
+GetSize	array.h	/^template <class T> unsigned int Array1D<T>::GetSize(void)  { return  size;} $/;"	f	class:Array1D
+GetTMPDir	myfunc.cpp	/^int GetTMPDir(char *tmpdir)\/*{{{*\/$/;"	f
+GetTupingQij	mypro.cpp	/^int GetTupingQij(const char *infile, int **M, char *aaSeq, char *shapeSeq, char *dsspSeq, int *waterAcc, double *score1, double *score2, int *seqIndex, int startIndex\/*=1*\/, const int *mapIndex\/*=MAPINDEX_BLOSUM_Tuping*\/)\/*{{{*\/$/;"	f
+GetVectorDimension	create_svm_vector.cpp	/^int GetVectorDimension(int K, int W, int numSite, int P, int encoding_scheme, bool isAddPairDist)\/*{{{*\/$/;"	f
+GetWaterAccScale	pssm2Qij.cpp	/^int GetWaterAccScale(const char *infile, double *accScale)\/*{{{*\/$/;"	f
+GetWaterAccScale	pssm2modm.cpp	/^int GetWaterAccScale(const char *infile, double *accScale)\/*{{{*\/$/;"	f
+GetWorkDir	myfunc.cpp	/^int GetWorkDir(char *workdir)\/*{{{*\/$/;"	f
+GetXSize	array.h	/^template <class T>  unsigned int Array3D<T>::GetXSize(void) { return  xSize;} $/;"	f	class:Array3D
+GetYSize	array.h	/^template <class T>  unsigned int Array3D<T>::GetYSize(void) { return  ySize;} $/;"	f	class:Array3D
+GetZSize	array.h	/^template <class T>  unsigned int Array3D<T>::GetZSize(void) { return  zSize;} $/;"	f	class:Array3D
+GetZnBoundRes	mypro.cpp	/^int GetZnBoundRes(const char* metalProFile, MetalPro* znPro, int min_numRes \/*= 3*\/ , int max_numRes \/*= 4*\/, bool isUsingTotalBoundRes \/*= true*\/)\/*{{{*\/$/;"	f
+GetZnBoundRes	mypro.cpp	/^int GetZnBoundRes(const char* metalProFile, MetalPro2* znPro, int min_numRes \/*= 3*\/, int max_numRes \/*= 4*\/, bool isUsingTotalBoundRes \/* = true*\/)\/*{{{*\/$/;"	f
+GetZnBoundRes3	mypro.cpp	/^int GetZnBoundRes3(const char* metalProFile, MetalPro* znPro, MetalPro* znPro1, MetalPro* znPro2, int &numZnPro, int &numZnPro1, int &numZnPro2, int &numZnRes, int &numZnRes1, int &numZnRes2, double cutoff_score2, char *resList, const char* modmpath, int min_ZnBoundRes \/*= 3*\/, int max_ZnBoundRes \/*= 4*\/, bool isUsingTotalBoundRes \/*= true*\/)\/*{{{*\/$/;"	f
+GetZnBoundRes3	mypro.cpp	/^int GetZnBoundRes3(const char* metalProFile, MetalPro2* znPro, MetalPro2* znPro1, MetalPro2* znPro2, int &numZnPro, int &numZnPro1, int &numZnPro2,int &numZnRes, int &numZnRes1, int &numZnRes2, double cutoff_score2, char *resList, const char* modmpath, int min_ZnBoundRes \/*= 3*\/, int max_ZnBoundRes \/*= 4*\/, bool                    isUsingTotalBoundRes \/*= true*\/)\/*{{{*\/$/;"	f
+GistPredChain	mypro.h	/^struct GistPredChain\/*{{{*\/$/;"	s
+Grouping	myfunc.cpp	/^int Grouping(char **strs, int numStrs, char **strGroup, int *subTotal,int SIZE_STRGROUP)\/*{{{*\/$/;"	f
+HAS_ARRAY_H	array.h	17;"	d
+HAS_CONSTANT_H	Constant.h	14;"	d
+HAS_DATATYPE_H	DataType.h	17;"	d
+HAS_MYFUNC_H	myfunc.h	2;"	d
+HAS_MYPRO_H	mypro.h	2;"	d
+HAS_MYTEMPLATE_H	mytemplate.h	20;"	d
+HAVE_MIN_MAX	getfilepath.cpp	20;"	d	file:
+HCRes_window	mypro.cpp	/^int HCRes_window(Residue* HCRes, int& numRes, int sizeGroup, int cutoff_window)\/*{{{*\/$/;"	f
+HIS	mtx2modm.cpp	/^    GLN, GLU, GLY, HIS, ILE,$/;"	e	enum:aacodes	file:
+HIS	pssm2Qij.cpp	/^    GLN, GLU, GLY, HIS, ILE,$/;"	e	enum:aacodes	file:
+HIS	pssm2modm.cpp	/^    GLN, GLU, GLY, HIS, ILE,$/;"	e	enum:aacodes	file:
+HORIZONTAL	mypro.h	89;"	d
+HomoPro	znpred-postscan.cpp	/^struct HomoPro$/;"	s	file:
+Hydrophobicity	mypro.cpp	/^const double Hydrophobicity[] = { \/*{{{*\/$/;"	v
+IDT	mypro.h	102;"	d
+ILE	mtx2modm.cpp	/^    GLN, GLU, GLY, HIS, ILE,$/;"	e	enum:aacodes	file:
+ILE	pssm2Qij.cpp	/^    GLN, GLU, GLY, HIS, ILE,$/;"	e	enum:aacodes	file:
+ILE	pssm2modm.cpp	/^    GLN, GLU, GLY, HIS, ILE,$/;"	e	enum:aacodes	file:
+INIT_AASEQINDEX	myfunc.h	56;"	d
+INIT_CONSV	myfunc.h	48;"	d
+INIT_DOUBLE	Constant.h	73;"	d
+INIT_FLOAT	Constant.h	72;"	d
+INIT_FRAGSCORE	search_new.cpp	63;"	d	file:
+INIT_ICODE	myfunc.h	60;"	d
+INIT_INT	Constant.h	71;"	d
+INIT_RESSEQ	myfunc.h	52;"	d
+INIT_SHAPE	myfunc.h	64;"	d
+INIT_WATERACC	myfunc.h	68;"	d
+INLINE	database_build.cpp	23;"	d	file:
+INLINE	database_build.cpp	25;"	d	file:
+INLINE	search_new.cpp	21;"	d	file:
+INLINE	search_new.cpp	23;"	d	file:
+INTER	mypro.h	122;"	d
+IS_EQUAL	myfunc.h	89;"	d
+Init	array.h	/^template <class T>  void Array2D<T>::Init(T initValue) \/*{{{*\/$/;"	f	class:Array2D
+Init	array.h	/^template <class T>  void Array3D<T>::Init(T initValue) \/*{{{*\/$/;"	f	class:Array3D
+Init	array.h	/^template <class T> void Array1D<T>::Init(T initValue) \/*{{{*\/$/;"	f	class:Array1D
+InitAlignFactor	mypro.cpp	/^void InitAlignFactor(AlignFactor *pAlignFactor)\/*{{{*\/$/;"	f
+InitAtom	mypro.cpp	/^void InitAtom(Atom * pAtom)\/*{{{*\/$/;"	f
+InitAtomEnv	mypro.cpp	/^void InitAtomEnv(AtomEnv *pAtomEnv)\/*{{{*\/$/;"	f
+InitAtomFreq	mypro.cpp	/^void InitAtomFreq(AtomFreq *pAtomFreq)\/*{{{*\/$/;"	f
+InitChain	mypro.cpp	/^void InitChain(Chain * pChain)\/*{{{*\/$/;"	f
+InitDSSPRes	mypro.cpp	/^void InitDSSPRes(DSSP_Residue* dssp_res)\/*{{{*\/$/;"	f
+InitDiag	postscan-frag-search.cpp	/^void InitDiag(DATATYPE_DOT_SCORE *diag, int sizeDiag)\/*{{{*\/$/;"	f
+InitDomainDEF	mypro.cpp	/^void InitDomainDEF(DomainDEF *pDomainDEF)\/*{{{*\/$/;"	f
+InitDotSegment	postscan-frag-search.cpp	/^void InitDotSegment(DotSegment *p)\/*{{{*\/$/;"	f
+InitGistPredChain	mypro.cpp	/^void InitGistPredChain(GistPredChain * pChain)\/*{{{*\/$/;"	f
+InitHomoPro	znpred-postscan.cpp	/^void InitHomoPro(HomoPro *p)\/*{{{*\/$/;"	f
+InitMODM	mypro.cpp	/^void InitMODM(MODM *pMODM)\/*{{{*\/$/;"	f
+InitMSA	mypro.cpp	/^void InitMSA(MSA *pMSA)\/*{{{*\/$/;"	f
+InitMetalPro	mypro.cpp	/^void InitMetalPro(MetalPro *pMetalPro )\/*{{{*\/$/;"	f
+InitMetalPro	mypro.cpp	/^void InitMetalPro(MetalPro2 *pMetalPro)\/*{{{*\/$/;"	f
+InitPredPro	mypro.cpp	/^void InitPredPro(PredPro *pPredPro)\/*{{{*\/$/;"	f
+InitResidue	mypro.cpp	/^void InitResidue(Residue *pRes)\/*{{{*\/$/;"	f
+InitSCOP	mypro.cpp	/^void InitSCOP(SCOP *pSCOP)\/*{{{*\/$/;"	f
+InitSSBond	mypro.cpp	/^void InitSSBond(SSBond *pSSBond )\/*{{{*\/$/;"	f
+InitSSBondPro	mypro.cpp	/^void InitSSBondPro(SSBondPro *pSSBondPro )\/*{{{*\/$/;"	f
+Integer	myfunc.cpp	/^int Integer(double x)\/*{{{*\/$/;"	f
+Is0Chain	mypro.h	247;"	d
+IsBlankLine	myfunc.cpp	/^bool IsBlankLine(const char *buf)\/*{{{*\/$/;"	f
+IsDNASeq	mypro.cpp	/^bool IsDNASeq(const char *aaSeq, int n \/*= 0*\/)\/*{{{*\/$/;"	f
+IsDigit	myfunc.cpp	/^bool IsDigit(const char ch)\/*{{{*\/$/;"	f
+IsDigit	myfunc.cpp	/^bool IsDigit(const char* str)\/*{{{*\/$/;"	f
+IsHEMPro	mypro.cpp	/^bool IsHEMPro(MODM *pMODM, bool *isPolyHis)\/*{{{*\/$/;"	f
+IsInCharSet	myfunc.cpp	/^bool IsInCharSet(const char ch, const char *charSet, int n \/*= 0 *\/)\/*{{{*\/$/;"	f
+IsInContactAtomList	mypro.cpp	/^bool IsInContactAtomList(const char *atomOrigName)\/*{{{*\/$/;"	f
+IsInteger	myfunc.cpp	/^bool IsInteger(double x)\/*{{{*\/$/;"	f
+IsLower	myfunc.cpp	/^bool IsLower(const char c)\/*{{{*\/$/;"	f
+IsMetalAtom	mypro.cpp	/^bool IsMetalAtom(Atom *pAtom, char **metalEleList, int numMetalEle)\/*{{{*\/$/;"	f
+IsNewResidue	mypro.cpp	/^bool IsNewResidue(Atom *pAtom, Residue *resGroup, int numRes)\/*{{{*\/$/;"	f
+IsNewResidue	mypro.cpp	/^bool IsNewResidue(Residue *pRes, Residue *resGroup, int numRes)\/*{{{*\/$/;"	f
+IsNonMetalHetGroup	mypro.cpp	/^bool IsNonMetalHetGroup(const char *resName)\/*{{{*\/$/;"	f
+IsNumeric	myfunc.cpp	/^bool IsNumeric(const char* str)\/*{{{*\/$/;"	f
+IsSADValid	database_build.cpp	/^INLINE int IsSADValid(DATATYPE_DIGITAASEQ *digitAASeq, DATATYPE_DIGITSHAPESEQ *digitShapeSeq, DATATYPE_ENCODEWATERACC *encodeWaterAcc, int startPosFrag, int begFrag, int endFrag)\/*{{{*\/$/;"	f
+IsSSBonded	mypro.cpp	/^bool IsSSBonded(int aaSeqIndex, SSBondPro *ssbondPro)\/*{{{*\/$/;"	f
+IsSameShape	database_build.cpp	/^INLINE bool IsSameShape(DATATYPE_DIGITSHAPESEQ *digitShapeTar, DATATYPE_DIGITSHAPESEQ *digitShapeCan, int posTar, int posCan, int begFrag, int endFrag, DATATYPE_MODE shapeCompareMode)\/*{{{*\/$/;"	f
+IsSatisfyHCResRule	mypro.cpp	/^bool IsSatisfyHCResRule(char* id, MODM *pMODM,  bool *isPolyHis,  \/*{{{*\/ $/;"	f
+IsSatisfySHCRRule	mypro.cpp	/^bool IsSatisfySHCRRule(int *HCResAASeqIndex, int numRes, int min_numHCRes, int cutoff_window_pair, int cutoff_window_zn3, int cutoff_window_zn4, int* shcr_res_idx, int &numSHCRRes)\/*{{{*\/$/;"	f
+IsSpecChain	mypro.cpp	/^int  IsSpecChain(const char* id, const char chainid \/* = '0'*\/)\/*{{{*\/$/;"	f
+IsUpper	myfunc.cpp	/^bool IsUpper(const char c)\/*{{{*\/$/;"	f
+IsValidAlphabet	mtx2modm.cpp	/^bool IsValidAlphabet(char *alphabet)\/*{{{*\/$/;"	f
+IsValidAlphabet	pssm2Qij.cpp	/^bool IsValidAlphabet(char *alphabet)\/*{{{*\/$/;"	f
+IsValidAlphabet	pssm2modm.cpp	/^bool IsValidAlphabet(char *alphabet)\/*{{{*\/$/;"	f
+IsWithinRect	postscan-frag-search.cpp	/^bool IsWithinRect(int x,int y, Rectangle *rect, int numRect)\/*{{{*\/$/;"	f
+IsZero	myfunc.cpp	/^bool IsZero(Complex *cplx, int dim)\/*{{{*\/$/;"	f
+IsZnBound	mypro.cpp	/^bool IsZnBound(int aaSeqIndex, MetalPro *znPro)\/*{{{*\/$/;"	f
+IsZnBound	mypro.cpp	/^bool IsZnBound(int aaSeqIndex1, int aaSeqIndex2, MetalPro *znPro, bool operation)\/*{{{*\/$/;"	f
+IsZnBound	mypro.cpp	/^bool IsZnBound(int aaSeqIndex1, int aaSeqIndex2, MetalPro2 *znPro, bool operation)\/*{{{*\/$/;"	f
+LAST	mypro.h	121;"	d
+LEFT	mypro.h	98;"	d
+LEU	mtx2modm.cpp	/^    LEU, LYS, MET, PHE, PRO,$/;"	e	enum:aacodes	file:
+LEU	pssm2Qij.cpp	/^    LEU, LYS, MET, PHE, PRO,$/;"	e	enum:aacodes	file:
+LEU	pssm2modm.cpp	/^    LEU, LYS, MET, PHE, PRO,$/;"	e	enum:aacodes	file:
+LOG_PER_SCALE	search_new.cpp	75;"	d	file:
+LONGEST_SEQ	Constant.h	171;"	d
+LONGEST_SHAPE	Constant.h	172;"	d
+LOWER_CORNER	postscan-frag-search.cpp	127;"	d	file:
+LYS	mtx2modm.cpp	/^    LEU, LYS, MET, PHE, PRO,$/;"	e	enum:aacodes	file:
+LYS	pssm2Qij.cpp	/^    LEU, LYS, MET, PHE, PRO,$/;"	e	enum:aacodes	file:
+LYS	pssm2modm.cpp	/^    LEU, LYS, MET, PHE, PRO,$/;"	e	enum:aacodes	file:
+LinearSearch_String	myfunc.cpp	/^template <class T> int LinearSearch_String(T keyStr, T* strs, int n) \/*{{{*\/$/;"	f
+Ln_Background_AA_Freq	mypro.cpp	/^const double Ln_Background_AA_Freq[] = { -2.551, -2.976, -3.101, -2.919, -3.963, -3.147, -2.765, -2.604, -3.817, -2.957, -2.408, -2.865, -3.817, -3.244, -2.957, -2.645, -2.830, -4.343, -3.442, -2.749 };\/\/ln of Background_AA_Freq, ordered by BLOSUM1D_alphabet$/;"	v
+M	mypro.h	/^    DATATYPE_MODM_MATRIX    **M;     \/\/the pssm matrix$/;"	m	struct:MODM
+MAPINDEX_BLOSUM_Tuping	mypro.cpp	/^const int MAPINDEX_BLOSUM_Tuping[] = {0, 19, 10, 9, 14, 13, 12, 11, 1, 8, 7, 15, 16, 4, 18, 2, 6, 17, 3, 5 };\/\/index that map AAAlphabet_Tuping to BLOSUM1D_alphabet$/;"	v
+MAX2	getfilepath.cpp	23;"	d	file:
+MAX3	getfilepath.cpp	24;"	d	file:
+MAX_ALTATOM	Constant.h	165;"	d
+MAX_ATOMENV	mypro.cpp	/^    int MAX_ATOMENV      = 50;$/;"	m	namespace:MetalBindingProtein	file:
+MAX_ATOMENV	mypro.cpp	/^    int MAX_ATOMENV   = 30;$/;"	m	namespace:ZnBindingProtein	file:
+MAX_ATOM_PER_RES	Constant.h	163;"	d
+MAX_ATOM_PER_RES_WITH_ALTATOM	Constant.h	164;"	d
+MAX_ATOM_SERIAL	Constant.h	114;"	d
+MAX_BONDED_RES_CHAIN	Constant.h	175;"	d
+MAX_BOUND_METAL_PER_RES	mypro.cpp	/^    int MAX_BOUND_METAL_PER_RES = 10; \/\/ maximal number of metal atoms bound to a residue$/;"	m	namespace:MetalBindingProtein	file:
+MAX_BOUND_METAL_PER_RES	mypro.cpp	/^    int MAX_BOUND_METAL_PER_RES = 10; \/\/ maximal number of metal atoms bound to a residue, set to a large value, e.g 1AOO, Cys9 bind to 4 Ag(I) atoms, if set the cutoff_distance to a larger value, then, this value can be more than 5$/;"	m	namespace:ZnBindingProtein	file:
+MAX_BOUND_SITE	mypro.cpp	/^    int MAX_BOUND_SITE    = 10;   \/\/ maximal number of coordinate bound$/;"	m	namespace:MetalBindingProtein	file:
+MAX_BOUND_SITE	mypro.cpp	/^    int MAX_BOUND_SITE = 10;   \/\/ maximal number of coordinate bound$/;"	m	namespace:ZnBindingProtein	file:
+MAX_CLOSE_RESIDUE	Constant.h	177;"	d
+MAX_COMMAND_LINE	Constant.h	34;"	d
+MAX_DOUBLE	Constant.h	67;"	d
+MAX_FLOAT	Constant.h	64;"	d
+MAX_INT	Constant.h	61;"	d
+MAX_METAL_CHAIN	Constant.h	176;"	d
+MAX_NRPDB_LIST	Constant.h	169;"	d
+MAX_NUMRES	mypro.cpp	/^    int MAX_NUMRES       = 200;  \/\/ maximal number of residues bind to zinc atom per chain$/;"	m	namespace:MetalBindingProtein	file:
+MAX_NUMRES	mypro.cpp	/^    int MAX_NUMRES    = 30;  \/\/ maximal number of residues bind to zinc atom per chain$/;"	m	namespace:ZnBindingProtein	file:
+MAX_NUM_CHAIN	database_build.cpp	18;"	d	file:
+MAX_NUM_CHAIN	database_build.cpp	19;"	d	file:
+MAX_NUM_METALPRO	mypro.cpp	/^    int MAX_NUM_METALPRO = 1500;$/;"	m	namespace:MetalBindingProtein	file:
+MAX_NUM_NRPDB	Constant.h	168;"	d
+MAX_NUM_PDB	Constant.h	167;"	d
+MAX_NUM_SAMEAA_FRAG	database_build.cpp	/^int MAX_NUM_SAMEAA_FRAG = 1; \/*maximal number of fragments with the same amino acid sequence allowed to build the database*\/$/;"	v
+MAX_NUM_ZNPRO	mypro.cpp	/^    int MAX_NUM_ZNPRO = 400;$/;"	m	namespace:ZnBindingProtein	file:
+MAX_PATH	Constant.h	30;"	d
+MAX_PATH	getfilepath.cpp	16;"	d	file:
+MAX_SEQ_LENGTH	Constant.h	173;"	d
+MAX_SIZE_ID	database_build.cpp	15;"	d	file:
+MAX_SIZE_ID	database_build.cpp	16;"	d	file:
+MAX_SSBOND_CHAIN	Constant.h	159;"	d
+MAX_SSBOND_PRO	Constant.h	160;"	d
+MET	mtx2modm.cpp	/^    LEU, LYS, MET, PHE, PRO,$/;"	e	enum:aacodes	file:
+MET	pssm2Qij.cpp	/^    LEU, LYS, MET, PHE, PRO,$/;"	e	enum:aacodes	file:
+MET	pssm2modm.cpp	/^    LEU, LYS, MET, PHE, PRO,$/;"	e	enum:aacodes	file:
+METAL	create_svm_vector.cpp	37;"	d	file:
+METAL	create_svm_vector.cpp	39;"	d	file:
+MIN2	getfilepath.cpp	21;"	d	file:
+MIN3	getfilepath.cpp	22;"	d	file:
+MIN_DOUBLE	Constant.h	68;"	d
+MIN_FLOAT	Constant.h	65;"	d
+MIN_INT	Constant.h	62;"	d
+MIS	mypro.h	104;"	d
+MODM	mypro.h	/^struct MODM\/*{{{*\/$/;"	s
+MODM_FILE_TYPE	myfunc.h	42;"	d
+MODM_FILE_TYPE	mypro.h	32;"	d
+MODM_FORMAT_NANJIANG	search_new.cpp	36;"	d	file:
+MODM_FORMAT_TUPING	search_new.cpp	35;"	d	file:
+MODM_LOG	myfunc.h	43;"	d
+MODM_LOG	mypro.h	33;"	d
+MODM_NAME_FORMAT	search_new.cpp	34;"	d	file:
+MODM_PER	myfunc.h	44;"	d
+MODM_PER	mypro.h	34;"	d
+MSA	mypro.h	/^struct MSA\/*{{{*\/  \/*data structure for multiple sequence alignment*\/$/;"	s
+MSA_FORMAT	mypro.h	44;"	d
+MSF	mypro.h	46;"	d
+Map1D_2D	postscan-frag-search.cpp	/^void Map1D_2D(int diagPos, int pos1D, int &x, int &y, int corner)\/*{{{*\/$/;"	f
+Map2D_1D	postscan-frag-search.cpp	/^int Map2D_1D(int x, int y, int corner)\/*{{{*\/$/;"	f
+MaskPolyHis	mypro.cpp	/^int MaskPolyHis(const char *aaSeq, bool *isPolyHis, int length \/*= 0*\/)\/*{{{*\/$/;"	f
+MergeGistResidue	mypro.cpp	/^void MergeGistResidue(GistPredChain *pChain, int *idx, int start, int end,  int &label, double &discriminant, int operation)\/*{{{*\/$/;"	f
+MetalBindPro	mypro.h	/^struct MetalBindPro\/*{{{*\/$/;"	s
+MetalBindingProtein	mypro.cpp	/^namespace MetalBindingProtein$/;"	n	file:
+MetalBindingProtein	mypro.h	/^namespace MetalBindingProtein$/;"	n
+MetalPro	mypro.h	/^struct MetalPro\/*{{{*\/$/;"	s
+MetalPro2	mypro.h	/^struct MetalPro2 \/\/  in MetalPro2, residues are stored according to metal atom\/*{{{*\/$/;"	s
+NPer_Frag_Database	search_new.cpp	/^int NPer_Frag_Database = 45; \/*ratio in percentage on FracAcc Matrix$/;"	v
+NULL	Constant.h	26;"	d
+NULLCHAR	Constant.h	43;"	d
+NULL_ICODE	mypro.h	133;"	d
+NUM_20_AA	mypro.h	135;"	d
+NUM_20_AA	search_new.cpp	107;"	d	file:
+NUM_20_AA	search_new.cpp	108;"	d	file:
+NUM_AA	mtx2modm.cpp	33;"	d	file:
+NUM_AA	mtx2modm.cpp	34;"	d	file:
+NUM_AA	mypro.h	69;"	d
+NUM_AA	pssm2Qij.cpp	120;"	d	file:
+NUM_AA	pssm2Qij.cpp	121;"	d	file:
+NUM_AA	pssm2modm.cpp	35;"	d	file:
+NUM_AA	pssm2modm.cpp	36;"	d	file:
+NUM_BLOSUM	mypro.h	70;"	d
+NUM_CHAINS	mypro.h	80;"	d
+NUM_CHAIN_PER_DOMAIN	Constant.h	98;"	d
+NUM_DNA	mypro.h	68;"	d
+NUM_DOMAIN_PDB	Constant.h	99;"	d
+NUM_FILE	mtx2modm.cpp	30;"	d	file:
+NUM_FILE	mtx2modm.cpp	31;"	d	file:
+NUM_FILE	pssm2modm.cpp	32;"	d	file:
+NUM_FILE	pssm2modm.cpp	33;"	d	file:
+NUM_METAL_ELEMENT	Constant.h	162;"	d
+NUM_NUC	mypro.h	73;"	d
+NUM_PARAMETER	mtx2modm.cpp	27;"	d	file:
+NUM_PARAMETER	mtx2modm.cpp	28;"	d	file:
+NUM_PARAMETER	pssm2Qij.cpp	117;"	d	file:
+NUM_PARAMETER	pssm2Qij.cpp	118;"	d	file:
+NUM_PARAMETER	pssm2modm.cpp	29;"	d	file:
+NUM_PARAMETER	pssm2modm.cpp	30;"	d	file:
+NUM_SHAPE	mypro.h	77;"	d
+NUM_SHAPES	mypro.cpp	410;"	d	file:
+NUM_SHAPES	mypro.h	156;"	d
+NUM_STDAA	mypro.h	136;"	d
+NormalizeConsv	create_svm_vector.cpp	/^double NormalizeConsv(double consv, char aa)\/*{{{*\/$/;"	f
+NormalizeFragScore	postscan-frag-search.cpp	/^void NormalizeFragScore(float* fragScore, float mean, float min, float max, int num)\/*{{{*\/$/;"	f
+NormalizeZnPredScore	znpred-postscan.cpp	/^int	NormalizeZnPredScore(double *znscore, int num)\/*{{{*\/$/;"	f
+Nsearch_beg	search_new.cpp	/^int Nsearch_beg = 0;$/;"	v
+OR	mypro.h	117;"	d
+PDB1CharAA_alphabet	mypro.cpp	/^const char PDB1CharAA_alphabet[] = "XARNDBCXQEZGHXILKMFPXSTWYXV";$/;"	v
+PDB1Char_AllRes	mypro.cpp	/^const char PDB1Char_AllRes[] = "CLDLRHERCNARGTRAAATCKlRRRDDNDDNDDBACDDTAEGCLCCCCCCSCEASSLCCGSGSQCCACSCCCCCCSCMCCCCCCCCCFARDCEQAHIVLKADFPSDTWYVCFSCAMWEGEQEZGGEKGHARHHHRFFWPDNSIIKYKLKKWKKKKKKANMQMHSLEKKGGMMFVSHHYLLLGCSCCMYSECDFFFACPAPYSACSSGSSCCCSCSSSSSCKCMCDCYDSTAWTAWKWWWWWYYYYYYYXVCY";$/;"	v
+PDB3CharAA_alphabet	mypro.cpp	/^const char *PDB3CharAA_alphabet[] = \/\/recognized amino acid residue code in pdb file, ordered \/*{{{*\/$/;"	v
+PDB3Char_AllRes	mypro.cpp	/^const char *PDB3Char_AllRes [] = \/\/ all recognizable 3-letter residues in PDB, ordered alphabetically\/*{{{*\/$/;"	v
+PER_TEN_SCALE	search_new.cpp	76;"	d	file:
+PHE	mtx2modm.cpp	/^    LEU, LYS, MET, PHE, PRO,$/;"	e	enum:aacodes	file:
+PHE	pssm2Qij.cpp	/^    LEU, LYS, MET, PHE, PRO,$/;"	e	enum:aacodes	file:
+PHE	pssm2modm.cpp	/^    LEU, LYS, MET, PHE, PRO,$/;"	e	enum:aacodes	file:
+PHYLIP	mypro.h	49;"	d
+PI	Constant.h	79;"	d
+POS_ALTLOC	Constant.h	127;"	d
+POS_ATOMNAME_BEG	Constant.h	124;"	d
+POS_ATOMNAME_END	Constant.h	125;"	d
+POS_CHAIN_ID	Constant.h	132;"	d
+POS_CHARGE_BEG	Constant.h	154;"	d
+POS_CHARGE_END	Constant.h	155;"	d
+POS_ELEMENT_BEG	Constant.h	152;"	d
+POS_ELEMENT_END	Constant.h	153;"	d
+POS_ICODE	Constant.h	137;"	d
+POS_OCCUPANCY_BEG	Constant.h	146;"	d
+POS_OCCUPANCY_END	Constant.h	147;"	d
+POS_RECORD_BEG	Constant.h	118;"	d
+POS_RECORD_END	Constant.h	119;"	d
+POS_RESNAME_BEG	Constant.h	129;"	d
+POS_RESNNAME_END	Constant.h	130;"	d
+POS_RESSEQ_BEG	Constant.h	134;"	d
+POS_RESSEQ_END	Constant.h	135;"	d
+POS_SEGID_BEG	Constant.h	150;"	d
+POS_SEGID_END	Constant.h	151;"	d
+POS_SERIAL_BEG	Constant.h	121;"	d
+POS_SERIAL_END	Constant.h	122;"	d
+POS_TEMPFACTOR_BEG	Constant.h	148;"	d
+POS_TEMPFACTOR_END	Constant.h	149;"	d
+POS_X_COOR_BEG	Constant.h	139;"	d
+POS_X_COOR_END	Constant.h	140;"	d
+POS_Y_COOR_BEG	Constant.h	141;"	d
+POS_Y_COOR_END	Constant.h	142;"	d
+POS_Z_COOR_BEG	Constant.h	143;"	d
+POS_Z_COOR_END	Constant.h	144;"	d
+PRED	create_svm_vector.cpp	32;"	d	file:
+PRED	create_svm_vector.cpp	34;"	d	file:
+PRO	mtx2modm.cpp	/^    LEU, LYS, MET, PHE, PRO,$/;"	e	enum:aacodes	file:
+PRO	pssm2Qij.cpp	/^    LEU, LYS, MET, PHE, PRO,$/;"	e	enum:aacodes	file:
+PRO	pssm2modm.cpp	/^    LEU, LYS, MET, PHE, PRO,$/;"	e	enum:aacodes	file:
+PROFILESCORETYPE	search_new.cpp	52;"	d	file:
+PROFILESCORETYPE_NANJIANG	search_new.cpp	54;"	d	file:
+PROFILESCORETYPE_TUPING	search_new.cpp	53;"	d	file:
+PSSM_PROFILE_ENCODE	mypro.h	39;"	d
+PostScanFragSearch	postscan-frag-search.cpp	/^int PostScanFragSearch(const char *fragPairFile, const char *postFragPairFile, char **proIDListCan, int *proLengthCan, int numProCan, char **proIDListTar, int *proLengthTar, int numProTar, int method, int weightScheme)\/*{{{*\/$/;"	f
+PredPro	mypro.h	/^struct PredPro\/*{{{*\/$/;"	s
+PredictSecondaryStructure	search_new.cpp	/^int PredictSecondaryStructure(const char* idTar, char *aaSeqTar,  DATATYPE_LOGPER **Candidate_Score, int **Candidate_Score_iksub, int **Candidate_Score_iklen, int lengthTar, int fragSize, int *lengthListAllTrain, char ** idListTrain, char **secSeqAllTrain, char **shapeSeqAllTrain, int numChainTrain, const char * resultpath)\/*{{{*\/$/;"	f
+PrintHelp	create_svm_vector.cpp	/^void PrintHelp()$/;"	f
+PrintHelp	database_build.cpp	/^void PrintHelp()$/;"	f
+PrintHelp	gating_gistPred.cpp	/^void PrintHelp()$/;"	f
+PrintHelp	getfilepath.cpp	/^void PrintHelp()$/;"	f
+PrintHelp	mtx2modm.cpp	/^void PrintHelp()$/;"	f
+PrintHelp	postscan-frag-search.cpp	/^void PrintHelp()$/;"	f
+PrintHelp	pssm2Qij.cpp	/^void PrintHelp()$/;"	f
+PrintHelp	pssm2modm.cpp	/^void PrintHelp()$/;"	f
+PrintHelp	report_zincpred.cpp	/^void PrintHelp()$/;"	f
+PrintHelp	rootname.cpp	/^void PrintHelp()$/;"	f
+PrintHelp	search_new.cpp	/^void PrintHelp()$/;"	f
+PrintHelp	test-readmodm.cpp	/^void PrintHelp()$/;"	f
+PrintHelp	znpred-postscan.cpp	/^void PrintHelp()$/;"	f
+PrintPairMatrix	postscan-frag-search.cpp	/^void PrintPairMatrix(int **pair_matrix, int length_target, int length_candidate)\/*{{{*\/$/;"	f
+PrintPairMatrix	postscan-frag-search.cpp	/^void PrintPairMatrix(int *pair_matrix, int length_target, int length_candidate)\/*{{{*\/$/;"	f
+PrintParameter	report_zincpred.cpp	/^void PrintParameter(const char *parafile, FILE *fpout) \/*{{{*\/$/;"	f
+PrintParameterHTML	report_zincpred.cpp	/^void PrintParameterHTML(const char *parafile, FILE *fpout) \/*{{{*\/$/;"	f
+PrintReference	report_zincpred.cpp	/^void PrintReference(FILE *fpout) \/*{{{*\/$/;"	f
+PrintReferenceHTML	report_zincpred.cpp	/^void PrintReferenceHTML(FILE *fpout) \/*{{{*\/$/;"	f
+PrintVerboseHelp	database_build.cpp	/^void PrintVerboseHelp() { }$/;"	f
+PrintVerboseHelp	postscan-frag-search.cpp	/^void PrintVerboseHelp() { }$/;"	f
+PrintVerboseHelp	report_zincpred.cpp	/^void PrintVerboseHelp() { }$/;"	f
+PrintVerboseHelp	search_new.cpp	/^void PrintVerboseHelp() { }$/;"	f
+PrintVerboseHelp	test-readmodm.cpp	/^void PrintVerboseHelp() { }$/;"	f
+PrintVerboseHelp	znpred-postscan.cpp	/^void PrintVerboseHelp()\/*{{{*\/$/;"	f
+Prob_score	search_new.cpp	/^INLINE DATATYPE_LOGPER Prob_score(DATATYPE_LOGPER *Per_ten_one, DATATYPE_LOGPER *Log_per, DATATYPE_LOGPER* Log_Back_Comp, int* pMatTar, int *pMatCan)\/*{{{*\/$/;"	f
+Profile	mypro.h	/^struct Profile \/*{{{*\/$/;"	s
+ProfileByte	mypro.h	/^struct ProfileByte \/*{{{*\/$/;"	s
+ProfileSAD	mypro.h	/^struct ProfileSAD\/*{{{*\/$/;"	s
+ProfileSADByte	mypro.h	/^struct ProfileSADByte\/*{{{*\/$/;"	s
+QIJ_FORMAT_NANJIANG	database_build.cpp	13;"	d	file:
+QIJ_FORMAT_NANJIANG	search_new.cpp	30;"	d	file:
+QIJ_FORMAT_TUPING	database_build.cpp	12;"	d	file:
+QIJ_FORMAT_TUPING	search_new.cpp	29;"	d	file:
+QIJ_NAME_FORMAT	database_build.cpp	11;"	d	file:
+QIJ_NAME_FORMAT	search_new.cpp	28;"	d	file:
+QuickSort	mytemplate.h	/^template <class T>  void QuickSort(T *sort, int low, int high, int order \/* = ASCENDING*\/)\/*{{{*\/$/;"	f
+QuickSort_String	myfunc.cpp	/^void QuickSort_String(int *idx, char** strs, int low, int high)\/*{{{*\/$/;"	f
+QuickSort_index	mytemplate.h	/^template <class T>  void QuickSort_index(int *idx, T *sort, int low, int high, int order \/*= ASCENDING*\/)\/*{{{*\/$/;"	f
+READ_FILE_ERROR	Constant.h	53;"	d
+RESSEQ	mypro.h	83;"	d
+RULE_HOMO	znpred-postscan.cpp	35;"	d	file:
+RULE_SCORE	znpred-postscan.cpp	36;"	d	file:
+ReadInDatabase	database_build.cpp	/^int ReadInDatabase(const char *id, const char *qijpath, int qijformat, char *aaSeq, char *shapeSeq, int *waterAcc, char *dsspSec, bool isReadBinaryFile)\/*{{{*\/$/;"	f
+ReadInDatabase	search_new.cpp	/^int ReadInDatabase(const char *id, const char *frag_acc_path, const char* qijpath, const char* modmpath, int qijformat, int modmformat, int fragaccformat, int **matFrag, int **matQij, int **matMODM, int **matMerged, float *matFragScore1, float *matFragScore2,  float *matQijScore1, float *matQijScore2, float *matMODMScore1, float *matMODMScore2, char *aaSeq, int *digitAASeq, char *shapeSeq, char *dsspSecSeq, int type_dataset, bool isReadBinaryFile)\/*{{{*\/$/;"	f
+ReadInDatabase_dumpedfile	search_new.cpp	/^int ReadInDatabase_dumpedfile(const char *id, FILE *fp_fragacc, FILE * fp_qij, FILE* fp_modm, long readsize_fragacc, long readsize_qij, long readsize_modm, int **matFrag, int **matQij, int **matMODM, int **matMerged, float *matFragScore1, float *matFragScore2,  float *matQijScore1, float *matQijScore2, float *matMODMScore1, float *matMODMScore2, char *aaSeq, int *digitAASeq, char *shapeSeq, char *dsspSecSeq, int type_dataset, bool isReadBinaryFile)\/*{{{*\/$/;"	f
+ReadInFragParameter	postscan-frag-search.cpp	/^int ReadInFragParameter(char *file, int &fragformat, int &numID, int &maxSizeID, int &length, int &totalFragCan)\/*{{{*\/$/;"	f
+ReadInPair	postscan-frag-search.cpp	/^int ReadInPair(const char *fragPairFile, int *posTar = NULL, int *posCan = NULL, float *fragScore = NULL, char **proIDCan = NULL)\/*{{{*\/$/;"	f
+ReadInPairBinary	postscan-frag-search.cpp	/^int ReadInPairBinary(const char *binfragPairFile, int *posTar = NULL, int *posCan = NULL, float *fragScore = NULL, char **proIDCan = NULL)\/*{{{*\/$/;"	f
+ReadInProfile	mypro.cpp	/^int ReadInProfile(const char *file, int **M, char *aaSeq \/*= NULL*\/, char *shapeSeq \/*= NULL*\/, int *waterAcc \/*= NULL*\/, char *dsspSec \/*= NULL*\/, float *score1 \/*= NULL*\/, float *score2 \/*= NULL*\/, int *sumProfile \/*= NULL*\/, int maxLength \/*= LONGEST_SEQ*\/)\/*{{{*\/$/;"	f
+ReadInProfile_fp	mypro.cpp	/^int ReadInProfile_fp(FILE* fpin, long readsize, int **M, char *aaSeq \/*= NULL*\/, char *shapeSeq \/*= NULL*\/, int *waterAcc \/*= NULL*\/, char *dsspSec \/*= NULL*\/, float *score1 \/*= NULL*\/, float *score2 \/*= NULL*\/, int *sumProfile \/*= NULL*\/, int maxLength \/*= LONGEST_SEQ*\/) \/*{{{*\/$/;"	f
+ReadInSeqLenth	postscan-frag-search.cpp	/^int ReadInSeqLenth(const char * seqlenFile, char **proIDList, int *proLength)\/*{{{*\/$/;"	f
+ReadInTripleShapeFreq	database_build.cpp	/^int ReadInTripleShapeFreq(const char *shapeTripleFile, int *** freqTriple, int numShapeState = 5)\/*{{{*\/$/;"	f
+ReadMSA	mypro.cpp	/^int ReadMSA(const char* msafile, MSA *pMSA, int format \/*= CLUSTALW*\/)\/*{{{*\/$/;"	f
+ReadMSA_clustalw	mypro.cpp	/^int ReadMSA_clustalw(const char* msafile, MSA *pMSA)\/*{{{*\/$/;"	f
+ReadNextSeq_FASTA	mypro.cpp	/^int ReadNextSeq_FASTA(FILE *fp, char* seq, int *pSeq_type \/*= NULL*\/, int maxlength \/*= LONGEST_SEQ*\/, char* annotationLine\/*=NULL*\/, int maxSizeAnnotationLine \/*=50*\/)\/*{{{*\/$/;"	f
+ReadSMatrix	mypro.cpp	/^template <class T> int ReadSMatrix(const char *filename, T **S, char *alphabet)\/*{{{*\/$/;"	f
+ReadSeq_FASTA	mypro.cpp	/^int ReadSeq_FASTA(const char *fileName, char* seq, int *pSeq_type \/*= NULL*\/, int maxlength \/*= LONGEST_SEQ*\/, char* annotationLine\/*=NULL*\/, int maxSizeAnnotationLine \/*=50*\/)\/*{{{*\/$/;"	f
+Rectangle	postscan-frag-search.cpp	/^struct Rectangle$/;"	s	file:
+RemoveFragByCutoffScore	postscan-frag-search.cpp	/^int RemoveFragByCutoffScore(int *allPosTar, int *allPosCan, float *allFragScore, char **allProIDCan, int &numAllPair, float cutoff_fragscore)\/*{{{*\/$/;"	f
+RemoveTID	mypro.cpp	/^void RemoveTID(char* id)\/*{{{*\/$/;"	f
+ReorderMatrix	database_build.cpp	/^void ReorderMatrix(int **M, const char *alphabet_from, const char *alphabet_to)\/*{{{*\/$/;"	f
+ReorderMatrix	search_new.cpp	/^void ReorderMatrix(int **M, const char *alphabet_from, const char *alphabet_to)\/*{{{*\/$/;"	f
+ReportZnPred	report_zincpred.cpp	/^int ReportZnPred(const char *zincPredOutputFile, map <string,string> aaSeqMap, const char* parafile, FILE *fpout = stdout)\/*{{{*\/$/;"	f
+ReportZnPred	znpred-postscan.cpp	/^void ReportZnPred(GistPredChain *pChain, FILE *fpout, double *exScore1 = NULL, double *exScore2 = NULL)\/*{{{*\/$/;"	f
+ReportZnPredHTML	report_zincpred.cpp	/^int ReportZnPredHTML(const char *zincPredOutputFile, char* aaSeq, const char* parafile, FILE *fpout = stdout)\/*{{{*\/$/;"	f
+ReportZnPredHTML_new	report_zincpred.cpp	/^int ReportZnPredHTML_new(const char *zincPredOutputFile, map <string,string> aaSeqMap, const char* parafile, FILE *fpout = stdout)\/*{{{*\/$/;"	f
+Residue	mypro.h	/^struct Residue  \/\/data structure for the residue\/*{{{*\/$/;"	s
+RestrictMetalBoundRes	mypro.cpp	/^int RestrictMetalBoundRes(MetalPro *metalPro1, int &numMetalPro1, int &numMetalRes1, MetalPro* metalPro2, int numMetalPro2, char *resList, int level, const char *modmpath \/* = ""*\/, double cutoff_score2 \/* = 0.0*\/)\/*{{{*\/$/;"	f
+Row	array.h	/^		Row(Array2D_Sub& _array2D,unsigned int _row):$/;"	f	class:Array2D_Sub::Row
+Row	array.h	/^	class Row$/;"	c	class:Array2D_Sub
+SCOP	mypro.h	/^struct SCOP\/*{{{*\/$/;"	s
+SCore_Sample	search_new.cpp	/^int SCore_Sample = 100; \/*topN to calculate the segment-segment score*\/$/;"	v
+SEQALIGN	mypro.h	94;"	d
+SEQUENCE_BINARY_ENCODE	mypro.h	40;"	d
+SEQ_TYPE	myfunc.h	72;"	d
+SER	mtx2modm.cpp	/^    SER, THR, TRP, TYR, VAL,$/;"	e	enum:aacodes	file:
+SER	pssm2Qij.cpp	/^    SER, THR, TRP, TYR, VAL,$/;"	e	enum:aacodes	file:
+SER	pssm2modm.cpp	/^    SER, THR, TRP, TYR, VAL,$/;"	e	enum:aacodes	file:
+SHAPE_SEQ	myfunc.h	75;"	d
+SHAPE_alphabet	mypro.cpp	/^const char SHAPE_alphabet[] = "AKSRUVTG-";$/;"	v
+SHCR_window	mypro.cpp	/^int SHCR_window(int* HCResAASeqIndex, int numRes, int numSite, int cutoff_window, int cutoff_window_pair, int* shcr_res_idx, int &numSHCRRes)\/*{{{*\/$/;"	f
+SIM	mypro.h	103;"	d
+SIZE_ATOM_CHARGE	Constant.h	186;"	d
+SIZE_ATOM_ELEMENT	Constant.h	185;"	d
+SIZE_ATOM_NAME	Constant.h	181;"	d
+SIZE_ATOM_ORIGNAME	Constant.h	183;"	d
+SIZE_ATOM_SEGID	Constant.h	184;"	d
+SIZE_CHAIN_ID	Constant.h	108;"	d
+SIZE_DOMAIN_DEF_RECORD	Constant.h	97;"	d
+SIZE_ENCODE_AA_CENTER	mypro.cpp	516;"	d	file:
+SIZE_ENCODE_AA_CENTER	mypro.h	174;"	d
+SIZE_ENCODE_AA_NON_CENTER	mypro.cpp	527;"	d	file:
+SIZE_ENCODE_AA_NON_CENTER	mypro.h	178;"	d
+SIZE_ENCODE_DISTANCE	mypro.cpp	581;"	d	file:
+SIZE_ENCODE_DISTANCE	mypro.h	212;"	d
+SIZE_ENCODE_HYDROPHOBICITY	mypro.h	238;"	d
+SIZE_ENCODE_PSSM	mypro.h	164;"	d
+SIZE_ENCODE_SCORE1	mypro.h	165;"	d
+SIZE_ENCODE_SCORE2	mypro.cpp	498;"	d	file:
+SIZE_ENCODE_SCORE2	mypro.h	169;"	d
+SIZE_ENCODE_WATERACC	mypro.cpp	563;"	d	file:
+SIZE_ENCODE_WATERACC	mypro.h	207;"	d
+SIZE_ID	postscan-frag-search.cpp	152;"	d	file:
+SIZE_ID	search_new.cpp	60;"	d	file:
+SIZE_ID	search_new.cpp	61;"	d	file:
+SIZE_LINE_PDB	Constant.h	102;"	d
+SIZE_METAL_ATOM_NAME	Constant.h	112;"	d
+SIZE_METAL_ATOM_RES_NAME	Constant.h	113;"	d
+SIZE_PDBID	Constant.h	103;"	d
+SIZE_RECORD_ID	Constant.h	110;"	d
+SIZE_RES_NAME	Constant.h	111;"	d
+SIZE_SCOP_ID	Constant.h	96;"	d
+SIZE_TITLE	Constant.h	180;"	d
+SIZE_VECTOR_RECORD	create_svm_vector.cpp	29;"	d	file:
+SIZE_VECTOR_RECORD	create_svm_vector.cpp	30;"	d	file:
+SIZE_VECTOR_RECORD	znpred-postscan.cpp	32;"	d	file:
+SIZE_VECTOR_RECORD	znpred-postscan.cpp	33;"	d	file:
+SORT_ORDER	myfunc.h	99;"	d
+SS	create_svm_vector.cpp	38;"	d	file:
+SS	create_svm_vector.cpp	40;"	d	file:
+SSBond	mypro.h	/^struct SSBond\/*{{{*\/$/;"	s
+SSBondPro	mypro.h	/^struct SSBondPro\/*{{{*\/$/;"	s
+STD1CharAA_alphabet	mypro.cpp	/^const char STD1CharAA_alphabet[] = "ARNDCQEGHILKMFPSTWYVX"; $/;"	v
+STD3CharAA_alphabet	mypro.cpp	/^const char *STD3CharAA_alphabet[] = \/*{{{*\/$/;"	v
+STOP	mypro.h	96;"	d
+Save_Sample	search_new.cpp	/^int Save_Sample = 100; $/;"	v
+ScaleWaterAcc	pssm2Qij.cpp	/^int ScaleWaterAcc(int rawWaterAcc, int maxAcc, double *accScale, int numBin)\/*{{{*\/$/;"	f
+ScaleWaterAcc	pssm2modm.cpp	/^int ScaleWaterAcc(int rawWaterAcc, int maxAcc, double *accScale, int numBin)\/*{{{*\/$/;"	f
+ScanPairDotPlot	postscan-frag-search.cpp	/^int  ScanPairDotPlot(int **pair_matrix, int length_target, int length_candidate, int *posMaxDiag, int *corner, double *scoreDiag, int *begPosTar, int *endPosTar, int *begPosCan, int *endPosCan, int &numMaxDiag)\/*{{{*\/$/;"	f
+ScanPairDotPlot_Method2	postscan-frag-search.cpp	/^int  ScanPairDotPlot_Method2(int *posTar, int *posCan, float *fragScore, int numPair, int length_target, int length_candidate, int *posMaxDiag, int *corner, double *scoreDiag, int *begPosTar, int *endPosTar, int *begPosCan, int *endPosCan, int &numMaxDiag, int weightScheme=0)\/*{{{*\/$/;"	f
+ScanZnPred	znpred-postscan.cpp	/^int ScanZnPred(GistPredChain *pChain, double cutoff_discriminant_1, double cutoff_discriminant_2, int cutoff_window, int min_local_numHRes, double cutoff_avg_score)\/*{{{*\/$/;"	f
+ScanZnPred_HOMO	znpred-postscan.cpp	/^int ScanZnPred_HOMO(GistPredChain *pChain, MetalPro* metalPro, char **metalProIDList, int numMetalPro, SSBondPro *ssbondPro, char **ssbondProIDList, int numSSBondPro, const char *homopath, double cutoff_discriminant, double *znScoreFromHomo , FILE* fpout)\/*{{{*\/$/;"	f
+ScanfAtomOrigName	mypro.cpp	/^void ScanfAtomOrigName(const char *PDBAtomRecordLine, char * atomOrigName)\/*{{{*\/$/;"	f
+ScanfAtomResName	mypro.cpp	/^void ScanfAtomResName(const char *PDBAtomRecordLine, char *atomResName)\/*{{{*\/$/;"	f
+ScanfAtomSerial	mypro.cpp	/^void ScanfAtomSerial(const char *PDBAtomRecordLine, int &atomSerial)\/*{{{*\/$/;"	f
+ScanfCloseMetalRes	mypro.cpp	/^int ScanfCloseMetalRes(FILE* fpin, Residue* res,int numRes)\/*{{{*\/$/;"	f
+ScanfCoorRecord_Atom	mypro.cpp	/^void ScanfCoorRecord_Atom(const char *line, Atom *pAtom)\/*{{{*\/$/;"	f
+ScanfCoorRecord_Atom_Simp1	mypro.cpp	/^void ScanfCoorRecord_Atom_Simp1(const char* line, Atom *pAtom)\/*{{{*\/$/;"	f
+ScanfDSSPResRecord	mypro.cpp	/^void ScanfDSSPResRecord(const char* line, DSSP_Residue* pDSSPRes)\/*{{{*\/$/;"	f
+ScanfGistPredictCard	mypro.cpp	/^int  ScanfGistPredictCard(const char *line, char *id, int &length, int &idx, char *res_1char_list,int *aaSeqIndex, int &label, double &discriminant, int numSite)\/*{{{*\/$/;"	f
+ScanfGistVectorLabelCard	mypro.cpp	/^int  ScanfGistVectorLabelCard(const char *line, char *id, int &length, int &idx, char *res_1char_list,int *aaSeqIndex, int &label,  int numSite)\/*{{{*\/$/;"	f
+ScanfKernerlRecordID	mypro.cpp	/^int ScanfKernerlRecordID(const char *vectorRecordID, char *id, int &length, int &idx, char *res_1char_list, int *aaSeqIndex, int numSite)\/*{{{*\/$/;"	f
+ScanfResRecord3	mypro.cpp	/^void ScanfResRecord3(const char *str, Residue *pRes, int tag)\/*{{{*\/$/;"	f
+ScanfSCOPRecord	mypro.cpp	/^void ScanfSCOPRecord(const char *line, SCOP *pSCOP)\/*{{{*\/$/;"	f
+ScanfSSBondRecord	mypro.cpp	/^void ScanfSSBondRecord(FILE* fp, SSBondPro* pSSBondPro, int numSSBond)\/*{{{*\/$/;"	f
+Scanf_SEQRES_Para	mypro.cpp	/^void Scanf_SEQRES_Para(const char* line,char* title, int& serNum,char& chainID,int& numRes, char* resName)\/*{{{*\/ $/;"	f
+Scanf_SEQRES_Record	mypro.cpp	/^int Scanf_SEQRES_Record(const char* line,int resBegin, char* title, int& serNum,char& chainID,int& numRes,char **resName)  \/*{{{*\/$/;"	f
+Scanf_SEQRES_Seq	mypro.cpp	/^int Scanf_SEQRES_Seq(const char* line,int resBegin, char **resName)\/*{{{*\/$/;"	f
+SearchPattern	znpred-postscan.cpp	/^int SearchPattern(GistPredChain *pChain, MetalPro *pMetalPro, int idxAtomEnv, HomoPro *pHomoPro, int *idxPatternRes, int &numPatternRes, double &patternMatchScore)\/*{{{*\/$/;"	f
+Select	array.h	/^	T& Select(unsigned int row, unsigned int col)$/;"	f	class:Array2D_Sub
+SelectAltLocAtom	mypro.cpp	/^int SelectAltLocAtom(Atom* totalAtom, int &cntTotalAtom, FILE* fpPDBFile, char **metalEleList \/*= NULL *\/, int numMetalEle \/* = 0*\/, bool isSelectMetal \/* = false*\/)     \/*{{{*\/$/;"	f
+SeqMatchAlign_Protein	mypro.cpp	/^int SeqMatchAlign_Protein(const char *Xstr, const char* Ystr, char *title1,char* title2,char* alignXstr0, char* alignYstr0,int* alignRel0,FILE *fpout, bool isPrintToScreen )\/*{{{*\/$/;"	f
+Set2Array	mytemplate.h	/^template <class T, class InputIterator> void Set2Array(InputIterator __First, InputIterator __Last, T *array)\/*{{{*\/$/;"	f
+SetDiag	postscan-frag-search.cpp	/^void SetDiag(DATATYPE_DOT_SCORE *dot, int **pair_matrix, int diagPos, int length_target, int length_candidate, int corner)\/*{{{*\/$/;"	f
+SetDiagDotScore	postscan-frag-search.cpp	/^int SetDiagDotScore(DATATYPE_DOT_SCORE *diag, float *fragScore, int sizeDiag, int numFilledDotDiag, int weightScheme = 0)\/*{{{*\/$/;"	f
+Shape_Code	database_build.cpp	/^const DATATYPE_DIGITSHAPESEQ Shape_Code[] = \/*{{{*\/$/;"	v
+Shape_Code	search_new.cpp	/^const int Shape_Code[] = \/*{{{*\/$/;"	v
+Shape_compare	database_build.cpp	/^const DATATYPE_DIGITSHAPESEQ Shape_compare[] = \/*map 5-shape to 3-shape, for comparing shape symbols to build shape blocks*\/\/*{{{*\/$/;"	v
+Shape_convert	database_build.cpp	/^const DATATYPE_DIGITSHAPESEQ Shape_convert[] = \/*map 8-shape to 5-shape*\/\/*{{{*\/$/;"	v
+Shuffle	myfunc.cpp	/^void Shuffle(int *array, int n, unsigned int rand_seed \/*= time(NULL)*\/)\/*{{{*\/$/;"	f
+SigmoidScore	gating_gistPred.cpp	/^double SigmoidScore(double a, double b, double x)\/*{{{*\/$/;"	f
+SigmoidScore	myfunc.cpp	/^double SigmoidScore(double a, double b, double x)\/*{{{*\/$/;"	f
+SigmoidScore	znpred-postscan.cpp	/^double SigmoidScore(double a, double b, double x)\/*{{{*\/$/;"	f
+SmoothImage	myfunc.cpp	/^void SmoothImage(unsigned short **image, int imageWidth, int imageHeight, int sizeN \/*= 1*\/)\/*{{{*\/$/;"	f
+SortUniqueResidue	mypro.cpp	/^void SortUniqueResidue(GistPredChain *pChain, int operation)\/*{{{*\/$/;"	f
+SpanExcluding	myfunc.cpp	/^char *SpanExcluding(const char* strForSpan,char* strAfterSpan, const char charSet[]\/*=WHITE_SPACE*\/)\/*{{{*\/$/;"	f
+StdElementName	mypro.cpp	/^char* StdElementName(const char* elementName, char *stdElementName)\/*{{{*\/$/;"	f
+StdID	mypro.cpp	/^char* StdID(char* id)\/*{{{*\/$/;"	f
+StdPDBFileName2PDBID	mypro.cpp	/^char *StdPDBFileName2PDBID(const char* rtname_pdbfilename, char *pdbid)\/*{{{*\/$/;"	f
+StdRegExp	mypro.cpp	/^void StdRegExp(char* pattern)\/*{{{*\/$/;"	f
+Stdid2Seqresid	mypro.cpp	/^char* Stdid2Seqresid(char* id)\/*{{{*\/$/;"	f
+SubMatrixCHDE	znpred-postscan.cpp	/^double SubMatrixCHDE[4][4] =$/;"	v
+Sum	mytemplate.h	/^template <class T> T Sum(T *array, int low, int high)\/*{{{*\/$/;"	f
+Swap	mytemplate.h	/^template <class T> void Swap(T& x1, T& x2)\/*{{{*\/$/;"	f
+Swap	mytemplate.h	/^template <class T> void Swap(T* x1, T* x2)\/*{{{*\/$/;"	f
+TEST_SET	search_new.cpp	58;"	d	file:
+THR	mtx2modm.cpp	/^    SER, THR, TRP, TYR, VAL,$/;"	e	enum:aacodes	file:
+THR	pssm2Qij.cpp	/^    SER, THR, TRP, TYR, VAL,$/;"	e	enum:aacodes	file:
+THR	pssm2modm.cpp	/^    SER, THR, TRP, TYR, VAL,$/;"	e	enum:aacodes	file:
+TRAIN	create_svm_vector.cpp	33;"	d	file:
+TRAIN	create_svm_vector.cpp	35;"	d	file:
+TRAINING_SET	search_new.cpp	57;"	d	file:
+TRP	mtx2modm.cpp	/^    SER, THR, TRP, TYR, VAL,$/;"	e	enum:aacodes	file:
+TRP	pssm2Qij.cpp	/^    SER, THR, TRP, TYR, VAL,$/;"	e	enum:aacodes	file:
+TRP	pssm2modm.cpp	/^    SER, THR, TRP, TYR, VAL,$/;"	e	enum:aacodes	file:
+TRUE	Constant.h	22;"	d
+TYR	mtx2modm.cpp	/^    SER, THR, TRP, TYR, VAL,$/;"	e	enum:aacodes	file:
+TYR	pssm2Qij.cpp	/^    SER, THR, TRP, TYR, VAL,$/;"	e	enum:aacodes	file:
+TYR	pssm2modm.cpp	/^    SER, THR, TRP, TYR, VAL,$/;"	e	enum:aacodes	file:
+TranScore	mypro.cpp	/^double TranScore(double ***M,Residue* res,char *alphabet, int numRes)\/*{{{*\/$/;"	f
+TransMatrixWeight	mypro.cpp	/^double TransMatrixWeight(Residue * pRes1, Residue * pRes2)\/*{{{*\/$/;"	f
+TreatAllZeroFij	mypro.cpp	/^void TreatAllZeroFij(int **fij, int length, double *score1, char *aaSeq, const char* alphabet)\/*{{{*\/$/;"	f
+TreatAllZeroFij	search_new.cpp	/^void TreatAllZeroFij(int **fij, int length, char *aaSeq, const char* alphabet)\/*{{{*\/$/;"	f
+Treat_pair_Percent_homology	postscan-frag-search.cpp	/^int Treat_pair_Percent_homology(int *Datapair, int Lengthtar, int Lengthcan)\/*{{{*\/$/;"	f
+UNK	mtx2modm.cpp	/^    UNK$/;"	e	enum:aacodes	file:
+UNK	pssm2Qij.cpp	/^    UNK$/;"	e	enum:aacodes	file:
+UNK	pssm2modm.cpp	/^    UNK$/;"	e	enum:aacodes	file:
+UNKNOWN_3CharAA	mypro.cpp	/^const char UNKNOWN_3CharAA[]= "UNK";$/;"	v
+UNKNOWN_AA	mypro.h	127;"	d
+UNKNOWN_DSSP_SEC	mypro.h	129;"	d
+UNKNOWN_SEQ_TYPE	myfunc.h	76;"	d
+UNKNOWN_SHAPE	mypro.h	128;"	d
+UP	mypro.h	97;"	d
+UPPER_CORNER	postscan-frag-search.cpp	128;"	d	file:
+USE_AVERAGE	gating_gistPred.cpp	25;"	d	file:
+USE_AVERAGE	mypro.h	64;"	d
+USE_MAXIMUM	gating_gistPred.cpp	26;"	d	file:
+USE_MAXIMUM	mypro.h	65;"	d
+UpdateHCRes	mypro.cpp	/^int UpdateHCRes(Residue *HCRes, int &numRes, int *idx, int numSHCRRes)\/*{{{*\/$/;"	f
+VAL	mtx2modm.cpp	/^    SER, THR, TRP, TYR, VAL,$/;"	e	enum:aacodes	file:
+VAL	pssm2Qij.cpp	/^    SER, THR, TRP, TYR, VAL,$/;"	e	enum:aacodes	file:
+VAL	pssm2modm.cpp	/^    SER, THR, TRP, TYR, VAL,$/;"	e	enum:aacodes	file:
+VERTICAL	mypro.h	90;"	d
+VerifyFolder	myfunc.cpp	/^void VerifyFolder(const char* folder)\/*{{{*\/$/;"	f
+WHITE_SPACE	Constant.h	38;"	d
+WINDOWS	search_new.cpp	15;"	d	file:
+WRITE_FILE_ERROR	Constant.h	54;"	d
+WriteAASeq	report_zincpred.cpp	/^void WriteAASeq(const char *aaSeq, FILE *fpout) \/*{{{*\/$/;"	f
+WriteAASeqHTML	report_zincpred.cpp	/^void WriteAASeqHTML(char *aaSeq, FILE *fpout) \/*{{{*\/$/;"	f
+WriteAlignment	mypro.cpp	/^void WriteAlignment(const char* title1,const char* title2,const char* aXstr,const char* aYstr, int* aRel, int length, int lineLength,FILE* fpout, int outmode \/*= HORIZONTAL *\/)\/*{{{*\/$/;"	f
+WriteAlignmentHeader	mypro.cpp	/^void WriteAlignmentHeader(float gapOpen, float gapExt, AlignFactor *pAlignFactor, char *title1, char *title2, int m, int n, FILE *fpout)\/*{{{*\/$/;"	f
+WriteBinaryFragAccFile	database_build.cpp	/^void WriteBinaryFragAccFile(const char *outfile, char *aaSeq, char *shapeSeq,  DATATYPE_WATERACC  *waterAcc, char *secSeq, int **Number_blosum, int *Number_chain, int *Score_all, int seqLength )\/*{{{*\/$/;"	f
+WriteBinaryFragFile	search_new.cpp	/^int WriteBinaryFragFile(const char* fragFile, int fragformat, int lengthTar, int Save_Sample, int fragSize, DATATYPE_LOGPER **Candidate_Score, int ** Candidate_Score_iksub, int **Candidate_Score_iklen, char **idListTrain )\/*{{{*\/$/;"	f
+WriteBinaryFragInt5	mypro.cpp	/^int WriteBinaryFragInt5(const char *outfile, int fragFileType, char **idList, int numID, int maxSizeID, int length, short *posTar, short *numCan, int totalFragCan, FragCanInt5 *fragCan)\/*{{{*\/$/;"	f
+WriteBinaryFragInt6	mypro.cpp	/^int WriteBinaryFragInt6(const char *outfile, int fragFileType, char **idList, int numID, int maxSizeID, int length, short *posTar, short *numCan, int totalFragCan, FragCanInt6 *fragCan)\/*{{{*\/$/;"	f
+WriteBinaryFragShort5	mypro.cpp	/^int WriteBinaryFragShort5(const char *outfile, int fragFileType, char **idList, int numID, int maxSizeID, int length, short *posTar, short *numCan, int totalFragCan, FragCanShort5 *fragCan)\/*{{{*\/$/;"	f
+WriteBinaryFragShort6	mypro.cpp	/^int WriteBinaryFragShort6(const char *outfile, int fragFileType, char **idList, int numID, int maxSizeID, int length, short *posTar, short *numCan, int totalFragCan, FragCanShort6 *fragCan)\/*{{{*\/$/;"	f
+WriteBinaryMODM	mypro.cpp	/^template <class T> int WriteBinaryMODM(const char *outfile, char *alphabet, int length, T * profile, double *parameter, int8 typeProfile)\/*{{{*\/$/;"	f
+WriteBinaryMODMFile	pssm2modm.cpp	/^void WriteBinaryMODMFile(const char *outfile, char *aaSeq, int length, int **pssm, double* parameter, double *score1, double *score2, int* pssmIndex, char *outAlphabet, Chain *pSeqmapChain)\/*{{{*\/$/;"	f
+WriteBinaryPSSMFile	pssm2Qij.cpp	/^void WriteBinaryPSSMFile(const char *outfile, char *aaSeq, int length, double **pssm, double* parameter, double *score1, double *score2, int* pssmIndex, char *outAlphabet, Chain *pSeqmapChain)\/*{{{*\/$/;"	f
+WriteCHDE	mypro.cpp	/^void WriteCHDE(FILE *fpout, char *id, int *speResIndex, int numSpeRes, int *resIndex, int numRes, MODM *pMODM, bool isWriteHeader \/*= true*\/, bool isWriteCounter \/*= false*\/)\/*{{{*\/$/;"	f
+WriteCHDEComment	mypro.cpp	/^void WriteCHDEComment(FILE *fpout)\/*{{{*\/$/;"	f
+WriteCloseMetalRes	mypro.cpp	/^void WriteCloseMetalRes(FILE* fpout, Residue* res, int numRes)\/*{{{*\/$/;"	f
+WriteFastaSeq	mypro.cpp	/^void WriteFastaSeq(char *str, FILE *fpout \/*=stdout*\/,int beg\/* = 0*\/ , int end \/*= 0x7FFFFFFF*\/ , int linelength  \/*= 70*\/)\/*{{{*\/$/;"	f
+WriteFragFile	search_new.cpp	/^int WriteFragFile(const char* fragFile, int fragformat, int lengthTar, int Save_Sample, int fragSize, DATATYPE_LOGPER **Candidate_Score, int ** Candidate_Score_iksub, int **Candidate_Score_iklen, char **idListTrain )\/*{{{*\/$/;"	f
+WriteHTMLHeader	report_zincpred.cpp	/^void WriteHTMLHeader(const char* title, FILE *fpout)\/*{{{*\/$/;"	f
+WriteHTMLTableContent	report_zincpred.cpp	/^void WriteHTMLTableContent(map <string,string> aaSeqMap, GistPredChain *pChain, int *idx_znres, int cntZnRes, char **homologIDList, double* homoscorelist, int numHomolog, FILE *fpout)\/*{{{*\/$/;"	f
+WriteHTMLTableHeader	report_zincpred.cpp	/^void WriteHTMLTableHeader(FILE *fpout)\/*{{{*\/$/;"	f
+WriteHTMLTail	report_zincpred.cpp	/^void WriteHTMLTail(FILE* fpout)\/*{{{*\/$/;"	f
+WriteLabelHeader	create_svm_vector.cpp	/^void WriteLabelHeader(FILE *fpLabel)\/*{{{*\/$/;"	f
+WriteMODM	pssm2modm.cpp	/^void WriteMODM(const char *outfile, char *aaSeq, int length, int **pssm, double* parameter, double *score1, double *score2, int* pssmIndex, char *outAlphabet,  Chain *pSeqmapChain, int type_modm)\/*{{{*\/$/;"	f
+WriteMODM	test-readmodm.cpp	/^void WriteMODM(char *alphabet, Profile* profile, int numRes, double *parameter, FILE *fpout)\/*{{{*\/$/;"	f
+WriteMODM	test-readmodm.cpp	/^void WriteMODM(char *alphabet, ProfileSAD* profile, int numRes, double *parameter, FILE *fpout)\/*{{{*\/$/;"	f
+WriteMODMFile	mtx2modm.cpp	/^void WriteMODMFile(const char *modmfile, char *aaSeq, int length, double **profile, int *profileIndex, char *outAlphabet, double *score1, double *score2, double* parameter, bool isOutputInteger = false)\/*{{{*\/$/;"	f
+WriteMODMProfile	mypro.cpp	/^void WriteMODMProfile(int index, char aa, int* V, double score1, double score2,const char* alphabet, FILE* fpout \/*= stdout*\/ )\/*{{{*\/$/;"	f
+WriteMODMTitle	mypro.cpp	/^void WriteMODMTitle(const char* alphabet, FILE* fpout \/*= stdout*\/ )\/*{{{*\/$/;"	f
+WriteMetalEnvRes	mypro.cpp	/^void WriteMetalEnvRes(FILE* fpMetalEnvShape, AtomEnv* pAtomEnv, bool isPrintDebugInfo \/* = false*\/)\/*{{{*\/$/;"	f
+WritePDBAtomRecord	mypro.cpp	/^void WritePDBAtomRecord(Atom *pAtom, FILE *fpout\/* = stdout*\/ )\/*{{{*\/$/;"	f
+WritePSSM	pssm2Qij.cpp	/^void WritePSSM(const char *outfile, char *aaSeq, int length, double **pssm, double* parameter, double *score1, double *score2, int* pssmIndex, char *outAlphabet, bool isOutputInteger, double *alpha, double *beta, double max_pseducount, double step_score2, Chain *pSeqmapChain)\/*{{{*\/$/;"	f
+WritePredictStat	mypro.cpp	/^void WritePredictStat(FILE* fp,  int ReP, int ReN, int PrP, int PrN, int TP, int FP, int TN, int FN, double Sn, double Sp,int ReP1,int ReN1, int ReP2,int  ReN2,double cutoff_consv,int cutoff_window,char* resList, bool isWriteHeader \/*= false*\/)\/*{{{*\/$/;"	f
+WriteResRecord3	mypro.cpp	/^void WriteResRecord3(char *str, Residue *pRes, int tag)\/*{{{*\/$/;"	f
+WriteSubMatrix	mypro.cpp	/^void WriteSubMatrix(FILE* fpSubMatrix, double** subM, int dim,  char* alphabet,int *cnt, char formatValue[] \/*= "%4.0lf"*\/, char formatFreq[] \/*= "%7d"*\/)\/*{{{*\/$/;"	f
+WriteVector	create_svm_vector.cpp	/^int WriteVector(int **resGroupIndex, char **resGroupAA, int numResGroup, int K, int W, int P, MODM *pMODM, int numSite, int vectorDim, bool *isBoundArray, int neg_filter, FILE *fpVector, FILE *fpLabel, double cutoff_score2, int encoding_scheme)\/*{{{*\/$/;"	f
+WriteVectorHeader	create_svm_vector.cpp	/^void WriteVectorHeader(int vectorDim, FILE *fpVector)\/*{{{*\/$/;"	f
+WriteVectorRecordID	mypro.cpp	/^void WriteVectorRecordID(char *vectorRecordID, char *rmtID, int length, int idx, char *res_1char_list,int* aaSeqIndex, int numSite)\/*{{{*\/$/;"	f
+ZnBindingProtein	mypro.cpp	/^namespace ZnBindingProtein$/;"	n	file:
+ZnBindingProtein	mypro.h	/^namespace ZnBindingProtein$/;"	n
+_ASSERT_	create_svm_vector.cpp	18;"	d	file:
+_ASSERT_	mypro.h	13;"	d
+_CONST_E	Constant.h	87;"	d
+_CONST_G	Constant.h	89;"	d
+_CONST_Na	Constant.h	92;"	d
+_CONST_PI	Constant.h	86;"	d
+_CONST_atm	Constant.h	91;"	d
+_CONST_c	Constant.h	90;"	d
+_CONST_h	Constant.h	88;"	d
+_TCHAR	Constant.h	47;"	d
+_TCHAR	Constant.h	49;"	d
+__int16	DataType.h	/^typedef int16      __int16;  $/;"	t
+__int32	DataType.h	/^typedef int32      __int32;$/;"	t
+__int64	DataType.h	/^typedef int64      __int64;$/;"	t
+__int8	DataType.h	/^typedef int8       __int8;$/;"	t
+__unit16	DataType.h	/^typedef unit16     __unit16;$/;"	t
+__unit32	DataType.h	/^typedef unit32     __unit32;$/;"	t
+__unit64	DataType.h	/^typedef unit64     __unit64;$/;"	t
+__unit8	DataType.h	/^typedef unit8      __unit8;$/;"	t
+_int16	DataType.h	/^typedef int16       _int16;$/;"	t
+_int32	DataType.h	/^typedef int32       _int32;$/;"	t
+_int64	DataType.h	/^typedef int64       _int64;$/;"	t
+_int8	DataType.h	/^typedef int8        _int8;$/;"	t
+_unit16	DataType.h	/^typedef unit16      _unit16;$/;"	t
+_unit32	DataType.h	/^typedef unit32      _unit32;$/;"	t
+_unit64	DataType.h	/^typedef unit64      _unit64;$/;"	t
+_unit8	DataType.h	/^typedef unit8       _unit8;$/;"	t
+aa	mypro.h	/^	char       aa;           \/\/ 1 letter amini acid name$/;"	m	struct:DSSP_Residue
+aa	mypro.h	/^	char aa;                 \/\/ one letter residue name$/;"	m	struct:Residue
+aa	mypro.h	/^    char  aa;$/;"	m	struct:Profile
+aa	mypro.h	/^    char  aa;$/;"	m	struct:ProfileByte
+aa	mypro.h	/^    char  aa;$/;"	m	struct:ProfileSAD
+aa	mypro.h	/^    char  aa;$/;"	m	struct:ProfileSADByte
+aaSeq	mypro.h	/^    char    *aaSeq;$/;"	m	struct:MODM
+aaSeq	mypro.h	/^    char   *aaSeq;$/;"	m	struct:GistPredChain
+aaSeq	mypro.h	/^    char *aaSeq;      \/\/ amino acid sequence$/;"	m	struct:Chain
+aaSeqIndex	mypro.h	/^	int  aaSeqIndex;         \/\/ residue sequence index number in SEQRES$/;"	m	struct:Residue
+aaSeqIndex	mypro.h	/^    int    *aaSeqIndex;$/;"	m	struct:GistPredChain
+aaSeqIndex	mypro.h	/^    int   aaSeqIndex;$/;"	m	struct:Profile
+aaSeqIndex	mypro.h	/^    int   aaSeqIndex;$/;"	m	struct:ProfileSAD
+aaSeqIndex	mypro.h	/^    short   aaSeqIndex;$/;"	m	struct:ProfileByte
+aaSeqIndex	mypro.h	/^    short   aaSeqIndex;$/;"	m	struct:ProfileSADByte
+aacodes	mtx2modm.cpp	/^enum aacodes \/\/ in blosum alphabet order\/*{{{*\/$/;"	g	file:
+aacodes	pssm2Qij.cpp	/^enum aacodes \/\/ in blosum alphabet order\/*{{{*\/$/;"	g	file:
+aacodes	pssm2modm.cpp	/^enum aacodes \/\/ in blosum alphabet order\/*{{{*\/$/;"	g	file:
+aanum	mtx2modm.cpp	/^int aanum(int ch)\/*{{{*\/$/;"	f
+acc	mypro.h	/^	int        acc;          \/\/ solvent accessibility,ACC$/;"	m	struct:DSSP_Residue
+alnSeq	mypro.h	/^    char **alnSeq;   \/\/ size= numSeq*seqlength , aligned sequence with gaps$/;"	m	struct:MSA
+alnSeqLen	mypro.h	/^    int *alnSeqLen;  \/\/ size=numSeq;$/;"	m	struct:MSA
+alnSeqName	mypro.h	/^    char **alnSeqName; \/\/record name for each sequence$/;"	m	struct:MSA
+alpha	mypro.h	/^	float      alpha;        \/\/ virtual torsion angle (dihedral angle) defined by the four C-alpha atoms of residues I-1,I,I+1,I+2$/;"	m	struct:DSSP_Residue
+alphabetMODM	mypro.h	/^    char    *alphabetMODM;$/;"	m	struct:MODM
+altLoc	mypro.h	/^	char   altLoc;        \/\/ Alternate location indicator$/;"	m	struct:Atom
+array	array.h	/^	T* array;$/;"	m	class:Array2D_Sub
+array1D	array.h	/^        T* array1D; \/\/ can also accessed by array1D directory, quicker$/;"	m	class:Array1D
+array2D	array.h	/^		Array2D_Sub& array2D;$/;"	m	class:Array2D_Sub::Row
+array2D	array.h	/^        T** array2D;$/;"	m	class:Array2D
+array3D	array.h	/^        T*** array3D;$/;"	m	class:Array3D
+atom	mypro.h	/^	Atom *atom;$/;"	m	struct:Residue
+atomCnt	mypro.h	/^	int atomCnt;$/;"	m	struct:AtomFreq
+atomEnv	mypro.h	/^	AtomEnv *atomEnv;       \/\/ atomEnv for this protein$/;"	m	struct:MetalPro
+atomEnv	mypro.h	/^    AtomEnv *atomEnv;$/;"	m	struct:MetalPro2
+atomName	mypro.h	/^	char atomName[4];$/;"	m	struct:AtomFreq
+atomNum	mypro.h	/^	int atomNum;   \/\/ element atomic number$/;"	m	struct:Element
+bBridge1	mypro.h	/^	char       bBridge1;     \/\/ beta bridge lable$/;"	m	struct:DSSP_Residue
+bBridge2	mypro.h	/^	char       bBridge2;     \/\/ beta bridge lable$/;"	m	struct:DSSP_Residue
+bSheet	mypro.h	/^	char       bSheet;       \/\/ beta sheet lable$/;"	m	struct:DSSP_Residue
+beg	postscan-frag-search.cpp	/^    int beg;$/;"	m	struct:DotSegment	file:
+begPosCan	znpred-postscan.cpp	/^    int begPosCan;$/;"	m	struct:HomoPro	file:
+begPosTar	znpred-postscan.cpp	/^    int begPosTar; \/* starting position for the target sequence alinged with the candidate seq, starting from 0 *\/$/;"	m	struct:HomoPro	file:
+beginID	database_build.cpp	/^int beginID = 0;       \/*in order to run the program simultaneously, setting the begin and end position of the idlist to run*\/$/;"	v
+beginID	postscan-frag-search.cpp	/^int beginID = 0;       \/*in order to run the program simultaneously, setting the begin and end position of the idlist to run*\/$/;"	v
+beginID	search_new.cpp	/^int beginID = 0;       \/*in order to run the program simultaneously, setting the begin and end position of the idlist to run*\/$/;"	v
+binarysearch	mytemplate.h	/^template <class T> int binarysearch(T key, T *array, int n)\/*{{{*\/$/;"	f
+bkFreq	pssm2Qij.cpp	/^const double  bkFreq[] =\/*{{{*\/ \/\/ ordered by BLOSUM1D_alphabet ARNDCQEGHILKMFPSTWYV$/;"	v
+bkFreq	search_new.cpp	/^const double  bkFreq[] =\/*{{{*\/  \/\/ ordered by AAAlphabet_Tuping AVLIPFMKRHGSTCYNEWDQ$/;"	v
+blosum62	database_build.cpp	/^const int blosum62[][NUM_BLOSUM] =\/*{{{*\/$/;"	v
+blosum62	pssm2Qij.cpp	/^const int blosum62[][NUM_BLOSUM] =\/*{{{*\/$/;"	v
+blosum62	search_new.cpp	/^const int blosum62[][NUM_BLOSUM] =\/*{{{*\/$/;"	v
+bp1	mypro.h	/^	int        bp1;          \/\/ beta bridge partner resnum$/;"	m	struct:DSSP_Residue
+bp2	mypro.h	/^	int        bp2;          \/\/ beta bridge partner resnum$/;"	m	struct:DSSP_Residue
+cf	mypro.h	/^	int       cf;       \/\/ fold id number$/;"	m	struct:SCOP
+chainBreak	mypro.h	/^	char       chainBreak;$/;"	m	struct:DSSP_Residue
+chainID	mypro.h	/^	char       chainID;$/;"	m	struct:DSSP_Residue
+chainID	mypro.h	/^	char      chainID;                               \/\/chain id, e.g A$/;"	m	struct:SCOP
+chainID	mypro.h	/^	char   chainID;       \/\/ chainID$/;"	m	struct:Atom
+chainID	mypro.h	/^	char chainID;$/;"	m	struct:Residue
+chainID	mypro.h	/^    char  chainID;    \/\/ chain ID$/;"	m	struct:Chain
+chainIDs	mypro.h	/^	char chainIDs[NUM_CHAIN_PER_DOMAIN+1];$/;"	m	struct:DomainDEF
+changeLog	postscan-frag-search.cpp	/^char changeLog[] = \/*{{{*\/\\$/;"	v
+charge	mypro.h	/^	char   charge[SIZE_ATOM_CHARGE+1];     \/\/ charge on the atom$/;"	m	struct:Atom
+checkfilestream	myfunc.cpp	/^int checkfilestream(FILE *fp, const char* filename, const char *mode, bool isAssert \/*=false*\/)\/*{{{*\/$/;"	f
+chira	mypro.h	/^	char       chira;        \/\/ chirality$/;"	m	struct:DSSP_Residue
+cl	mypro.h	/^	int       cl;       \/\/ class id number$/;"	m	struct:SCOP
+cls	mypro.h	/^	char      cls;      \/\/ class id, e.g. a, in a.60.6.1$/;"	m	struct:SCOP
+colSize	array.h	/^	unsigned int colSize;$/;"	m	class:Array2D_Sub
+colSize	array.h	/^        unsigned int colSize;$/;"	m	class:Array2D
+combin2	subset.cpp	/^int combin2 ( int n, int k )\/*{{{*\/$/;"	f
+consv	mypro.h	/^	double  consv;           \/\/ conservation level of the residue according to PSSM$/;"	m	struct:Residue
+consv	mypro.h	/^    DATATYPE_CONSV  *consv;      \/\/ conservation level$/;"	m	struct:Chain
+consv	mypro.h	/^    double  *consv;  \/\/conservation level for certain residues, say CHDE$/;"	m	struct:MODM
+cutoff_consv	znpred-postscan.cpp	/^double cutoff_consv = 0.7;$/;"	v
+cutoff_fragscore	postscan-frag-search.cpp	/^float cutoff_fragscore = 0.0; \/*cutoff_fragscore should be derived from the disribution of fragscore*\/$/;"	v
+cutoff_homoScore	znpred-postscan.cpp	/^int cutoff_homoScore = 6;$/;"	v
+cutoff_homoScore_2	znpred-postscan.cpp	/^int cutoff_homoScore_2 = cutoff_homoScore ;  \/*false positive rate for the number 1 and number 2 are the same, when homoScore is <cutoff_homoScore*\/$/;"	v
+cutoff_postper	postscan-frag-search.cpp	/^double  cutoff_postper = 5.0;$/;"	v
+cutoff_rawper	postscan-frag-search.cpp	/^double  cutoff_rawper = -1.0;$/;"	v
+cutoff_score2	znpred-postscan.cpp	/^double cutoff_score2 = 0.00;$/;"	v
+cutoff_znscore	report_zincpred.cpp	/^double cutoff_znscore = 0.45;$/;"	v
+dbfileindex	search_new.cpp	/^    int dbfileindex;$/;"	m	struct:dbindex	file:
+dbindex	search_new.cpp	/^struct dbindex{$/;"	s	file:
+dbtype	search_new.cpp	/^int dbtype=1; \/*0 - each id has a file, 1 - all files dumped*\/$/;"	v
+did	mypro.h	/^	char      did[SIZE_SCOP_ID+1];                   \/\/ domain id, e.g d9icwa1$/;"	m	struct:SCOP
+discriminant	mypro.h	/^    double *discriminant;\/\/ discriminant for each residue$/;"	m	struct:GistPredChain
+dist	mypro.h	/^    double *dist;         \/\/ record the distance of this atom to other atoms$/;"	m	struct:Atom
+dm	mypro.h	/^	int       dm;       \/\/ domain id number$/;"	m	struct:SCOP
+domDef	mypro.h	/^	DomainDEF domDef;   \/\/ parsered domain definition$/;"	m	struct:SCOP
+domainDef	mypro.h	/^	char      domainDef[SIZE_DOMAIN_DEF_RECORD+1];   \/\/ string for domain record definition, e.g. A:205-298$/;"	m	struct:SCOP
+dsspSec	mypro.h	/^    char    *dsspSec;$/;"	m	struct:MODM
+dsspSec	mypro.h	/^    char  dsspSec;$/;"	m	struct:ProfileSAD
+dsspSec	mypro.h	/^    char  dsspSec;$/;"	m	struct:ProfileSADByte
+e	mypro.h	/^	double e;     \/\/ electric energy$/;"	m	struct:DSSP_HBond
+eValue	mypro.h	/^	double eValue;$/;"	m	struct:AlignFactor
+element	mypro.h	/^	char   element[SIZE_ATOM_ELEMENT+1];    \/\/ element symbol$/;"	m	struct:Atom
+end	postscan-frag-search.cpp	/^    int end;$/;"	m	struct:DotSegment	file:
+endID	database_build.cpp	/^int endID = 0x7FFFFFFF; \/*by default, running all ids in the idListFile, 2007-11-16 *\/$/;"	v
+endID	postscan-frag-search.cpp	/^int endID = 0x7FFFFFFF; \/*by default, running all ids in the idListFile, 2007-11-16 *\/$/;"	v
+endID	search_new.cpp	/^int endID = 0x7FFFFFFF; \/*by default, running all ids in the idListFile, 2007-11-16 *\/$/;"	v
+endPosCan	znpred-postscan.cpp	/^    int endPosCan;$/;"	m	struct:HomoPro	file:
+endPosTar	znpred-postscan.cpp	/^    int endPosTar; \/* end position is not include in the sequence, thus [0,12], include 12 residues, if the aaSeqIndex is starting from 0*\/$/;"	m	struct:HomoPro	file:
+f_neglect_clustalw_header	mypro.cpp	/^void f_neglect_clustalw_header(FILE *fp)\/*{{{*\/$/;"	f
+f_neglect_comment	myfunc.cpp	/^void f_neglect_comment(FILE* fp, const char comment_char \/*= '#'*\/)\/*{{{*\/$/;"	f
+fa	mypro.h	/^	int       fa;       \/\/ family id number$/;"	m	struct:SCOP
+fam	mypro.h	/^	int       fam;      \/\/ family id, e.g. 1 in a.60.6.1$/;"	m	struct:SCOP
+fgetdelim	myfunc.cpp	/^int fgetdelim(FILE* fp, char* str, const char* delim \/* = WHITE_SPACE*\/, int max\/* = 0x7FFFFFFF*\/)\/*{{{*\/$/;"	f
+fgetline	myfunc.cpp	/^int fgetline(FILE* fp, char* line, int max\/* = 0x7FFFFFFF*\/)\/*{{{*\/$/;"	f
+fgetlinecnt	myfunc.cpp	/^int fgetlinecnt(FILE* fp, bool is_count_black_line \/*= true*\/)\/*{{{*\/$/;"	f
+fgetlinecnt	myfunc.cpp	/^int fgetlinecnt(const char* filename, bool is_count_black_line \/*= true*\/)\/*{{{*\/$/;"	f
+fgetlinecnt	myfunc.cpp	/^int fgetlinecnt(const char* filename, int &maxline, bool is_count_blank_line \/*= true*\/)\/*{{{*\/$/;"	f
+fgetlinesize	myfunc.cpp	/^int fgetlinesize(FILE* fp)\/*{{{*\/$/;"	f
+fij2Qij	pssm2Qij.cpp	/^int fij2Qij(int **fij, int length, double* alpha, double *beta, double lambda_std, double *P, double **Sij, double **Qij)\/*{{{*\/$/;"	f
+fod	mypro.h	/^	int       fod;      \/\/ fold id, e.g. 60 in a.60.6.1$/;"	m	struct:SCOP
+fragformat	postscan-frag-search.cpp	/^int fragformat = FRAGFORMAT_NANJIANG; \/*default frag format 2009-06-25*\/$/;"	v
+fragformat	search_new.cpp	/^int fragformat = FRAGFORMAT_NANJIANG; \/*default fragformat is using 5 columns, 2009-06-23*\/$/;"	v
+gapPercent	mypro.h	/^	float gapPercent;$/;"	m	struct:AlignFactor
+gap_cnt	mypro.h	/^	int   gap_cnt;$/;"	m	struct:AlignFactor
+gaplessSeqIndex	mypro.h	/^    int **gaplessSeqIndex; \/\/size= numSeq *seqLength,  indexing for the alnSeq, only non gap residues are counted, gaps set to DIGIT_INDEL$/;"	m	struct:MSA
+geoBend	mypro.h	/^	char       geoBend;      \/\/ geometrical bend$/;"	m	struct:DSSP_Residue
+getfileext	myfunc.cpp	/^char *getfileext(const char* filename, char *ext, int max_ext \/*= MAX_PATH *\/)\/*{{{*\/$/;"	f
+getfilepath	getfilepath.cpp	/^char *getfilepath(const char* filename, char *path, int max_path = MAX_PATH )\/*{{{*\/$/;"	f
+getfilepath	myfunc.cpp	/^char *getfilepath(const char* filename, char *path, int max_path \/*= MAX_PATH *\/)\/*{{{*\/$/;"	f
+getmtx	mtx2modm.cpp	/^int getmtx(const char* mtxfile, int &length, char *aaSeq, double* parameter, double **profile, double scale)\/*{{{*\/$/;"	f
+hbond	mypro.h	/^	DSSP_HBond hbond[4];     \/\/ h-bond$/;"	m	struct:DSSP_Residue
+homoScore	znpred-postscan.cpp	/^    double homoScore;$/;"	m	struct:HomoPro	file:
+homofilename_format	znpred-postscan.cpp	/^int homofilename_format = 1; \/\/ homofilename format 0: Res_$ID.txt 1: $ID.fragpost$/;"	v
+iCode	mypro.h	/^	char       iCode;        \/\/ iCode in PDB File$/;"	m	struct:DSSP_Residue
+iCode	mypro.h	/^	char   iCode;         \/\/ Code for insertion of residues$/;"	m	struct:Atom
+i_max	subset.cpp	/^int i_max ( int i1, int i2 )\/*{{{*\/$/;"	f
+i_min	subset.cpp	/^int i_min ( int i1, int i2 )\/*{{{*\/$/;"	f
+icodeF	mypro.h	/^    char icodeF[NUM_CHAIN_PER_DOMAIN+1]; \/\/ icode for the start position$/;"	m	struct:DomainDEF
+icodeT	mypro.h	/^    char icodeT[NUM_CHAIN_PER_DOMAIN+1]; \/\/ icode for the end position$/;"	m	struct:DomainDEF
+id	mypro.h	/^	char     id[SIZE_CHAIN_ID+1];\/\/ chain identifier of nrPDB we are looking for$/;"	m	struct:AtomEnv
+id	mypro.h	/^    char     id[SIZE_CHAIN_ID+1];$/;"	m	struct:MODM
+id	mypro.h	/^    char    id[SIZE_CHAIN_ID+1];$/;"	m	struct:GistPredChain
+id	mypro.h	/^    char id[SIZE_CHAIN_ID+1];      \/\/nrPDBb chain identifier$/;"	m	struct:MetalBindPro
+id	mypro.h	/^    char id[SIZE_CHAIN_ID+1];$/;"	m	struct:MetalPro
+id	mypro.h	/^    char id[SIZE_CHAIN_ID+1];$/;"	m	struct:MetalPro2
+id	mypro.h	/^    char id[SIZE_CHAIN_ID+1];$/;"	m	struct:PredPro
+id	mypro.h	/^    char id[SIZE_CHAIN_ID+1];$/;"	m	struct:SSBondPro
+idCan	znpred-postscan.cpp	/^    char idCan[SIZE_CHAIN_ID+1];  \/* chain identifier for the candidate sequence, the one detected *\/$/;"	m	struct:HomoPro	file:
+idTar	znpred-postscan.cpp	/^    char idTar[SIZE_CHAIN_ID+1];  \/* chain identifier for the target sequence, main sequence *\/$/;"	m	struct:HomoPro	file:
+identity	mypro.h	/^	float identity;$/;"	m	struct:AlignFactor
+identity_short	mypro.h	/^	float identity_short;$/;"	m	struct:AlignFactor
+idnum	mypro.h	/^	int       idnum;    \/\/ domain id number, e.g. 17982$/;"	m	struct:SCOP
+idt_cnt	mypro.h	/^	int   idt_cnt;$/;"	m	struct:AlignFactor
+idxInner	mypro.h	/^    int idxInner; \/*id index within the frag file.*\/$/;"	m	struct:FragCanInt5
+idxInner	mypro.h	/^    int idxInner; \/*id index within the frag file.*\/$/;"	m	struct:FragCanInt6
+idxInner	mypro.h	/^    short idxInner; \/*id index within the frag file.*\/$/;"	m	struct:FragCanShort5
+idxInner	mypro.h	/^    short idxInner; \/*id index within the frag file.*\/$/;"	m	struct:FragCanShort6
+idxOuter	mypro.h	/^    int idxOuter; \/*id index for the external supplied id list*\/$/;"	m	struct:FragCanInt6
+idxOuter	mypro.h	/^    short idxOuter; \/*id index for the external supplied id list*\/$/;"	m	struct:FragCanShort6
+int16	DataType.h	/^typedef signed short        int16;$/;"	t
+int32	DataType.h	/^typedef signed int          int32;$/;"	t
+int64	DataType.h	/^typedef signed long long    int64;$/;"	t
+int8	DataType.h	/^typedef signed char         int8;$/;"	t
+isAddPairDist	create_svm_vector.cpp	/^bool isAddPairDist = true;$/;"	v
+isBioMetalBound	mypro.h	/^	bool isBioMetalBound;    \/\/ if the residue is biologic-ally metal bound$/;"	m	struct:Residue
+isBound	mypro.h	/^    bool isBound;$/;"	m	struct:MetalBindPro
+isCreateTriple	database_build.cpp	/^bool isCreateTriple = false; \/*whether to create the triple frequency of shape string, do not read from pre-created file*\/$/;"	v
+isExcludeOtherChainRes	znpred-postscan.cpp	/^bool isExcludeOtherChainRes = true;$/;"	v
+isFindingMultiDomain	postscan-frag-search.cpp	/^bool isFindingMultiDomain = true;\/*whether to detect multi domains, this option is turned on by default. However, if the dataset is already the SCOP domain, this option shold be turned off, 2007-11-18, Nanjiang*\/  $/;"	v
+isHaveSAD	test-readmodm.cpp	/^bool isHaveSAD = false;$/;"	v
+isIgnoreNonDiag	postscan-frag-search.cpp	/^bool isIgnoreNonDiag = false;\/*whether to ignore the non main diagnol matches, 2008-01-16, Nanjiang*\/  $/;"	v
+isInterChain	mypro.h	/^    bool    isInterChain;   \/\/ interChain or intraChain$/;"	m	struct:SSBond
+isMaskPolyHis	create_svm_vector.cpp	/^bool isMaskPolyHis = false;$/;"	v
+isNcSet	pssm2Qij.cpp	/^bool isNcSet          = false;$/;"	v
+isNewSequence	pssm2Qij.cpp	/^bool isNewSequence    = false; \/\/whether the supplied pssm is derived from a new sequence whose structural information is not available$/;"	v
+isNewSequence	pssm2modm.cpp	/^bool isNewSequence    = false; \/\/whether the supplied pssm is derived from a new sequence whose structural information is not available$/;"	v
+isNotUsingSegInfo	znpred-postscan.cpp	/^bool isNotUsingSegInfo = false;$/;"	v
+isOutputHTML	report_zincpred.cpp	/^bool isOutputHTML = true;$/;"	v
+isOutputInteger	mtx2modm.cpp	/^bool isOutputInteger=false;$/;"	v
+isOutputInteger	pssm2Qij.cpp	/^bool isOutputInteger  = true;$/;"	v
+isOutputSAD	pssm2Qij.cpp	/^bool isOutputSAD      = false; \/\/whether to output shape string, water accessibility (0-9) and dssp secondary structure at the third column$/;"	v
+isOutputSAD	pssm2modm.cpp	/^bool isOutputSAD      = false; \/\/whether to output shape string, water accessibility (0-9) and dssp secondary structure at the third column$/;"	v
+isPredictSecShape	search_new.cpp	/^bool isPredictSecShape = false; \/*by default, do not predict the secondary structures*\/$/;"	v
+isPrintOut	test-readmodm.cpp	/^bool isPrintOut = false;$/;"	v
+isPseducountsSet	pssm2Qij.cpp	/^bool isPseducountsSet = false;$/;"	v
+isQuietMode	pssm2Qij.cpp	/^bool isQuietMode      = false;$/;"	v
+isQuietMode	pssm2modm.cpp	/^bool isQuietMode      = false;$/;"	v
+isReadBinaryFile	database_build.cpp	/^bool isReadBinaryFile = false;$/;"	v
+isReadBinaryFile	search_new.cpp	/^bool isReadBinaryFile = false;$/;"	v
+isReadBinaryFragfile	postscan-frag-search.cpp	/^bool isReadBinaryFragfile = false; \/*set whether to read the binary frag file*\/$/;"	v
+isSegInfoSupplied	znpred-postscan.cpp	/^    bool isSegInfoSupplied; \/*if the aligned part information for the homoPro supplied in the homoProFile*\/$/;"	m	struct:HomoPro	file:
+isTreatAllZeroProfile	pssm2Qij.cpp	/^bool isTreatAllZeroProfile = true; \/*whether treat the all zero profile, if so, for all zero profiles, set the value of the current fij to 100*\/$/;"	v
+isTreatAllZeroProfile	pssm2modm.cpp	/^bool isTreatAllZeroProfile = true; \/*by default treat the all zero weighted matrix profile as Hot-spot, that is set "100" on this amino acid, or all 5 in case the residue is 'X', 2009-07-27*\/$/;"	v
+isUseConsvI	create_svm_vector.cpp	/^bool isUseConsvI = false;$/;"	v
+isUseSHCRRule	create_svm_vector.cpp	/^bool isUseSHCRRule = true;$/;"	v
+isUsingTotalBoundRes	znpred-postscan.cpp	/^bool isUsingTotalBoundRes = true;$/;"	v
+isWholeChain	mypro.h	/^	bool isWholeChain[NUM_CHAIN_PER_DOMAIN];   \/\/ whether the SCOP domain including a while chain$/;"	m	struct:DomainDEF
+isWholeChainAligned	znpred-postscan.cpp	/^    bool isWholeChainAligned; \/*if the whole protein should be considered as aligned*\/$/;"	m	struct:HomoPro	file:
+isWriteBinaryFile	database_build.cpp	/^bool isWriteBinaryFile = false;$/;"	v
+isWriteBinaryFile	search_new.cpp	/^bool isWriteBinaryFile = false;$/;"	v
+isWriteBinaryFile	test-readmodm.cpp	/^bool isWriteBinaryFile = false;$/;"	v
+ishtml	report_zincpred.cpp	/^bool ishtml = true;$/;"	v
+ivec_indicator	subset.cpp	/^void ivec_indicator ( int n, int a[] )\/*{{{*\/$/;"	f
+kappa	mypro.h	/^	float      kappa;        \/\/ virtual bond angle (bend angle) defined by the three C-alpha atoms of residues I-2,I,I+2.$/;"	m	struct:DSSP_Residue
+ksub_next	subset.cpp	/^void ksub_next ( int n, int k, int a[], bool *more )\/*{{{*\/$/;"	f
+ksub_next2	subset.cpp	/^void ksub_next2 ( int n, int k, int a[], int *in, int *iout )\/*{{{*\/$/;"	f
+ksub_next3	subset.cpp	/^void ksub_next3 ( int n, int k, int a[], bool *more, int *in, int *iout )\/*{{{*\/$/;"	f
+ksub_next4	subset.cpp	/^void ksub_next4 ( int n, int k, int a[], bool *done )\/*{{{*\/$/;"	f
+label	mypro.h	/^    int    *label;$/;"	m	struct:GistPredChain
+layout_css	report_zincpred.cpp	/^char layout_css[]=\/*{{{*\/"\\n\\$/;"	v
+length	mypro.h	/^    char length;$/;"	m	struct:SSBondPro
+length	mypro.h	/^    int      length;$/;"	m	struct:MODM
+length	mypro.h	/^    int     length;     \/\/ total number of residues of pdb chain$/;"	m	struct:GistPredChain
+length	mypro.h	/^    int length;             \/\/ length of the protein sequence$/;"	m	struct:MetalPro
+length	mypro.h	/^    int length;$/;"	m	struct:MetalPro2
+lengthCan	znpred-postscan.cpp	/^    int lengthCan;$/;"	m	struct:HomoPro	file:
+lengthTar	znpred-postscan.cpp	/^    int lengthTar;$/;"	m	struct:HomoPro	file:
+lineLength	report_zincpred.cpp	/^int lineLength=70;$/;"	v
+locate_range	mytemplate.h	/^template <class T> int locate_range(T key, T *array, int lo, int hi)\/*{{{*\/$/;"	f
+log2	myfunc.h	108;"	d
+log_M	mypro.h	/^    DATATYPE_MODM_MATRIX    **log_M; \/\/log(Mij), this is used when profile-profile alignment is needed, the log(Mij) is precalculated to save the computational time, in that case, Mij should be weighted percentage$/;"	m	struct:MODM
+main	create_svm_vector.cpp	/^int main(int argc, char** argv)\/*{{{*\/$/;"	f
+main	database_build.cpp	/^int main(int argc, char** argv)\/*{{{*\/$/;"	f
+main	gating_gistPred.cpp	/^int main(int argc, char** argv)\/*{{{*\/$/;"	f
+main	getfilepath.cpp	/^int main(int argc, char** argv)\/*{{{*\/$/;"	f
+main	mtx2modm.cpp	/^int main(int argc, char** argv)\/*{{{*\/$/;"	f
+main	postscan-frag-search.cpp	/^int main(int argc, char** argv)\/*{{{*\/$/;"	f
+main	pssm2Qij.cpp	/^int main(int argc, char** argv)\/*{{{*\/$/;"	f
+main	pssm2modm.cpp	/^int main(int argc, char** argv)\/*{{{*\/$/;"	f
+main	report_zincpred.cpp	/^int main(int argc, char** argv)\/*{{{*\/$/;"	f
+main	rootname.cpp	/^int main(int argc, char** argv)\/*{{{*\/$/;"	f
+main	search_new.cpp	/^int main(int argc, char** argv)\/*{{{*\/$/;"	f
+main	test-readmodm.cpp	/^int main(int argc, char** argv)\/*{{{*\/$/;"	f
+main	znpred-postscan.cpp	/^int main(int argc, char** argv)\/*{{{*\/$/;"	f
+maxConsv	mypro.h	/^    DATATYPE_CONSV  maxConsv;   \/\/maximal conservation for keyAA$/;"	m	struct:MetalBindPro
+maxWaterAcc	pssm2Qij.cpp	/^const int maxWaterAcc[] =\/*{{{*\/$/;"	v
+maxWaterAcc	pssm2modm.cpp	/^const int maxWaterAcc[] =\/*{{{*\/$/;"	v
+max_element	mytemplate.h	/^template <class T> T max_element(T *array, int lo, int hi)\/*{{{*\/$/;"	f
+max_element_index	mytemplate.h	/^template <class T> int max_element_index(T *array, int lo, int hi)\/*{{{*\/$/;"	f
+max_homo_pro	znpred-postscan.cpp	/^int max_homo_pro = 3; \/\/ if there are more than max_homo_pro homoPros, take only the top max_homo_pro$/;"	v
+max_metalBoundRes	znpred-postscan.cpp	/^int max_metalBoundRes = 5;$/;"	v
+max_num_diag	postscan-frag-search.cpp	/^int max_num_diag = 2; \/*maxium number of diagnol to be used for each plot, which means a two domain polypeptide*\/$/;"	v
+mergeSide	search_new.cpp	/^int mergeSide = 0; \/*mergeSide 0 on training set, and 1 on test set*\/$/;"	v
+metalAtomChainID	mypro.h	/^	char     metalAtomChainID;    \/\/ chainID annotation for the metal atom in PDB file$/;"	m	struct:AtomEnv
+metalAtomList	mypro.h	/^    char **metalAtomList;   \/\/ list of all bound metal atoms in the chain, just listing, not unique$/;"	m	struct:MetalPro
+metalAtomName	mypro.h	/^	char     metalAtomName[SIZE_METAL_ATOM_NAME+1];         \/\/ metal atom element symbol$/;"	m	struct:AtomEnv
+metalAtomPDBID	mypro.h	/^    char     metalAtomPDBID[SIZE_PDBID+1];$/;"	m	struct:AtomEnv
+metalAtomResName	mypro.h	/^	char     metalAtomResName[SIZE_METAL_ATOM_RES_NAME+1];  \/\/ residue name of metal atom, for example "HEM"$/;"	m	struct:AtomEnv
+metalAtomResSeq	mypro.h	/^    int      metalAtomResSeq;  \/\/ residue serial number for metalAtom  in PDB, 2007-04-19$/;"	m	struct:AtomEnv
+metalElementListFile	create_svm_vector.cpp	/^char metalElementListFile [MAX_PATH+1] = "";$/;"	v
+metalTranMatrixDir	create_svm_vector.cpp	/^char metalTranMatrixDir[MAX_PATH+1] = "";$/;"	v
+min_metalBoundRes	znpred-postscan.cpp	/^int min_metalBoundRes = 3;$/;"	v
+module	DataType.h	/^	double module;$/;"	m	struct:__anon1
+my_strcpy	getfilepath.cpp	/^int my_strcpy(char* to, const char* from, int max)\/*{{{*\/$/;"	f
+my_strcpy	myfunc.cpp	/^int my_strcpy(char* to, const char* from, int max)\/*{{{*\/$/;"	f
+my_strlwr	myfunc.cpp	/^char *my_strlwr(char* str, int beg \/* =0*\/, int end \/*= 0x7FFFFFFF*\/)\/*{{{*\/$/;"	f
+my_strupr	myfunc.cpp	/^char *my_strupr(char* str, int beg \/* = 0*\/, int end \/* = 0x7FFFFFFF*\/)\/*{{{*\/$/;"	f
+name	mypro.h	/^	char   name[SIZE_ATOM_NAME+1];       \/\/ atom name$/;"	m	struct:Atom
+name	mypro.h	/^	char name[SIZE_ATOM_ELEMENT+1] ; \/\/ element name$/;"	m	struct:Element
+ncbicodes	mtx2modm.cpp	/^const char *ncbicodes= "XAXCDEFGHIKLMNPQRSTVWXYXXX";$/;"	v
+nonMetalHetGroup	mypro.cpp	/^const char *nonMetalHetGroup[] =\/*{{{*\/$/;"	v
+normalizeVector	pssm2Qij.cpp	/^void normalizeVector(double *v, int size, double normScale = 100.0)\/*{{{*\/$/;"	f
+numAtom	mypro.h	/^	int  numAtom ;$/;"	m	struct:Residue
+numBoundRes	mypro.h	/^    int numBoundRes;        \/\/ number of bound Residues$/;"	m	struct:MetalPro
+numChain	mypro.h	/^	int  numChain;                             \/\/ number of chains, here chain might be the segment of a single chain, for example d1hcz_1 1-167,231-250, there are two segments;$/;"	m	struct:DomainDEF
+numDist	mypro.h	/^    int    numDist;       \/\/ number of distances$/;"	m	struct:Atom
+numID_DEBUG_MERGESIDE	search_new.cpp	/^int numID_DEBUG_MERGESIDE = sizeof(testIDList_DEBUG_MERGESIDE) \/ sizeof(char*);$/;"	v
+numMetalAtom	mypro.h	/^    int numMetalAtom;         \/\/ number of metal atoms bound to the polypeptide chain$/;"	m	struct:MetalPro2
+numMetalAtom	mypro.h	/^    int numMetalAtom;       \/\/ number of metal atoms for the protein$/;"	m	struct:MetalPro
+numMetalBound	mypro.h	/^    int  numMetalBound;      \/\/ number of metals bound to the residue, for co-catalytic zinc, one Asp can bind to two metal atoms$/;"	m	struct:Residue
+numNonMetalHetGroup	mypro.cpp	/^int numNonMetalHetGroup = 60;$/;"	v
+numRes	mypro.h	/^	int      numRes;           \/\/ number of residues included in the atomEnv, for example including only residues on a single chain$/;"	m	struct:AtomEnv
+numRes	mypro.h	/^    int     numRes;         \/\/ in case of interchain ssbond, sometimes it will be 1$/;"	m	struct:SSBond
+numRes	mypro.h	/^    int     numRes;     \/\/ number of residues in GistPredChain, might not be equal to the length of the chain$/;"	m	struct:GistPredChain
+numRes	mypro.h	/^    int   numRes;     \/\/ residue number$/;"	m	struct:Chain
+numRes	mypro.h	/^    int numRes;$/;"	m	struct:PredPro
+numSSBond	mypro.h	/^    int numSSBond;$/;"	m	struct:SSBondPro
+numSSBondRes	mypro.h	/^    int numSSBondRes;$/;"	m	struct:SSBondPro
+numSeq	mypro.h	/^    int numSeq;$/;"	m	struct:MSA
+numSpeRes	mypro.h	/^    int numSpeRes;$/;"	m	struct:PredPro
+occupancy	mypro.h	/^	float  occupancy;     \/\/ occupancy$/;"	m	struct:Atom
+offset	search_new.cpp	/^    long offset;$/;"	m	struct:dbindex	file:
+operator []	array.h	/^		T& operator [] (unsigned int col) const$/;"	f	class:Array2D_Sub::Row
+operator []	array.h	/^	Row operator [] (unsigned int row) {return Row(*this,row);}$/;"	f	class:Array2D_Sub
+operator []	array.h	/^template <class T> T& Array1D<T>::operator [] (unsigned int i) { return array1D[i]; }$/;"	f	class:Array1D
+option_parser_filename	myfunc.cpp	/^int option_parser_filename(int argc, char **argv, int beg, char *filename)\/*{{{*\/$/;"	f
+option_parser_numeric	myfunc.cpp	/^template <class T> int option_parser_numeric(int argc, char **argv, int beg, T &x, bool isRangeSet \/*= false*\/, T min \/*= MIN_INT*\/, T max \/*= MAX_INT*\/)\/*{{{*\/$/;"	f
+origName	mypro.h	/^	char   origName[SIZE_ATOM_ORIGNAME+1];   \/\/ record the four columns in ATOM record$/;"	m	struct:Atom
+p	mypro.h	/^    float p[20];$/;"	m	struct:Profile
+p	mypro.h	/^    float p[20];$/;"	m	struct:ProfileSAD
+p	mypro.h	/^    int8 p[20];$/;"	m	struct:ProfileByte
+p	mypro.h	/^    int8 p[20];$/;"	m	struct:ProfileSADByte
+parentAtomEnvIndex	mypro.h	/^	int *parentAtomEnvIndex; \/\/ used only when res is a mmeber of MetalPro, usually the size of parentAtomEnvIndex = 1$/;"	m	struct:Residue
+parentResIndex	mypro.h	/^    int     *parentResIndex;    \/\/ used only when atomEnv is a member of MetalPro$/;"	m	struct:AtomEnv
+pdbid	mypro.h	/^	char      pdbid[SIZE_PDBID+1];                   \/\/ pdbid, e.g 9icw$/;"	m	struct:SCOP
+pdbid	mypro.h	/^    char  pdbid[SIZE_PDBID+1];$/;"	m	struct:Chain
+pha	DataType.h	/^	double pha;$/;"	m	struct:__anon1
+phi	mypro.h	/^	float      phi;          \/\/ IUPAC peptide backbone torsion angles$/;"	m	struct:DSSP_Residue
+phi	mypro.h	/^    float *phi;       \/\/ phi torsion angle$/;"	m	struct:Chain
+pid	mypro.h	/^    float *pid; \/\/percent identity of the shorter sequence, to the keyseqence, key sequence is the sequence with id Query, otherwise the first sequence.$/;"	m	struct:MSA
+pos	mypro.h	/^	int    pos;   \/\/ positon of hydrogen bond$/;"	m	struct:DSSP_HBond
+posCan	mypro.h	/^    int posCan;   \/*position of the candidate fragment in sequence*\/$/;"	m	struct:FragCanInt5
+posCan	mypro.h	/^    int posCan;   \/*position of the candidate fragment in sequence*\/$/;"	m	struct:FragCanInt6
+posCan	mypro.h	/^    short posCan;   \/*position of the candidate fragment in sequence*\/$/;"	m	struct:FragCanShort5
+posCan	mypro.h	/^    short posCan;   \/*position of the candidate fragment in sequence*\/$/;"	m	struct:FragCanShort6
+posF	mypro.h	/^	int  posF[NUM_CHAIN_PER_DOMAIN];           \/\/ start position in the sequence$/;"	m	struct:DomainDEF
+posT	mypro.h	/^	int  posT[NUM_CHAIN_PER_DOMAIN];           \/\/ end position in the sequence$/;"	m	struct:DomainDEF
+pozScore	mypro.h	/^	float pozScore;$/;"	m	struct:AlignFactor
+predzinc_version	report_zincpred.cpp	/^char predzinc_version[100]="PredZinc version 1.3";$/;"	v
+profileScoreType	search_new.cpp	/^int profileScoreType = PROFILESCORETYPE_TUPING; \/*default profileScoreType using the floating non scaled value 2009-06-15*\/$/;"	v
+profile_encoding_type	create_svm_vector.cpp	/^int profile_encoding_type = PSSM_PROFILE_ENCODE;$/;"	v
+proportion	znpred-postscan.cpp	/^double proportion = 0.45;$/;"	v
+psi	mypro.h	/^	float      psi;          \/\/ IUPAC peptide backbone torsion angles$/;"	m	struct:DSSP_Residue
+psi	mypro.h	/^    float *psi;       \/\/ psi torsion angle$/;"	m	struct:Chain
+px	mypro.h	/^	int       px;       \/\/$/;"	m	struct:SCOP
+ratioScheme	search_new.cpp	/^int ratioScheme = 0;\/*ratioScheme, 0 for fixed ratio and 1 for varied ratio*\/$/;"	v
+recordID	mypro.h	/^    char   recordID[SIZE_RECORD_ID+1];$/;"	m	struct:Atom
+reg_findall	myfunc.cpp	/^int reg_findall(const char* string, const char* pattern,  regmatch_t * pmatch ,bool isOverlap \/*= false*\/)\/*{{{*\/$/;"	f
+res	mypro.h	/^	Residue *res;$/;"	m	struct:AtomEnv
+res	mypro.h	/^    Residue *res;           \/\/ residues binding to metals for this protein$/;"	m	struct:MetalPro
+res	mypro.h	/^    Residue res[2];$/;"	m	struct:SSBond
+resICode	mypro.h	/^	char resICode;           \/\/insertion code$/;"	m	struct:Residue
+resICode	mypro.h	/^    char *resICode;   \/\/ reside insertion code array$/;"	m	struct:Chain
+resName	mypro.h	/^	char   resName[SIZE_RES_NAME+1];    \/\/ 3-letter residue name$/;"	m	struct:Atom
+resName	mypro.h	/^	char resName[SIZE_RES_NAME+1];$/;"	m	struct:Residue
+resSeq	mypro.h	/^	int        resSeq;       \/\/ resSeq in PDB File$/;"	m	struct:DSSP_Residue
+resSeq	mypro.h	/^	int    resSeq;        \/\/ residue sequence number ;$/;"	m	struct:Atom
+resSeq	mypro.h	/^	int  resSeq;             \/\/residue sequential number in ATOM record$/;"	m	struct:Residue
+resSeqIndex	mypro.h	/^	int *resSeqIndex;       \/\/ array of aaSeqIndex for residues binding to metals for this protein$/;"	m	struct:MetalPro
+resSeqIndex	mypro.h	/^    int  *resSeqIndex;$/;"	m	struct:PredPro
+resSer	mypro.h	/^    int  *resSer;     \/\/ residue serial number (in ATOM record) array$/;"	m	struct:Chain
+rescodes	mtx2modm.cpp	/^const char *rescodes = "ARNDCQEGHILKMFPSTWYVBZX";$/;"	v
+rootname	myfunc.cpp	/^char *rootname(const char* filename, char* rtname, int max_rtname \/*= MAX_PATH*\/)\/*{{{*\/$/;"	f
+row	array.h	/^		unsigned int const row;$/;"	m	class:Array2D_Sub::Row
+rowSize	array.h	/^	unsigned int rowSize;$/;"	m	class:Array2D_Sub
+rowSize	array.h	/^        unsigned int rowSize;$/;"	m	class:Array2D
+scale_full	postscan-frag-search.cpp	/^int scale_full = 16;$/;"	v
+scale_half	postscan-frag-search.cpp	/^int scale_half = 8;$/;"	v
+score	mypro.h	/^	float score;$/;"	m	struct:AlignFactor
+score	mypro.h	/^    float score;    \/*score of the candidate fragment to the target fragment*\/$/;"	m	struct:FragCanInt5
+score	mypro.h	/^    float score;    \/*score of the candidate fragment to the target fragment*\/$/;"	m	struct:FragCanInt6
+score	mypro.h	/^    float score;    \/*score of the candidate fragment to the target fragment*\/$/;"	m	struct:FragCanShort5
+score	mypro.h	/^    float score;    \/*score of the candidate fragment to the target fragment*\/$/;"	m	struct:FragCanShort6
+score1	mypro.h	/^    double  *score1;$/;"	m	struct:MODM
+score1	mypro.h	/^    float score1;$/;"	m	struct:Profile
+score1	mypro.h	/^    float score1;$/;"	m	struct:ProfileByte
+score1	mypro.h	/^    float score1;$/;"	m	struct:ProfileSAD
+score1	mypro.h	/^    float score1;$/;"	m	struct:ProfileSADByte
+score2	mypro.h	/^    double  *score2;$/;"	m	struct:MODM
+score2	mypro.h	/^    float score2;$/;"	m	struct:Profile
+score2	mypro.h	/^    float score2;$/;"	m	struct:ProfileByte
+score2	mypro.h	/^    float score2;$/;"	m	struct:ProfileSAD
+score2	mypro.h	/^    float score2;$/;"	m	struct:ProfileSADByte
+search_frag	search_new.cpp	/^int search_frag(const char *testIDListFile, const char *trainIDListFile, const char *test_Qijpath, const char *train_Qijpath,int qijformat, const char * test_modmpath, const char *modmpath, int modmformat, const char *test_frag_acc_path, const char *frag_acc_path, int fragaccformat, const char *resultpath, int **subMatrix, double *back_comp , int fragSize = 9)\/*{{{*\/$/;"	f
+secStruc	mypro.h	/^    char *secStruc;   \/\/ secondary structure$/;"	m	struct:Chain
+segID	mypro.h	/^	char   segID[SIZE_ATOM_SEGID+1];      \/\/ segment identifier$/;"	m	struct:Atom
+select_best_binding_group	znpred-postscan.cpp	/^int select_best_binding_group(GistPredChain *pChain, int *idx, int num_local_HRes, int num_binding_group)\/*{{{*\/$/;"	f
+seqLen	mypro.h	/^    int *seqLen; \/\/size = numSeq, without gaps$/;"	m	struct:MSA
+seqLength	mypro.h	/^	int      seqLength;          \/\/ length of the seqence of that chain$/;"	m	struct:AtomEnv
+seqResSer	mypro.h	/^	int        seqResSer;    \/\/ sequential residue number$/;"	m	struct:DSSP_Residue
+seqtype	mypro.h	/^    int8  seqtype;    \/*sequence type, AA_SEQ: amino acid seq, DNA_SEQ: nucleic acid seq, SHAPE_SEQ: shape strings*\/$/;"	m	struct:Chain
+serial	mypro.h	/^	int    serial;        \/\/ atom serial number$/;"	m	struct:Atom
+sf	mypro.h	/^	int       sf;       \/\/ superfamily id number$/;"	m	struct:SCOP
+shString	mypro.h	/^    char    *shString;$/;"	m	struct:MODM
+shString	mypro.h	/^    char *shString;   \/\/ shapeString;$/;"	m	struct:Chain
+shape	mypro.h	/^	char shape;$/;"	m	struct:Residue
+shape	mypro.h	/^    char  shape;$/;"	m	struct:ProfileSAD
+shape	mypro.h	/^    char  shape;$/;"	m	struct:ProfileSADByte
+shapeAlphabet_5s	database_build.cpp	/^const char  shapeAlphabet_5s[] = "SRKAT ";  \/*5-state shape string alphabet*\/$/;"	v
+shapeAlphabet_8s	database_build.cpp	/^const char  shapeAlphabet_8s[] = "SRUVKATG "; \/*8-state shape string alphabet*\/$/;"	v
+sim_cnt	mypro.h	/^	int   sim_cnt;$/;"	m	struct:AlignFactor
+similarity	mypro.h	/^	float similarity;$/;"	m	struct:AlignFactor
+similarity_short	mypro.h	/^	float similarity_short;$/;"	m	struct:AlignFactor
+size	array.h	/^        unsigned int size;$/;"	m	class:Array1D
+size	postscan-frag-search.cpp	/^    int size;$/;"	m	struct:DotSegment	file:
+size	search_new.cpp	/^    long size;$/;"	m	struct:dbindex	file:
+sp	mypro.h	/^	int       sp;       \/\/ species id number$/;"	m	struct:SCOP
+speResSeqIndex	mypro.h	/^    int  *speResSeqIndex;$/;"	m	struct:PredPro
+speedRate	search_new.cpp	/^float speedRate = 0.0; \/*set the speed up rate, if speedRate == 0, do not speed up. 2008-01-31, Nanjiang*\/$/;"	v
+sreplace	myfunc.cpp	/^char *sreplace(char* to, char* from, int start \/*= 0*\/)\/*{{{*\/$/;"	f
+ss	mypro.h	/^	char       ss;           \/\/ secondary structure lable$/;"	m	struct:DSSP_Residue
+ssbond	mypro.h	/^    SSBond *ssbond;$/;"	m	struct:SSBondPro
+ssubstitute	myfunc.cpp	/^char *ssubstitute(char* str, char chForSub, char chAfterSub, int start \/*= 0*\/, int end \/*= 0x7FFFFFFF *\/)\/*{{{*\/$/;"	f
+strchomp	myfunc.cpp	/^char *strchomp(char *str)\/*{{{*\/$/;"	f
+strltrim	myfunc.cpp	/^char *strltrim(char *str, const char *trim \/*= " \\t\\n\\r"*\/)\/*{{{*\/$/;"	f
+strrtrim	myfunc.cpp	/^char *strrtrim(char *str, const char *trim \/*= " \\t\\n\\r"*\/)\/*{{{*\/$/;"	f
+strtrim	myfunc.cpp	/^char *strtrim(char *str, const char *trim \/*= " \\t\\n\\r"*\/)\/*{{{*\/$/;"	f
+sup	mypro.h	/^	int       sup;      \/\/ superfamily id, e.g. 6 in a.60.6.1$/;"	m	struct:SCOP
+tco	mypro.h	/^	float      tco;          \/\/ cosine of angle between C=O of residue I and C=O of residue I-1$/;"	m	struct:DSSP_Residue
+tempFactor	mypro.h	/^	float  tempFactor;    \/\/ temperature factor$/;"	m	struct:Atom
+test	postscan-frag-search.cpp	/^void test()\/*{{{*\/$/;"	f
+testIDList_DEBUG_MERGESIDE	search_new.cpp	/^char *testIDList_DEBUG_MERGESIDE[] = { "19HCA", "1OS6A", "1M1QA"};$/;"	v
+title	mypro.h	/^    char  *title;     \/*title of the sequence, e.g. the annotations in the PDB file, 2008-02-06*\/$/;"	m	struct:Chain
+topN	postscan-frag-search.cpp	/^int topN = 20;$/;"	v
+totalBoundRes	mypro.h	/^    int      totalBoundRes;    \/\/ number of all residues in the protein bind to the metal, 2007-04-19$/;"	m	struct:AtomEnv
+turn3	mypro.h	/^	char       turn3;        \/\/ 3 turn helix$/;"	m	struct:DSSP_Residue
+turn4	mypro.h	/^	char       turn4;        \/\/ 4 turn helix$/;"	m	struct:DSSP_Residue
+turn5	mypro.h	/^	char       turn5;        \/\/ 5 turn helix$/;"	m	struct:DSSP_Residue
+typeProfile	pssm2Qij.cpp	/^int8 typeProfile = 1; \/*profile type, default = 1$/;"	v
+typeProfile	pssm2modm.cpp	/^int8 typeProfile = 1; \/*profile type, default = 1$/;"	v
+typeProfile	search_new.cpp	/^int8 typeProfile=1; \/*ProfileSADByte*\/$/;"	v
+type_modm	mypro.h	/^    int      type_modm;$/;"	m	struct:MODM
+uniform_random	myfunc.cpp	/^double uniform_random(double min \/*= 0.0*\/, double max \/*= 1.0*\/)\/*{{{*\/$/;"	f
+unit16	DataType.h	/^typedef unsigned short      unit16;$/;"	t
+unit32	DataType.h	/^typedef unsigned int        unit32;$/;"	t
+unit64	DataType.h	/^typedef unsigned long long  unit64;$/;"	t
+unit8	DataType.h	/^typedef unsigned char       unit8;$/;"	t
+usage	search_new.cpp	/^char usage[]="\\n\\$/;"	v
+waterAcc	mypro.h	/^    int     *waterAcc;$/;"	m	struct:MODM
+waterAcc	mypro.h	/^    int   waterAcc;$/;"	m	struct:ProfileSAD
+waterAcc	mypro.h	/^    int  *waterAcc;   \/\/ water accessibility$/;"	m	struct:Chain
+waterAcc	mypro.h	/^    int8   waterAcc;$/;"	m	struct:ProfileSADByte
+waterAccScale	pssm2Qij.cpp	/^const double waterAccScale[] = \/*{{{*\/$/;"	v
+waterAccScale	pssm2modm.cpp	/^const double waterAccScale[] = \/*{{{*\/$/;"	v
+weight	znpred-postscan.cpp	/^double weight = 1.0;$/;"	v
+x	DataType.h	/^	double x;$/;"	m	struct:__anon1
+x	mypro.h	/^	double x;             \/\/ x coordinate$/;"	m	struct:Atom
+x	mypro.h	/^	float      x;            \/\/ Ca x coordinate$/;"	m	struct:DSSP_Residue
+x1	postscan-frag-search.cpp	/^    int x1;$/;"	m	struct:Rectangle	file:
+x2	postscan-frag-search.cpp	/^    int x2;$/;"	m	struct:Rectangle	file:
+xSize	array.h	/^        unsigned int xSize;$/;"	m	class:Array3D
+y	DataType.h	/^	double y;$/;"	m	struct:__anon1
+y	mypro.h	/^	double y;             \/\/ y coordinate$/;"	m	struct:Atom
+y	mypro.h	/^	float      y;            \/\/ Ca y coordinate$/;"	m	struct:DSSP_Residue
+y1	postscan-frag-search.cpp	/^    int y1;$/;"	m	struct:Rectangle	file:
+y2	postscan-frag-search.cpp	/^    int y2;$/;"	m	struct:Rectangle	file:
+ySize	array.h	/^        unsigned int ySize;$/;"	m	class:Array3D
+z	mypro.h	/^	double z;             \/\/ z coordinate$/;"	m	struct:Atom
+z	mypro.h	/^	float      z;            \/\/ Ca z coordinate$/;"	m	struct:DSSP_Residue
+zScore	mypro.h	/^	float zScore;$/;"	m	struct:AlignFactor
+zSize	array.h	/^        unsigned int zSize;$/;"	m	class:Array3D
+~Array1D	array.h	/^template <class T> Array1D<T>::~Array1D(void) \/*{{{*\/$/;"	f	class:Array1D
+~Array2D	array.h	/^template <class T> Array2D<T>::~Array2D(void)\/*{{{*\/$/;"	f	class:Array2D
+~Array2D_Sub	array.h	/^	~Array2D_Sub()$/;"	f	class:Array2D_Sub
+~Array3D	array.h	/^template <class T> Array3D<T>::~Array3D(void)\/*{{{*\/$/;"	f	class:Array3D

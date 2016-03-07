@@ -1,0 +1,134 @@
+body {
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 15px;
+	font-family:verdana, arial, helvetica, sans-serif;
+	color:#333;
+	background-color:white;
+	}
+h1 {
+	margin:0px 0px 15px 0px;
+	padding:0px;
+	font-size:28px;
+	line-height:28px;
+	font-weight:900;
+	color:#642c2c;
+	}
+b.zinc{
+color:red;
+font-size:100%;
+font-family:monospace;
+}
+b.index{
+color:#8B008B;
+font-size:120%;
+font-family:monospace;
+}
+h2 {
+	margin:6px 0px 12px 0px;
+	padding:0px;
+	font-size:14px;
+	line-height:28px;
+	font-weight:900;
+	color:#000;
+	}
+h2.headline {
+	margin:12px 0px 6px 0px;
+	background-color:#FFE4C4;
+	color:#4767A6;
+	font-size:20px;
+	font-family:verdana,arial;
+	line-height:200%;
+	padding:5;
+	border: 0px solid #aaa;
+	}
+h3.subtitle {
+	margin:22px 0px 12px 0px;
+	color:#4B0082;
+	font-size:16px;
+	font-family:verdana,arial;
+	line-height:14px;
+	}
+
+p {
+	font:13px/21px verdana, arial, helvetica, sans-serif;
+	margin:10px 0px 16px 0px;
+	padding:0px;
+	}
+#Content>p {margin:0px,0px,0px,0px;}
+#Content>p+p {text-indent:0px;}
+
+pre {
+  width: 100%;
+  line-height:1.2em;
+  border: 0px solid #aaa;
+  padding: 0;
+	font-size:13px;
+  margin: 0px 0px 0px 0px;
+}
+
+a{
+	color:blue;
+	font-size:11px;
+	text-decoration:none;
+	font-weight:600;
+	font-family:verdana, arial, helvetica, sans-serif;
+	}
+a:link {color:blue;}
+a:visited {color:blue;}
+a:hover {background-color:#eee;}
+
+a.menulist {
+	color:#09c;
+	font-size:12px;
+	text-decoration:none;
+	font-weight:600;
+	font-family:verdana, arial, helvetica, sans-serif;
+	}
+a.menulist:link {color:#09c;}
+a.menulist:visited {color:#05e;}
+a.menulist:hover {background-color:#0174DF;}
+a.menulist:hover {color:white;}
+
+
+li{
+    list-style:circle inside;
+		font-size:14px;
+		line-height:24px;
+}
+#Header {
+	margin:10px 5px 10px 5px;
+	padding:17px 0px 20px 20px;
+	height:33px; 
+	border:0px solid;
+	border-color:#365E2E;
+	border-bottom-width:15px;
+	line-height:11px;
+	background-color:#fff;
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	height:14px; 
+	}
+body>#Header {height:24px;}
+
+#Content {
+	margin:10px 50px 50px 180px;
+	padding:20px 5px 10px 15px;
+	border:0px groove #92ADF7;
+	border-left-width:8px;
+	}
+
+#Menu {
+	position:absolute;
+	height:100%;
+	top:120px;
+	left:10px;
+	padding:10px 5px 10px 5px;
+	background-color:#fff;
+	border:0px solid #92ADF7;
+	border-right-width:0px;
+	line-height:17px;
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width:150px;
+	}
+body>#Menu {width:160px;}

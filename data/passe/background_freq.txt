@@ -1,0 +1,22 @@
+#background amino acid composition from tuping
+#in decimal, not percentage
+A   0.0788
+V   0.0673
+L   0.0965
+I   0.0590
+P   0.0483
+F   0.0396
+M   0.0238
+K   0.0593
+R   0.0540
+H   0.0229
+G   0.0696
+S   0.0683
+T   0.0540
+C   0.0150
+Y   0.0303
+N   0.0413
+E   0.0667
+W   0.0114
+D   0.0534
+Q   0.0395

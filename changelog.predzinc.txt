@@ -1,0 +1,179 @@
+LOG: 2008-04-09 19:17:18 Wednesday  Week 14 <nanjiang@casio.fos.su.se>
+
+    1. fixed the bug in the makefile, so that the libmyfunc.so.1 will be
+       located automatically in the makefile
+    2. recompiled with -O3 options
+    3. with error report in predzinc.shin predzinc.sh  when ZINCPRED is not
+       set
+  
+LOG: 2008-04-10 09:37:16 Thursday  Week 14 <nanjiang@casio.fos.su.se>
+
+    code for checking if the input file exist fixed. Before I have used '-a'
+    instead of '-o'
+    if [ "$isPSSMFileSet" = "false" ];then
+        if [ ! -f "$seqfile" -o "$seqfile" == ""  ]; then
+            echo "Error! sequence file $seqfile does not exist, exit"
+            exit
+        fi  
+    ...
+    else 
+        if [ ! -f "$pssmfile" -o "$pssmfile" == "" ]; then
+            echo "Error! pssm file $pssmfile does not exist, exit"
+            exit
+        fi  
+    ...
+    fi
+  
+LOG: 2008-05-23 21:50:43 Friday  Week 20 <nanjiang@casio.fos.su.se>
+    important note. the postscan-frag-search in the current version does
+    not normalize the homology score. Therefore, the homology score can be as
+    high as 10000. I still have not figure out how to normalize the
+    homology score.
+
+
+LOG: 2009-04-08 17:50:46 Wednesday  Week 14 <nanjiang@casio.fos.su.se>
+original error: 
+--------------------------------------------------------------
+    homology-based prediction...
+    Can not open file
+    '/misc/casiodata3/program/MetalProtein/predzinc2-new-version/predzinc/data/fragacc//uis.fragaccbin'
+    with mode 'rb'
+    can not open fragMatFile
+    /misc/casiodata3/program/MetalProtein/predzinc2-new-version/predzinc/data/fragacc//uis.fragaccbin
+    Can not open file
+    '/misc/casiodata3/program/MetalProtein/predzinc2-new-version/predzinc/data/modm/uis.modmbin'
+    with mode 'rb'
+    can not open modmFile
+    /misc/casiodata3/program/MetalProtein/predzinc2-new-version/predzinc/data/modm/uis.modmbin
+    idTar=uis, not found in proIDList
+    postscan-frag-search: postscan-frag-search.cpp:2422: int
+    PostScanFragSearch(const char*, const char*, char**, int*, int, int, int):
+    Assertion `idx >= 0' failed.
+    ../../predzinc.sh: line 248: 17084 Aborted
+    $BINPATH/postscan-frag-search $fragMatchFile --len-file $DATADIR/passe.seqlen
+    >>log.txt
+--------------------------------------------------------------
+    This bug is caused because the data path for the test chain is set the
+    same as the training chains. 
+
+    BUG fixed:
+    this bug is fixd on the program search_new
+
+
+LOG: 2009-12-22 20:36:40 Tuesday  Week 51 <nanjiang@casio.fos.su.se>
+    options added:
+    --seqfilelist  FILE   Supply a file with a list of sequence files for
+                          batch mode prediction
+    --pssmfilelist FILE   Supply a file with a list of pssm files for batch
+                          mode prediction
+    --blastdb      FILE   Database for psi-blast, default = \$BLASTDB/nr
+
+    BLASTBIN and BLASTMAT is set to PREDZINC/bin and PREDZINC/data that is,
+    the program blastpgp and makemat as well as BLOSUM62 are included in
+    the PREDZINC package, so that the users do not need to specify external
+    PSI-BLAST package.
+
+
+LOG: 2010-05-19 11:47:10 Wednesday  Week 20 <nanjiang@casio>
+    A bug blastpgp-2.2.17 is discovered. When running the query sequence 
+    with 5 iterations. Different PSSMs are returned. This bug is solved by
+    replacing blastpgp-2.2.17 with blastpgp-2.2.23
+>
+GHPLPLGLHDTARPVLPRPPTISNPPPLISSAKHPSVLERQIGAISQGMSVQLHVPYSEHAKAPVGPVTM
+GLPLPMDPKKLAPFSGVKQEQLSPRGQAGPPESLGVPTAQEASVLRGTALGSVPGGSITKGIPSTRVPSD
+SAITYRGSITHGTPADVLYKGTITRIIGEDSPSRLDRGREDSLPKGHVIYEGKKGHVLSYEGGMSVTQCS
+KEDGRSSSGPPHETAAPKRTYDMMEGRVGRAISSASIEGLMGRAIPPERHSPHHLKEQHHIRGSITQGIP
+RSYVEAQEDYLRREAKLLKREGTPPPPPPSRDLTEAYKTQALGPLKLKPAHEGLVATVKEAGRSIHEIPR
+EELRHTPELPLAPRPLKEGSITQGTPLKYDTGASTTGSKKHDVRSLIGSPGRTFPPVHPLDVMADARALE
+RACYEESLKSRPGTASSSGGSIARGAPVIVPELGKPRQSPLTYEDHGAPFAGHLPRGSPVTTREPTPRLQ
+EGSLSSSKASQDRKLTSTPREIAKSPHSTVPEHHPHPISPYEHLLRGVSGVDLYRSHIPLAFDPTSIPRG
+IPLDAAAAYYLPRHLAPNPTYPHLYPPYLIRGYPDTAALENRQTIINDYITSQQMHHNAATAMAQRADML
+RGLSPRESSLALNYAAGPRGIIDLSQVPHLPVLVPPTPGTPATAMDRLAYLPTAPQPFSSRHSSSPLSPG
+GPTHLTKPTTTSSSERERDRDRERDRDREREKSILTSTTTVEHAPIWRPGTEQSSGSSGSSGGGGGSSSR
+PASHSHAHQHSPISPRTQDALQQRPSVLHNTGMKGIITAVEPSTPTVLRSTSTSSPVRPAATFPPATHCP
+LGGTLDGVYPTLMEPVLLPKEAPRVARPERPRADTGHAFLAKPPARSGLEPASSPSKGSEPRPLVPPVSG
+HATIARTPAKNLAPHHASPDPPAPPASASDPHREKTQSKPFSIQELELRSLGYHGSSYSPEGVEPVSPVS
+SPSLTHDKGLPKHLEELDKSHLEGELRPKQPGPVKLGGEAAHLPHLRPLPESQPSSSPLLQTAPGVKGHQ
+RVVTLAQHISEVITQDYTRHHPQQLSAPLPAPLYSFPGASCPVLDLRRPPSDLYLPPPDHGAPARGSPHS
+EGGKRSPEPNKTSVLGGGEDGIEPVSPPEGMTEPGHSRSAVYPLLYRDGEQTEPSRMGSKSPGNTSQPPA
+FFSKLTESNSAMVKSKKQEINKKLNTHNRNEPEYNISQPGTEIFNMPAITGTGLMTYRSQAVQEHASTNM
+GLEAIIRKALMGKYDQWEESPPLSANAFNPLNASASLPAAMPITAADGRSDHTLTSPGGGGKAKVSGRPS
+SRKAKSPAPGLASGDRPPSVSSVHSEGDCNRRTPLTNRVWEDRPSSAGSTPFPYNPLIMRLQAGVMASPP
+PPGLPAGSGPLAGPHHAWDEEPKPLLCSQYETLSDSE
+
+LOG: 2011-09-27 13:51:54 Tuesday  Week 39 <nanjiang@Nanjiang-Shus-MacBook-Pro.local>
+    PREDZINC version 1.2, 2011-09-27
+    CheckPSSM and CheckAASeq added
+    
+LOG: 2011-09-28 12:38:16 Wednesday  Week 39 <nanjiang@illergard>
+    Bug fixed in predzinc.sh, the problem comes with incorrect mtx file
+    created by makemat. It was caused by the inproperly set BLASTMAT.
+    BLASTMAT shold be set as absolute path. 
+    This is solved in the script predzinc.sh
+        PREDZINC=`dirname $0`
+        PREDZINC=`AddAbsolutePath $PREDZINC`
+        export PREDZINC    
+    BLASTMAT does not need to be set in the program calling predzinc.sh
+
+LOG: 2011-10-04 22:43:54 Tuesday  Week 40 <nanjiang@Nanjiang-Shus-MacBook-Pro.local>
+	bug fixed for predzinc: 
+    numCPU=1 #(default value added)
+LOG: 2011-10-10 20:37:36 Monday  Week 41 <nanjiang@Nanjiang-Shus-MacBook-Pro.local>
+	PredZinc version 1.3, 2011-10-10
+    html output updated, with tables
+
+    One bug fixed for predzinc.sh
+    when running znpred-postscan, homo-format should be set to 1, otherwise,
+    postscan file can not be found
+
+LOG: 2011-10-11 20:33:15 Tuesday  Week 41 <nanjiang@Nanjiang-Shus-MacBook-Pro.local>
+	PredZinc version 1.3, 2011-10-11 
+    Further imprived. 
+    1. predzinc.sh updated, 
+        1.1. multiple sequences can be contained in the fasta sequence file
+        1.2. gist-svm run only once with multiple entries
+    
+    A bug fixed for predzinc.sh at create_svm_vector -ns 2
+    the cutoff for score2 is set to -1, in case pssm file set all score2
+    values to inf (with blastpgp 2.2.23)
+
+    create_svm_vector for modmfilelist support in PRED mode is working now.
+    fpVector should be closed outside of the modmfile iteration
+
+LOG: 2011-10-14 01:21:27 Friday  Week 41 <nanjiang@casio>
+	PredZinc version 1.4, 2011-10-14
+    database files are dumped to a single one. 
+    fixed the conditional jump problem in search_new.cpp
+
+LOG: 2011-10-14 09:38:06 Friday  Week 41 <nanjiang@illergard>
+	Program can run without setting BLASTDB.
+    predzinc.sh will first search in the local folder and then at 
+    $DATADIR/blastdb/ and then if $BLASTDB is set 
+    search at $BLASTDB for $blasddbname
+LOG: 2011-10-18 16:11:48 Tuesday  Week 42 <nanjiang@illergard>
+	search_new was very slow in read training set sloved. see log file in frag1d
+    when using std::map or else, use '&' 
+    e.g.
+
+
+LOG: 2011-10-19 23:43:42 Wednesday  Week 42 <nanjiang@illergard>
+   create_svm_vector cutoff_consv default set to 7.0. it was wrong before
+   (to 0.70) when ns= 2
+    create_svm_vector -ns 2 -c 7.0
+LOG: 2011-10-20 08:59:53 Thursday  Week 42 <nanjiang@illergard>
+   One bug fixed for searching BLASTDB in predzinc.sh
+   when find under the predzinc package
+   BLASTDB should be $DATADIR/blastdb
+   not $DATADIR/data/blastdb
+
+LOG: 2011-10-21 15:24:26 Friday  Week 42 <nanjiang@casio>
+   One bug fixed for memory leaking 
+   memory leak at this line: shapeSeqAllTrain[cntID] = new char[lengthSeq+3];
+   This is caused by a typo at the calling function.
+   In the following line. secSeqAllTrain repeated twice.
+   numChainTrain = Read_database_SHU(dbtype, trainIDListFile, NPer_Frag_Database, ratioScheme,  train_Qijpath, train_modmpath, train_fragaccpath,  resultpath,  idListTrain, aaSeqAllTrain,shapeSeqAllTrain, secSeqAllTrain, matAllTrain, digitAASeqAllTrain, lengthListAllTrain, dsspMapMethod, isReadBinaryFile , typeProfile, testIDList_DEBUG_MERGESIDE);
+
+
+LOG: 2014-04-01 09:51:40 Tuesday  Week 13 <nanjiang@shu>
+    The database parameters is set based on the actual blastdb used.
+    : blastdb_para=`$blastbin/blastpgp -i $DATADIR/1letterseq.fa -d $blastdbname 2>/dev/null| grep "^Database\|sequences.*letters" | sed 's/Database//g' | tr '\n' ' '
