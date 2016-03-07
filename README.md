@@ -8,7 +8,9 @@ Currently, PredZinc can be run on Linux and Windows (with Cygwin).
 PredZinc is copyrighted (c) to Nanjiang Shu, Structural Chemistry, Stockholm
 University, Sweden and is free for academic use.
 
-
+###Web-server
+The web server of PredZinc is available at 
+http://predzinc.bioshu.se
 
 
 ##Reference
@@ -19,11 +21,7 @@ zinc-binding sites in proteins from sequence." Bioinformatics 24(6):
 ##Contact
 Nanjiang Shu    Science for Life Laboratory, Stockholm
 
-##Web-server
-The web server of PredZinc is available at 
-http://predzinc.bioshu.se
-
-#### Email
+####    Email
 nanjiang.shu@scilifelab.se
 
 nanjiang.shu@mmk.su.se
