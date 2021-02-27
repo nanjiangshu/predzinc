@@ -58,7 +58,7 @@ export DATADIR=$PREDZINC/data
 export BLASTBIN=$BINPATH
 export BLASTMAT=$DATADIR
 blastbin=$BLASTBIN
-blastdbname="nr"
+blastdbname="uniref90.fasta"
 gistbin=$PREDZINC/bin
 
 usage="
@@ -79,7 +79,7 @@ Options:
                      PSI-BLAST, (default: 1)
  -outpath      DIR   Output the result to the specified path, (default: ./)
  -outname      STR   Output name, (default: query)
- -blastdb      FILE  Database for PSI-BLAST, (default: nr)
+ -blastdb      FILE  Database for PSI-BLAST, (default: uniref90.fasta)
  -db           STR   Database for PredZinc, (default: passe)
  -pssm         FILE  Supply pssm file in PSI-BLAST -Q flag output format,
                      if supplied, PSI-BLAST will not run
