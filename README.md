@@ -1,6 +1,6 @@
-#PredZinc
+# PredZinc
 
-##Description
+## Description
 PredZinc is a program for predicting zinc-binding sites in proteins from their
 amino acid sequences. The program is witten in c/c++ and bash shell scripts.
 Currently, PredZinc can be run on Linux and Windows (with Cygwin). 
@@ -8,25 +8,24 @@ Currently, PredZinc can be run on Linux and Windows (with Cygwin).
 PredZinc is copyrighted (c) to Nanjiang Shu, Structural Chemistry, Stockholm
 University, Sweden and is free for academic use.
 
-###Web-server
+### Web-server
 The web server of PredZinc is available at 
 http://predzinc.bioshu.se
 
 
-##Reference
+## Reference
 Nanjiang Shu, Tuping Zhou and Sven Hovmoller (2008). "Prediction of
 zinc-binding sites in proteins from sequence." Bioinformatics 24(6):
 775-782. http://www.ncbi.nlm.nih.gov/pubmed/18245129
 
-##Contact
+## Contact
 Nanjiang Shu    Science for Life Laboratory, Stockholm
 
-####    Email
+#### Email
 nanjiang.shu@scilifelab.se
 
-nanjiang.shu@mmk.su.se
 
-##Installation:
+## Installation:
 
 Download the package by
 
