@@ -8,6 +8,7 @@ LABEL version "1.4"
 RUN apt-get update -y &&\
     apt-get install -y apt-utils  \
                        curl wget bc \
+                       python python-dev python-pip \
                        build-essential  \
                        make  \
                        locales-all \
@@ -20,7 +21,7 @@ WORKDIR /app
 # add the source code to WORKDIR /app
 ADD predzinc ./predzinc
 
-RUN /scratch/ /static/
+RUN mkdir -p /scratch/ /static/
 # building predzinc
 RUN cd /app/predzinc/&& \
     make && make install
