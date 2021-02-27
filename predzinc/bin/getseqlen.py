@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 # get the length of the sequences in the fasta file
 import sys,os;
 

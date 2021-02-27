@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 # split multiple sequences in the fasta file in individual files
 # one sequence per file
 import sys,re,os;
@@ -161,7 +161,6 @@ if __name__ == '__main__' :
         else:
             inFile=sys.argv[i];
             i+=1;
-           
 
     if inFile == "":
         print >> sys.stderr,"Error! Input file not set.";
