@@ -36,23 +36,24 @@ Enter the predzinc directory
     $ cd predzinc
 
 Fetch the data set by 
-    
+
     $ git lfs fetch
     $ git lfs checkout
 
 If you don't have git-lfs installed, please installed follow the instructions
 at https://git-lfs.github.com/
 
-After that, run
+After that, change to the subfolder `predzinc` and compile the package by
 
+    $ cd predzinc
     $ make 
     $ make install
 
-Make sure that the NCBI nr database formatted for PSI-BLAST is installed. The
+Make sure that the NCBI `uniref90.fasta` database formatted for PSI-BLAST is installed. The
 environmental variable BLASTDB points to the directory storing nr blast
 database needed by PSI-BLAST
 
-    $ export BLASTDB=path-storing-blast-nr-database
+    $ export BLASTDB=path-storing-blast-database
 
 
 ## Usage
@@ -89,7 +90,7 @@ Note that the rootname of the file should be <= 100 characters.
 ```
 
 ##Examples:
-In the subfolder `test`
+In the subfolder `predzinc/test`
 
 * Carry out the prediction by supplying sequence file (with one or more sequences) in FASTA format
 
