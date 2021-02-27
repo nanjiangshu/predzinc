@@ -12,6 +12,7 @@ RUN apt-get update -y &&\
                        build-essential  \
                        make  \
                        locales-all \
+                       lib32ncurses5 lib32z1 \
                        blast2
 
 #================================
