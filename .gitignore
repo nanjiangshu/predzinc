@@ -22,7 +22,7 @@ rootname
 search_new
 znpred-postscan
 
-mytest/
+.mytest/
 
 ASCII_fragacc.txt
 ASCII_Qij.txt
